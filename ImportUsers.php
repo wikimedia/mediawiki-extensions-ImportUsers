@@ -4,7 +4,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.3
+ * @version 1.3.1
  * @author Rouslan Zenetl
  * @author Yuriy Ilkiv
  * @author Jpond
@@ -21,10 +21,15 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.3.0',
-	'author' => array( 'Yuriy Ilkiv', 'Rouslan Zenetl' ),
+	'version' => '1.3.1',
+	'author' => array(
+		'Yuriy Ilkiv',
+		'Rouslan Zenetl'
+		'...'
+		),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ImportUsers',
 	'descriptionmsg' => 'importusers-desc',
+	'license-name' => 'PD'
 );
 
 // New user right, required to access and use Special:ImportUsers
