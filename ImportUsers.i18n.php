@@ -40,6 +40,7 @@ $messages['en'] = array(
 	'importusers-password'			=> 'password',
 	'importusers-email'			=> 'e-mail',
 	'importusers-realname'			=> 'real name',
+	'importusers-group'			=> 'user group',
 	'right-import_users'			=> 'Import users in bulk'
 );
 
