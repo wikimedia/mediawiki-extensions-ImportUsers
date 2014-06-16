@@ -4,9 +4,11 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.2
+ * @version 1.3
  * @author Rouslan Zenetl
  * @author Yuriy Ilkiv
+ * @author Jpond
+ * @author Sm8ps
  * @license You are free to use this extension for any reason and mutilate it to your heart's liking.
  * @link http://www.mediawiki.org/wiki/Extension:ImportUsers Documentation
  */
@@ -19,7 +21,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.2',
+	'version' => '1.3.0',
 	'author' => array( 'Yuriy Ilkiv', 'Rouslan Zenetl' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ImportUsers',
 	'descriptionmsg' => 'importusers-desc',
