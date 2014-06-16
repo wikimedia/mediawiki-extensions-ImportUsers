@@ -40,8 +40,10 @@ class SpecialImportUsers extends SpecialPage {
 			wfMsg( 'importusers-login-name' ),
 			wfMsg( 'importusers-password' ),
 			wfMsg( 'importusers-email' ),
-			wfMsg( 'importusers-realname' )
-		) );
+			wfMsg( 'importusers-realname' ),
+			wfMsg( 'importusers-group' )
+			)
+		);
 		$output = '<form enctype="multipart/form-data" method="post"  action="' . $action . '">';
 		$output .= '<dl><dt>' . wfMsg( 'importusers-form-file' ) . '</dt><dd>' . $fileFormat . '.</dd></dl>';
 		$output .= '<fieldset><legend>' . wfMsg( 'importusers-uploadfile' ) . '</legend>';
