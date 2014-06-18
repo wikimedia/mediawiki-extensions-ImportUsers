@@ -1,16 +1,17 @@
 <?php
 /**
- * ImportUsers extension -- allows to import users in bulk from a CSV file
+ * Import Users extension - allows to import users in bulk from a UTF-8 encoded CSV file
  *
  * @file
  * @ingroup Extensions
- * @version 1.3.1
+ * @version 1.4.0
  * @author Rouslan Zenetl
  * @author Yuriy Ilkiv
  * @author Jpond
  * @author Sm8ps
- * @license You are free to use this extension for any reason and mutilate it to your heart's liking.
- * @link http://www.mediawiki.org/wiki/Extension:ImportUsers Documentation
+ * @author Kghbln
+ * @license Public Domain - you are free to use this extension for any reason and mutilate it to your heart's liking.
+ * @link https://www.mediawiki.org/wiki/Extension:ImportUsers Documentation
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -21,7 +22,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.3.1',
+	'version' => '1.4.0',
 	'author' => array(
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
