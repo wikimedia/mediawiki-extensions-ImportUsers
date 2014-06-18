@@ -52,7 +52,7 @@ class SpecialImportUsers extends SpecialPage {
                 $output .= '<tr><td align=right></td><td><input name="replace_present" type="checkbox" />' . 
                         wfMsg( 'importusers-form-replace-present' ).'</td></tr>';
                 $output .= '<tr><td align=right></td><td><input name="importusers-add-to-group" type="checkbox" />' .
-                        wfMsg( 'importusers_form_add_to_group' ).'</td></tr>';
+                        wfMsg( 'importusers-form-add-to-group' ).'</td></tr>';
 		$output .= '<tr><td align="right"></td><td><input type="submit" value="' . wfMsg( 'importusers-form-button' ) . '" /></td></tr>';
 		$output .= '</table>';
 		$output .= '</fieldset>';
