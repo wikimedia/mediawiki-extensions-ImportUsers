@@ -13,20 +13,17 @@ $messages = array();
  */
 $messages['en'] = array(
 	'importusers'				=> 'Import users',
-	'importusers-desc'			=> '[[Special:ImportUsers|Imports users]] in bulk from a UTF-8 encoded CSV file',
+	'importusers-desc'			=> 'Allows to [[Special:ImportUsers|import users]] in bulk from a UTF-8 encoded CSV file',
 	'importusers-uploadfile'		=> 'Upload file',
 	'importusers-form-caption'		=> 'Input CSV-file (UTF-8):',
 	'importusers-form-file'			=> 'User file format (CSV):',
 	'importusers-form-replace-present'	=> 'Replace existing users',
 	'importusers_form_add_to_group'		=> 'Add users to groups (userrights permission required)' ,
 	'importusers-form-button'		=> 'Import',
-	'importusers-user-added'		=> "User '''$1''' has been added.",
-	'importusers-user-present-update'	=> "User '''$1''' already exists.
-	Updated.",
-	'importusers-user-present-not-update'	=> "User '''$1''' already exists.
-	Did not update.",
-	'importusers-user-invalid-format'	=> 'User data in the line #$1 has invalid format or is blank.
-	Skipped.',
+	'importusers-user-added'		=> 'User "$1" has been added.',
+	'importusers-user-present-update'	=> 'User "$1" already exists and has been updated.',
+	'importusers-user-present-not-update'	=> 'User "$1" already exists and has not been updated.',
+	'importusers-user-invalid-format'	=> 'User data in the line #$1 has invalid format or is blank and was skipped.',
 	'importusers-log'			=> 'Import users log',
 	'importusers-log-summary'		=> 'Summary',
 	'importusers-log-summary-all'		=> 'All: $1',
