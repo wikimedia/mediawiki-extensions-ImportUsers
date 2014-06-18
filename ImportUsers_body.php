@@ -122,7 +122,7 @@ class SpecialImportUsers extends SpecialPage {
 
        function AddToGroup($u,$user_array,$add_to_group_checked){
                 global $wgOut, $wgUser;
-                if( $wgUser->isAllowed( 'userrights' ) && $add_to_group_checked && IsSet($user_array[4])) {
+                if( $wgUser->isAllowed( 'import_users' ) && $add_to_group_checked && IsSet($user_array[4])) {
                         for( $i = 4 ; $i < sizeof( $user_array) ; $i++) {
                                 if ( in_array($user_array[ $i],User::getAllGroups())){
                                         if ( !in_array($user_array[ $i],$u->getGroups())){
