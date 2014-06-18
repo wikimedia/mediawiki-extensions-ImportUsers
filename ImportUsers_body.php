@@ -1,4 +1,10 @@
 <?php
+/**
+ * Action file for Import Users extension
+ *
+ * @file
+ * @ingroup Extensions
+ */
 
 class SpecialImportUsers extends SpecialPage {
 
@@ -25,7 +31,12 @@ class SpecialImportUsers extends SpecialPage {
 		$this->setHeaders();
 
 		if ( isset( $_FILES['users_file'] ) ) {
-			$wgOut->addHTML( $this->analyzeUsers( $_FILES['users_file'], isset( $_POST['replace_present'] ), isset( $_POST['importusers_add_to_group'] ) ) );
+			$wgOut->addHTML( $this->analyzeUsers(
+				$_FILES['users_file'],
+				isset( $_POST['replace_present'] ),
+				isset( $_POST['add_to_group'] )
+				)
+			);
 		} else {
 			$wgOut->addHTML( $this->makeForm() );
 		}
@@ -35,16 +46,28 @@ class SpecialImportUsers extends SpecialPage {
 		global $wgLang;
 
 		$titleObj = SpecialPage::getTitleFor( 'ImportUsers' );
+
 		$action = $titleObj->escapeLocalURL();
-		$fileFormat = $wgLang->commaList( array(
+
+		$fileStructure = $wgLang->commaList( array(
 			wfMsg( 'importusers-login-name' ),
 			wfMsg( 'importusers-password' ),
 			wfMsg( 'importusers-email' ),
 			wfMsg( 'importusers-realname' ),
 			wfMsg( 'importusers-group' )
-		) );
+			)
+		);
+		$fileFormat = $wgLang->commaList( array(
+			wfMsg( 'importusers-utf8' ),
+			wfMsg( 'importusers-comma' ),
+			wfMsg( 'importusers-noquotes' )
+			)
+		);
+
 		$output = '<form enctype="multipart/form-data" method="post"  action="' . $action . '">';
-		$output .= '<dl><dt>' . wfMsg( 'importusers-form-file' ) . '</dt><dd>' . $fileFormat . '.</dd></dl>';
+		$output .= '<h3>' . wfMsg( 'importusers-file' ) . '</h3>';
+		$output .= '<dl><dt>' . wfMsg( 'importusers-file-structure' ) . '</dt><dd>' . $fileStructure . '</dd>';
+		$output .= '<dt>' . wfMsg( 'importusers-file-format' ) . '</dt><dd>' . $fileFormat . '</dd></dl>';
 		$output .= '<fieldset><legend>' . wfMsg( 'importusers-uploadfile' ) . '</legend>';
 		$output .= '<table border="0" a-valign="center" width="100%">';
 		$output .= '<tr><td align="right" width="160">' . wfMsg( 'importusers-form-caption' ) .
@@ -69,7 +92,8 @@ class SpecialImportUsers extends SpecialPage {
 		);
 
 		$filedata = explode( "\n", rtrim( file_get_contents( $fileinfo['tmp_name'] ) ) );
-		$output = '<h2>' . wfMsg( 'importusers-log' ) . '</h2>';
+		$output = '<h3>' . wfMsg( 'importusers-log' ) . '</h3><br />';
+		$output .= '<b>' . wfMsg( 'importusers-log-list' ) . '</b><br />';
 
 		foreach ( $filedata as $line => $newuserstr ) {
 			$newuserarray = explode( ',', trim( $newuserstr ) );
@@ -92,7 +116,7 @@ class SpecialImportUsers extends SpecialPage {
 				$nextUser->setPassword( $newuserarray[1] );
 				$nextUser->saveSettings();
  
-	                        $this->AddToGroup($nextUser,$newuserarray,$importusers_add_to_group);
+	                        $this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
  
 				$output .= wfMsg( 'importusers-user-added', $newuserarray[0] ) . '<br />';
 				$summary['added']++;
@@ -101,18 +125,18 @@ class SpecialImportUsers extends SpecialPage {
 					$nextUser->setPassword( $newuserarray[1] );
 					$nextUser->saveSettings();
  
-		                        $this->AddToGroup($nextUser,$newuserarray,$importusers_add_to_group);
+		                        $this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
  
 					$output .= wfMsg( 'importusers-user-present-update', $newuserarray[0] ).'<br />';
 					$summary['updated']++;
 				} else {
-					$output .= wfMsg( 'importusers-user-present-not-update', $newuserarray[0] ) . '<br />';
+					$output .= wfMsg( 'importusers-user-present-no-update', $newuserarray[0] ) . '<br />';
 				}
 			}
 			$summary['all']++;
 		}
 
-		$output .= '<b>' . wfMsg( 'importusers-log-summary' ) . '</b><br />';
+		$output .= '<br /><b>' . wfMsg( 'importusers-log-summary' ) . '</b><br />';
 		$output .= wfMsg( 'importusers-log-summary-all', $summary['all'] ) . '<br />';
 		$output .= wfMsg( 'importusers-log-summary-added', $summary['added'] ) . '<br />';
 		$output .= wfMsg( 'importusers-log-summary-updated', $summary['updated'] ) . '<br />';
@@ -120,12 +144,12 @@ class SpecialImportUsers extends SpecialPage {
 		return $output;
 	}
 
-       function AddToGroup($u,$user_array,$add_to_group_checked){
+       function AddToGroup( $u, $user_array, $add_to_group_checked ) {
                 global $wgOut, $wgUser;
-                if( $wgUser->isAllowed( 'import_users' ) && $add_to_group_checked && IsSet($user_array[4])) {
-                        for( $i = 4 ; $i < sizeof( $user_array) ; $i++) {
-                                if ( in_array($user_array[ $i],User::getAllGroups())){
-                                        if ( !in_array($user_array[ $i],$u->getGroups())){
+                if( $wgUser->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
+                        for( $i = 4 ; $i < sizeof( $user_array) ; $i++ ) {
+                                if ( in_array( $user_array[ $i], User::getAllGroups() ) ) {
+                                        if ( !in_array( $user_array[ $i], $u->getGroups() ) ) {
                                                 $u->addGroup( $user_array[ $i] );
                                        }
                                 }
