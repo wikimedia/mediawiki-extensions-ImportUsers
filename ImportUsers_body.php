@@ -76,7 +76,8 @@ class SpecialImportUsers extends SpecialPage {
                         wfMsg( 'importusers-form-replace-present' ).'</td></tr>';
                 $output .= '<tr><td align=right></td><td><input name="add_to_group" type="checkbox" />' .
                         wfMsg( 'importusers-form-add-to-group' ).'</td></tr>';
-		$output .= '<tr><td align="right"></td><td><input type="submit" value="' . wfMsg( 'importusers-form-button' ) . '" /></td></tr>';
+		$output .= '<tr><td align="right"></td><td><input type="submit" value="' .
+			wfMsg( 'importusers-form-button' ) . '" /></td></tr>';
 		$output .= '</table>';
 		$output .= '</fieldset>';
 		$output .= '</form>';
