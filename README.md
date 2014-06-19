@@ -1,6 +1,6 @@
 # ImportUsers
 
-The ImportUsers extension to MediaWIki allows Allows to import users in bulk from a UTF-8 encoded CSV file.
+The ImportUsers extension to MediaWiki allows to import users in bulk from a UTF-8 encoded CSV file.
 
 ## Installation
 1. Obtain the code from [GitHub](https://github.com/kghbln/ImportUsers)
