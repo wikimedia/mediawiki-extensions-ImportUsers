@@ -5,11 +5,7 @@
  * @file
  * @ingroup Extensions
  * @version 1.4.1 - 2014-06-20
- * @author Rouslan Zenetl
- * @author Yuriy Ilkiv
- * @author Jpond
- * @author Sm8ps
- * @author Kghbln
+ * @author See CHANGELOG
  * @license Public Domain - you are free to use this extension for any reason and mutilate it to your heart's liking.
  * @link https://www.mediawiki.org/wiki/Extension:ImportUsers Documentation
  */
