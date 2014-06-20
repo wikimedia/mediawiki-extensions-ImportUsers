@@ -4,7 +4,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.4.0
+ * @version 1.4.1 - 2014-06-20
  * @author Rouslan Zenetl
  * @author Yuriy Ilkiv
  * @author Jpond
@@ -22,7 +22,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.4.0',
+	'version' => '1.4.1',
 	'author' => array(
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
