@@ -50,37 +50,51 @@ class SpecialImportUsers extends SpecialPage {
 		$action = $titleObj->escapeLocalURL();
 
 		$fileStructure = $wgLang->commaList( array(
-			wfMsg( 'importusers-login-name' ),
-			wfMsg( 'importusers-password' ),
-			wfMsg( 'importusers-email' ),
-			wfMsg( 'importusers-realname' ),
-			wfMsg( 'importusers-group' )
+			wfMessage( 'importusers-login-name' )->text(),
+			wfMessage( 'importusers-password' )->text(),
+			wfMessage( 'importusers-email' )->text(),
+			wfMessage( 'importusers-realname' )->text(),
+			wfMessage( 'importusers-group' )->text()
 			)
 		);
 		$fileFormat = $wgLang->commaList( array(
-			wfMsg( 'importusers-utf8' ),
-			wfMsg( 'importusers-comma' ),
-			wfMsg( 'importusers-noquotes' )
+			wfMessage( 'importusers-utf8' )->text(),
+			wfMessage( 'importusers-comma' )->text(),
+			wfMessage( 'importusers-noquotes' )->text()
 			)
 		);
 
 		$output = '<form enctype="multipart/form-data" method="post"  action="' . $action . '">';
-		$output .= '<h3>' . wfMsg( 'importusers-file' ) . '</h3>';
-		$output .= '<dl><dt>' . wfMsg( 'importusers-file-structure' ) . '</dt><dd>' . $fileStructure . '</dd>';
-		$output .= '<dt>' . wfMsg( 'importusers-file-format' ) . '</dt><dd>' . $fileFormat . '</dd></dl>';
-		$output .= '<fieldset><legend>' . wfMsg( 'importusers-uploadfile' ) . '</legend>';
+		$output .= '<h3>' . wfMessage( 'importusers-file' )->text() . '</h3>';
+		$output .= '<dl>
+				<dt>' . wfMessage( 'importusers-file-structure' )->text() . '</dt>
+					<dd>' . $fileStructure . '</dd>';
+		$output .= '<dt>' . wfMessage( 'importusers-file-format' )->text() . '</dt>
+				<dd>' . $fileFormat . '</dd>
+			</dl>';
+		$output .= '<fieldset>
+			<legend>' . wfMessage( 'importusers-uploadfile' )->text() . '</legend>';
 		$output .= '<table border="0" a-valign="center" width="100%">';
-		$output .= '<tr><td align="right" width="160">' . wfMsg( 'importusers-form-caption' ) .
-			' </td><td><input name="users_file" type="file" size=40 /></td></tr>';
-                $output .= '<tr><td align=right></td><td><input name="replace_present" type="checkbox" />' . 
-                        wfMsg( 'importusers-form-replace-present' ).'</td></tr>';
-                $output .= '<tr><td align=right></td><td><input name="add_to_group" type="checkbox" />' .
-                        wfMsg( 'importusers-form-add-to-group' ).'</td></tr>';
-		$output .= '<tr><td align="right"></td><td><input type="submit" value="' .
-			wfMsg( 'importusers-form-button' ) . '" /></td></tr>';
+		$output .= '<tr>
+				<td align="right" width="160">' . wfMessage( 'importusers-form-caption' )->text() . ' </td>
+				<td><input name="users_file" type="file" size=40 /></td>
+			</tr>';
+                $output .= '<tr>
+				<td align=right></td>
+				<td><input name="replace_present" type="checkbox" />' . wfMessage( 'importusers-form-replace-present' )->text() . '</td>
+			</tr>';
+                $output .= '<tr>
+				<td align=right></td>
+				<td><input name="add_to_group" type="checkbox" />' . wfMessage( 'importusers-form-add-to-group' )->text() . '</td>
+			</tr>';
+		$output .= '<tr>
+				<td align="right"></td>
+				<td><input type="submit" value="' . wfMessage( 'importusers-form-button' )->text() . '" /></td>
+			</tr>';
 		$output .= '</table>';
 		$output .= '</fieldset>';
 		$output .= '</form>';
+
 		return $output;
 	}
  
@@ -93,13 +107,13 @@ class SpecialImportUsers extends SpecialPage {
 		);
 
 		$filedata = explode( "\n", rtrim( file_get_contents( $fileinfo['tmp_name'] ) ) );
-		$output = '<h3>' . wfMsg( 'importusers-log' ) . '</h3><br />';
-		$output .= '<b>' . wfMsg( 'importusers-log-list' ) . '</b><br />';
+		$output = '<h3>' . wfMessage( 'importusers-log' )->text() . '</h3><br />';
+		$output .= '<b>' . wfMessage( 'importusers-log-list' )->text() . '</b><br />';
 
 		foreach ( $filedata as $line => $newuserstr ) {
 			$newuserarray = explode( ',', trim( $newuserstr ) );
 			if ( count( $newuserarray ) < 2 ) {
-				$output .= wfMsg( 'importusers-user-invalid-format', $line + 1 ) . '<br />';
+				$output .= wfMessage( 'importusers-user-invalid-format', $line + 1 )->text() . '<br />';
 				continue;
 			}
 			if ( !isset( $newuserarray[2] ) ) {
@@ -119,7 +133,7 @@ class SpecialImportUsers extends SpecialPage {
  
 	                        $this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
  
-				$output .= wfMsg( 'importusers-user-added', $newuserarray[0] ) . '<br />';
+				$output .= wfMessage( 'importusers-user-added', $newuserarray[0] )->text() . '<br />';
 				$summary['added']++;
 			} else {
 				if ( $replace_present ) {
@@ -128,19 +142,19 @@ class SpecialImportUsers extends SpecialPage {
  
 		                        $this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
  
-					$output .= wfMsg( 'importusers-user-present-update', $newuserarray[0] ).'<br />';
+					$output .= wfMessage( 'importusers-user-present-update', $newuserarray[0] )->text() . '<br />';
 					$summary['updated']++;
 				} else {
-					$output .= wfMsg( 'importusers-user-present-no-update', $newuserarray[0] ) . '<br />';
+					$output .= wfMessage( 'importusers-user-present-no-update', $newuserarray[0] )->text() . '<br />';
 				}
 			}
 			$summary['all']++;
 		}
 
-		$output .= '<br /><b>' . wfMsg( 'importusers-log-summary' ) . '</b><br />';
-		$output .= wfMsg( 'importusers-log-summary-all', $summary['all'] ) . '<br />';
-		$output .= wfMsg( 'importusers-log-summary-added', $summary['added'] ) . '<br />';
-		$output .= wfMsg( 'importusers-log-summary-updated', $summary['updated'] ) . '<br />';
+		$output .= '<br /><b>' . wfMessage( 'importusers-log-summary' )->text() . '</b><br />';
+		$output .= wfMessage( 'importusers-log-summary-all', $summary['all'] )->text() . '<br />';
+		$output .= wfMessage( 'importusers-log-summary-added', $summary['added'] )->text() . '<br />';
+		$output .= wfMessage( 'importusers-log-summary-updated', $summary['updated'] )->text() . '<br />';
 
 		return $output;
 	}
