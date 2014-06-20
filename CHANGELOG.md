@@ -9,7 +9,7 @@ Authored Kghbln
 
 ### 1.4.0
 
-Released 2014-06-19
+Released 2014-06-18
 Authored Kghbln
 
 * Improve user guidance on "Special:ImportUsers"
