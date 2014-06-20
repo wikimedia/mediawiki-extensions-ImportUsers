@@ -2,15 +2,16 @@
 
 ### 1.4.1
 
-Released 2014-06-20
-Authored Kghbln
+Released: 2014-06-20  
+Authored: Kghbln
 
 * Move wfMsg depeciated in MW 1.21 to wfMessage
 
+
 ### 1.4.0
 
-Released 2014-06-18
-Authored Kghbln
+Released: 2014-06-18  
+Authored: Kghbln
 
 * Improve user guidance on "Special:ImportUsers"
 * Restructure and improve system-messages
@@ -18,24 +19,24 @@ Authored Kghbln
 
 ### 1.3.1
 
-Released 2014-06-16
-Authored Kghbln
+Released: 2014-06-16  
+Authored: Kghbln
 
 * Add missing system message
 
 
 ### 1.3.0
 
-Released 2014-06-16
-Authored Jpond, Sm8ps
+Released: 2014-06-16  
+Authored: Jpond, Sm8ps
 
 * Add possibility to import user group assignments
 
 
 ### 1.2.0
 
-Released 2011-03-22
-Authored Ashley
+Released: 2011-03-22  
+Authored: Ashley
 
 * Rename some functions as per our coding conventions
 * Fixed a typo in function name
@@ -46,41 +47,41 @@ Authored Ashley
 
 ### 1.1.0
 
-Released 2008-07-09
-Authored Jhsoby
+Released: 2008-07-09  
+Authored: Jhsoby
 
 * Add special page alias
 
 
 ### 1.0.0
 
-Released 2008-06-11
-Authored Ashley
+Released: 2008-06-11  
+Authored: Ashley
 
-* Remove ExtensionFunctions.php dependency
+* Remove "ExtensionFunctions.php" dependency
 
 
 ### 0.0.4
 
-Released on 2008-02-10
-Authored Grondin
+Released: 2008-02-10  
+Authored: Grondin
 
-* Add internationalization extension description message in [[Special:Version]]
+* Add internationalization extension description message in "Special:Version"
 * Create internationalization file
 * Add more message
 
 
 ### 0.0.3
 
-Released 2007-01-07
-Authored RouslanZenetl
+Released: 2007-01-07  
+Authored: RouslanZenetl
 
 * Improve handling in case of invalid import file format
 
 
 ### 0.0.2
 
-Released on 2006-12-16
-Authored RouslanZenetl, YuriyIlkiv
+Released: 2006-12-16  
+Authored: RouslanZenetl, YuriyIlkiv
 
 * Initial public release
