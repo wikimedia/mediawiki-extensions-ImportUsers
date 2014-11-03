@@ -47,7 +47,7 @@ class SpecialImportUsers extends SpecialPage {
 
 		$titleObj = SpecialPage::getTitleFor( 'ImportUsers' );
 
-		$action = $titleObj->escapeLocalURL();
+		$action = htmlspecialchars( $titleObj->getLocalURL() );
 
 		$fileStructure = $wgLang->commaList( array(
 			wfMessage( 'importusers-login-name' )->text(),
