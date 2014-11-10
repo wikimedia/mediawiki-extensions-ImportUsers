@@ -1,5 +1,13 @@
 ## Changelog of the Import Users extension
 
+### 1.4.2
+
+Released: 2014-11-10  
+Authored: Bawolff
+
+* Removed usage of depreciated title method escapeLocalUrl
+
+
 ### 1.4.1
 
 Released: 2014-06-20  
