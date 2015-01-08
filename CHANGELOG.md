@@ -1,5 +1,16 @@
 ## Changelog of the Import Users extension
 
+### 1.5.0
+
+Released: 2015-01-08  
+Authored: Kghbln
+
+* Dropped compatibility with PHP 5.2
+* Dropped compatibility with MW < 1.17
+* Switched to json i18n system
+* Improved and extended file documentation
+
+
 ### 1.4.2
 
 Released: 2014-11-10  
