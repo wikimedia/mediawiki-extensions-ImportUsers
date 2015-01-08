@@ -27,7 +27,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.4.2',
+	'version' => '1.5.0',
 	'author' => array(
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
