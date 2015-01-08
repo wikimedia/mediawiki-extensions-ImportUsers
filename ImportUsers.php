@@ -38,15 +38,12 @@ $wgExtensionCredits['specialpage'][] = array(
 	'license-name' => 'PD'
 );
 
-/* Set path to files */
-$dir = dirname(__FILE__) . '/';
-
 /*  Register extension class. */
-$wgAutoloadClasses['SpecialImportUsers'] = $dir . 'ImportUsers_body.php';
+$wgAutoloadClasses['SpecialImportUsers'] = __DIR__ . '/ImportUsers_body.php';
 
 /* Register extension messages. */
-$wgExtensionMessagesFiles['ImportUsers'] = $dir . 'ImportUsers.i18n.php';
-$wgExtensionMessagesFiles['ImportUsersAlias'] = $dir . 'ImportUsers.alias.php';
+$wgExtensionMessagesFiles['ImportUsers'] = __DIR__ . '/ImportUsers.i18n.php';
+$wgExtensionMessagesFiles['ImportUsersAlias'] = __DIR__ . '/ImportUsers.alias.php';
 
 /* Register special page into MediaWiki. */
 $wgSpecialPages['ImportUsers'] = 'SpecialImportUsers';
