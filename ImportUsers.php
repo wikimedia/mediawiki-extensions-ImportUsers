@@ -42,6 +42,7 @@ $wgExtensionCredits['specialpage'][] = array(
 $wgAutoloadClasses['SpecialImportUsers'] = __DIR__ . '/ImportUsers_body.php';
 
 /* Register extension messages. */
+$wgMessagesDirs['ImportUsers'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ImportUsers'] = __DIR__ . '/ImportUsers.i18n.php';
 $wgExtensionMessagesFiles['ImportUsersAlias'] = __DIR__ . '/ImportUsers.alias.php';
 
