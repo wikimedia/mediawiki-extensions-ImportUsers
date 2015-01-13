@@ -1,5 +1,13 @@
 ## Changelog of the Import Users extension
 
+### 1.5.1
+
+Released: 2015-01-13  
+Authored: Ency
+
+* Added Polish translations
+
+
 ### 1.5.0
 
 Released: 2015-01-08  
