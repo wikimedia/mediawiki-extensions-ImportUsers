@@ -1,0 +1,36 @@
+{
+   "@metadata":{
+      "authors":[
+         "Janusz 'Ency' Dorożyński"
+      ]
+   },
+   "importusers":"Import kont użytkowników",
+   "importusers-desc":"Pozwala na hurtowy [[Special:ImportUsers|import kont użytkowników]] ze zbioru CSV z kodowaniem UTF-8",
+   "importusers-uploadfile":"Zbiór ładowania",
+   "importusers-form-caption":"Zbiór wejściowy:",
+   "importusers-file":"Struktura i format zbioru wejściowego:",
+   "importusers-file-structure":"Struktura wiersza (pola):",
+   "importusers-file-format":"Format:",
+   "importusers-form-replace-present":"Zamiana istniejących kont",
+   "importusers-form-add-to-group":"Dodanie użytkowników do istniejących grup",
+   "importusers-form-button":"Import",
+   "importusers-user-added":"Konto \"$1\" zostało dodane.",
+   "importusers-user-present-update":"Konto \"$1\" już istniało i zostało zaktualizowane.",
+   "importusers-user-present-no-update":"Konto \"$1\" już istniało i nie zostało zaktualizowane.",
+   "importusers-user-invalid-format":"Dane użytkownika w wierszu #$1 miały błędny format lub były puste - zostały pominięte.",
+   "importusers-log":"Dziennik (log) importu",
+   "importusers-log-list":"Konta zaimportowane lub zaktualizowane:",
+   "importusers-log-summary":"Podsumowanie importu:",
+   "importusers-log-summary-all":"Łącznie kont: $1",
+   "importusers-log-summary-added":"Kont dodanych: $1",
+   "importusers-log-summary-updated":"Kont zaktualizowanych: $1",
+   "importusers-login-name":"Nazwa konta",
+   "importusers-password":"hasło",
+   "importusers-email":"adres mejlowy",
+   "importusers-realname":"(rzeczywiste/podane) nazwisko i imię",
+   "importusers-group":"grupa użytkowników",
+   "importusers-utf8":"kodowanie UTF-8",
+   "importusers-comma":"oddzielanie pól przecinkami",
+   "importusers-noquotes":"bez użycia cudzysłowów",
+   "right-import_users":"Hurtowe importowanie kont użytkowników"
+}
