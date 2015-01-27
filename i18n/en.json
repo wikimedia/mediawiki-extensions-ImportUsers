@@ -35,5 +35,6 @@
 	"importusers-utf8": "UTF-8 encoded",
 	"importusers-comma": "separate fields with commas",
 	"importusers-noquotes": "no double-quotes for text",
-	"right-import_users": "Import users in bulk"
+	"right-import_users": "Import users in bulk",
+	"action-import_users": "import users into this wiki"
 }
