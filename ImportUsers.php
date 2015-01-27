@@ -6,7 +6,7 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 1.5.1 2015-01-13
+ * @version 1.5.2 2015-01-27
  *
  * @links https://github.com/kghbln/ImportUsers/blob/master/README.md Documentation
  * @links https://www.mediawiki.org/wiki/Extension_talk:ImportUsers Support
@@ -27,7 +27,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.5.1',
+	'version' => '1.5.2',
 	'author' => array(
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
