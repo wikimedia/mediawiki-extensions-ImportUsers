@@ -1,5 +1,13 @@
 ## Changelog of the Import Users extension
 
+### 1.5.2
+
+Released: 2015-01-27  
+Authored: Ency, Kghbln
+
+* Added missing system message
+
+
 ### 1.5.1
 
 Released: 2015-01-13  
