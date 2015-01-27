@@ -35,5 +35,6 @@
 	"importusers-utf8": "Zeichensatzkodierung in UTF-8",
 	"importusers-comma": "Kommata als Feldtrenner",
 	"importusers-noquotes": "keine Texttrenner",
-	"right-import_users": "Benutzerdaten in großem Umfang importieren"
+	"right-import_users": "Benutzerdaten in großem Umfang importieren",
+	"action-import_users": "Benutzer in dieses Wik zu importieren"
 }
