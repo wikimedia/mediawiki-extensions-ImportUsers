@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Liangent",
+			"Liuxinyu970226",
+			"Wrightbus"
+		]
+	},
+	"importusers": "导入用户",
+	"importusers-desc": "允许从一个UTF-8编码的CSV文件大量[[Special:ImportUsers|导入用户]]",
+	"importusers-uploadfile": "上传文件",
+	"importusers-form-caption": "输入文件：",
+	"importusers-file": "输入文件的结构和格式：",
+	"importusers-file-structure": "结构：",
+	"importusers-file-format": "格式：",
+	"importusers-form-replace-present": "替换现有用户",
+	"importusers-form-add-to-group": "将用户添加至现有组",
+	"importusers-form-button": "导入",
+	"importusers-user-added": "{{GENDER:$1|用户}}“$1”已添加。",
+	"importusers-user-present-update": "{{GENDER:$1|用户}}“$1”已存在，并已更新。",
+	"importusers-user-present-no-update": "{{GENDER:$1|用户}}“$1”已存在，并未更新。",
+	"importusers-user-invalid-format": "#$1行的用户数据具有无效格式或为空，并因此被跳过。",
+	"importusers-log": "导入用户日志",
+	"importusers-log-list": "被导入或更新的用户：",
+	"importusers-log-summary": "导入摘要：",
+	"importusers-log-summary-all": "合计{{PLURAL:$1|用户}}：$1",
+	"importusers-log-summary-added": "添加的{{PLURAL:$1|用户}}：$1",
+	"importusers-log-summary-updated": "更新的{{PLURAL:$1|用户}}：$1",
+	"importusers-login-name": "登录名",
+	"importusers-password": "密码",
+	"importusers-email": "电子邮箱",
+	"importusers-realname": "真实姓名",
+	"importusers-group": "用户组",
+	"importusers-utf8": "UTF-8编码",
+	"importusers-comma": "用逗号分隔字段",
+	"importusers-noquotes": "无双引号文本",
+	"right-import_users": "大容量导入用户",
+	"action-import_users": "将用户导入至此wiki"
+}
