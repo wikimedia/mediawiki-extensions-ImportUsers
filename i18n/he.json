@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"importusers": "ייבוא משתמשים",
+	"importusers-desc": "[[Special:ImportUsers|ייבוא משתמשים]] במקובץ מקובץ CSV; קידוד: UTF-8",
+	"importusers-uploadfile": "העלאת קובץ",
+	"importusers-form-caption": "קובץ CSV המשמש כקלט (UTF-8):",
+	"importusers-form-replace-present": "החלפת משתמשים קיימים",
+	"importusers-form-button": "ייבוא",
+	"importusers-user-added": "המשתמש '''$1''' נוסף.",
+	"importusers-user-present-update": "המשתמש '''$1''' כבר קיים. עודכן.",
+	"importusers-user-invalid-format": "נתוני המשתמש בשורה $1 ריקים או שהם בפורמט בלתי תקין, ולכן דולגו.",
+	"importusers-log": "יומן ייבוא משתמשים",
+	"importusers-log-summary": "תקציר יבוא:",
+	"importusers-log-summary-all": "הכול: $1",
+	"importusers-log-summary-added": "נוסף: $1",
+	"importusers-log-summary-updated": "עודכן: $1",
+	"importusers-login-name": "שם המשתמש",
+	"importusers-password": "סיסמה",
+	"importusers-email": "דוא\"ל",
+	"importusers-realname": "שם אמיתי",
+	"right-import_users": "ייבוא משתמשים מרובים",
+	"action-import_users": "לייבא משתמשים מרובים"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"importusers": "Увезување корисници",
+	"importusers-desc": "Овозможува [[Special:ImportUsers|увезување корисници]] на големо со CSV-податотека кодирана со UTF-8",
+	"importusers-uploadfile": "Подигање",
+	"importusers-form-caption": "Вносна податотека:",
+	"importusers-file": "Структура и формат на вносната податотека:",
+	"importusers-file-structure": "Структура:",
+	"importusers-file-format": "Формат:",
+	"importusers-form-replace-present": "Замени постоечки корисници",
+	"importusers-form-add-to-group": "ДОдај корисници во постоечки групи",
+	"importusers-form-button": "Увези",
+	"importusers-user-added": "{{GENDER:$1|Корисникот}} „$1“ е додаден.",
+	"importusers-user-present-update": "{{GENDER:$1|Корисникот}} „$1“ веќе постои и сега е\nподновен.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Корисникот}} „$1“ веќе постои и не е подновен.",
+	"importusers-user-invalid-format": "Корисничките податоци во ред бр. $1 имаат неважечки формат или се празни, па затоа ги прескокнав.",
+	"importusers-log": "Дневник на увоз на корисници",
+	"importusers-log-list": "Увезени или подновени корисници:",
+	"importusers-log-summary": "Опис на увозот:",
+	"importusers-log-summary-all": "Вкупно {{PLURAL:$1|корисници}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|Додаден корисник|Додадени корисници}}: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Попдновен корисник|Попдновени корисници}}: $1",
+	"importusers-login-name": "Корисничко име",
+	"importusers-password": "лозинка",
+	"importusers-email": "е-пошта",
+	"importusers-realname": "вистинско име",
+	"importusers-group": "корисничка група",
+	"importusers-utf8": "Кодирано со UTF-8",
+	"importusers-comma": "одделете ги полињата со запирки",
+	"importusers-noquotes": "без наводници во текстот",
+	"right-import_users": "Групно увезување на корисници",
+	"action-import_users": "увоз на корисници во ова вики"
+}

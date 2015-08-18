@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"importusers": "Metmaacher-Empoot",
+	"importusers-desc": "Donn Metmaacher em Knubbel fun en Datei [[Special:ImportUsers|emptotteere]], dat Fommaat es: <code lang=\"en\">text/csv; charset: UTF-8</code>",
+	"importusers-uploadfile": "Datei zom Huhlade",
+	"importusers-form-caption": "En <i lang=\"en\">CSV</i>-Datei em UTF-8 Fommaat enjävve:",
+	"importusers-file-format": "Fommaht",
+	"importusers-form-replace-present": "Donn die Metmaacher övverschrieve, die ald do sin.",
+	"importusers-form-add-to-group": "Donn de Metmaacher en Jroppe, di et ald jitt",
+	"importusers-form-button": "Loß Jonn!",
+	"importusers-user-added": "Dä Metmaacher '''$1''' es jez dobei jedonn.",
+	"importusers-user-present-update": "Ne Metmaacher '''$1''' johf et ald. Övverschrevve.",
+	"importusers-user-invalid-format": "De Metmaacher-Daate en de Reih $1 es ledddich udder hät e kapott Fommaat. Övverjange.",
+	"importusers-log": "Logbooch fun de empoteete Metmaacher",
+	"importusers-log-summary": "Koot Zosammejefass",
+	"importusers-log-summary-all": "All: $1",
+	"importusers-log-summary-added": "Dobei jedonn: $1",
+	"importusers-log-summary-updated": "Op der neue Stand jebraat: $1",
+	"importusers-login-name": "Metmaacher-Name",
+	"importusers-password": "Paßwoot",
+	"importusers-email": "<i lang=\"en\">e-mail</i>",
+	"importusers-realname": "Dinge richtije Name",
+	"right-import_users": "Date övver Metmaachere em  Knubbel empotteere",
+	"action-import_users": "Metmaacher ier Date em Knubbel ze empotteere"
+}

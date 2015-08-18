@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Rxy",
+			"Shirayuki",
+			"Sujiniku",
+			"青子守歌"
+		]
+	},
+	"importusers": "利用者をインポート",
+	"importusers-desc": "CSVファイル（UTF-8 エンコード）から一括して[[Special:ImportUsers|利用者を取り込む]]ことを許可",
+	"importusers-uploadfile": "ファイルをアップロード",
+	"importusers-form-caption": "ファイルを入力してください :",
+	"importusers-form-replace-present": "既存利用者を置き換える",
+	"importusers-form-button": "インポート",
+	"importusers-user-added": "利用者 \"$1\" を追加しました。",
+	"importusers-user-present-update": "利用者 \"$1\" が既に存在します。更新されました。",
+	"importusers-user-invalid-format": "#$1 行目の利用者データは、正しくない書式か、または空ですので、スキップされました。",
+	"importusers-log": "利用者インポート記録",
+	"importusers-log-summary": "要約の取り込み:",
+	"importusers-log-summary-all": "利用者の合計：$1",
+	"importusers-log-summary-added": "追加された利用者: $1",
+	"importusers-log-summary-updated": "更新された利用者: $1",
+	"importusers-login-name": "ログイン名",
+	"importusers-password": "パスワード",
+	"importusers-email": "メール",
+	"importusers-realname": "実名",
+	"right-import_users": "利用者を一括して取り込み",
+	"action-import_users": "利用者の一括取り込み"
+}

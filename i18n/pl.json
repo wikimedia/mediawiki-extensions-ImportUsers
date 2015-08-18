@@ -3,13 +3,14 @@
 		"authors": [
 			"Janusz 'Ency' Dorożyński",
 			"McMonster",
-			"Sp5uhe"
+			"Sp5uhe",
+			"Chrumps"
 		]
 	},
 	"importusers": "Import kont użytkowników",
 	"importusers-desc": "Pozwala na hurtowy [[Special:ImportUsers|import kont użytkowników]] ze zbioru CSV z kodowaniem UTF-8",
 	"importusers-uploadfile": "Zbiór ładowania",
-	"importusers-form-caption": "Zbiór wejściowy:",
+	"importusers-form-caption": "Plik wejściowy:",
 	"importusers-file": "Struktura i format zbioru wejściowego:",
 	"importusers-file-structure": "Struktura wiersza (pola):",
 	"importusers-file-format": "Format:",

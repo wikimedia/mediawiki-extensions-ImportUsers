@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"IAlex",
+			"PieRRoMaN",
+			"Sherbrooke",
+			"Urhixidur",
+			"Verdy p"
+		]
+	},
+	"importusers": "Importer des utilisateurs",
+	"importusers-desc": "Importe des utilisateurs en bloc depuis un fichier CVS ; encodage : UTF-8.",
+	"importusers-uploadfile": "Téléverser le fichier",
+	"importusers-form-caption": "Fichier d’entrée :",
+	"importusers-file": "Structure et format du fichier d’entrée :",
+	"importusers-file-structure": "Structure :",
+	"importusers-file-format": "Format :",
+	"importusers-form-replace-present": "Remplacer les utilisateurs existants",
+	"importusers-form-add-to-group": "Ajouter des utilisateurs aux groupes existants",
+	"importusers-form-button": "Importer",
+	"importusers-user-added": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » a été {{GENDER:$1|ajouté|ajoutée}}.",
+	"importusers-user-present-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et a été {{GENDER:$1|mis|mise}} à jour.",
+	"importusers-user-present-no-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et n’a pas été {{GENDER:$1|mis|mise}} à jour.",
+	"importusers-user-invalid-format": "Les données utilisateur de la ligne #$1 n’ont pas un format correct ou sont vides, et ont été ignorées.",
+	"importusers-log": "Journal des importations d'utilisateurs",
+	"importusers-log-list": "Utilisateurs importés ou mis à jour :",
+	"importusers-log-summary": "Résumé de l’importation :",
+	"importusers-log-summary-all": "Tous : $1",
+	"importusers-log-summary-added": "Ajouté : $1",
+	"importusers-log-summary-updated": "Mis à jour : $1",
+	"importusers-login-name": "Nom d’utilisateur",
+	"importusers-password": "mot de passe",
+	"importusers-email": "courriel",
+	"importusers-realname": "nom réel",
+	"right-import_users": "Importer des utilisateurs en masse",
+	"action-import_users": "importer des utilisateurs en masse"
+}
