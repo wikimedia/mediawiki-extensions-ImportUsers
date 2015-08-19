@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ficell",
+			"Kurousagi"
+		]
+	},
+	"importusers": "사용자 가져오기",
+	"importusers-desc": "UTF-8로 인코딩된 CSV 파일로 한꺼번에 [[Special:ImportUsers|사용자를 가져올]] 수 있습니다",
+	"importusers-uploadfile": "파일 올리기",
+	"importusers-form-caption": "파일 입력:",
+	"importusers-file": "입력된 파일 구조과 형식",
+	"importusers-file-structure": "구조",
+	"importusers-file-format": "형식",
+	"importusers-form-replace-present": "이미 존재하는 사용자 대치하기",
+	"importusers-form-add-to-group": "사용자를 이미 존재하는 그룹에 추가하기",
+	"importusers-form-button": "불러오기",
+	"importusers-user-added": "{{GENDER:$1|사용자}} \"$1\"이(가) 추가되었습니다.",
+	"importusers-user-present-update": "{{GENDER:$1|사용자}} \"$1\"은(는) 이미 존재하고 갱신되었습니다.",
+	"importusers-user-present-no-update": "{{GENDER:$1|사용자}} \"$1\"은(는) 이미 존재하고 갱신되지 않았습니다.",
+	"importusers-user-invalid-format": "$1 줄의 사용자 데이터가 비었거나 잘못된 형식을 가지고 있어서 건너뜁니다.",
+	"importusers-log": "사용자 기록 가져오기",
+	"importusers-log-list": "가져오거나 갱신된 유저들:",
+	"importusers-log-summary": "가져오기 개요:",
+	"importusers-log-summary-all": "총 {{PLURAL:$1|사용자|사용자들}}: $1",
+	"importusers-log-summary-added": "추가된 {{PLURAL:$1|사용자|사용자들}}: $1",
+	"importusers-log-summary-updated": "갱신된 {{PLURAL:$1|사용자|사용자들}}: $1",
+	"importusers-login-name": "로그인에 사용되는 이름",
+	"importusers-password": "비밀번호",
+	"importusers-email": "이메일",
+	"importusers-realname": "실명",
+	"importusers-group": "사용자 그룹",
+	"importusers-utf8": "UTF-8 인코딩 됨",
+	"importusers-comma": "쉼표로 값을 나누기",
+	"importusers-noquotes": "텍스트에는 큰따옴표 비사용",
+	"right-import_users": "대량으로 사용자 가져오기",
+	"action-import_users": "이 위키로 사용자 가져오기"
+}
