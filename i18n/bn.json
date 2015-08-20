@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Wikitanvir"
+		]
+	},
+	"importusers": "ব্যবহারকারী আমাদানী",
+	"importusers-uploadfile": "ফাইল আপলোড",
+	"importusers-form-button": "আমদানি",
+	"importusers-log": "ব্যবহারকারী লগ আমদানি",
+	"importusers-log-summary": "আমদানি সারাংশ:",
+	"importusers-log-summary-all": "মোট {{PLURAL:$1|ব্যবহারকারী}}: $1 জন",
+	"importusers-log-summary-added": "{{PLURAL:$1|ব্যবহারকারী}} যোগ হয়েছে: $1 জন",
+	"importusers-log-summary-updated": "{{PLURAL:$1|ব্যবহারকারী}} হালনাগাদকৃত: $1 জন",
+	"importusers-login-name": "লগইনের নাম",
+	"importusers-password": "শব্দচাবি",
+	"importusers-email": "ই-মেইল",
+	"importusers-realname": "প্রকৃত নাম"
+}
