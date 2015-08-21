@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"importusers": "Benotzer importéieren",
+	"importusers-desc": "[[Special:ImportUsers|Importéiert Benotzer]] aus engem CSV(Comma Separated Values)-Fichier; Codéierung: UTF-8",
+	"importusers-uploadfile": "Fichier eroplueden",
+	"importusers-form-caption": "CSV-Fichier (UTF-8) eraginn:",
+	"importusers-form-replace-present": "Benotzer déi et scho gëtt ersetzen",
+	"importusers-form-button": "Importéieren",
+	"importusers-user-added": "De Benotzer '''$1''' gouf derbäigesat.",
+	"importusers-user-present-update": "De Benotzer '''$1''' gëtt et schonn. Aktualiséiert.",
+	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel. Iwwersprong.",
+	"importusers-log": "Logbuch vun de Benotzerimporten",
+	"importusers-log-summary": "Resumé importéieren:",
+	"importusers-log-summary-all": "Alleguer: $1",
+	"importusers-log-summary-added": "Derbäigesat: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Benotzer}} aktualiséiert: $1",
+	"importusers-login-name": "Benotzernumm",
+	"importusers-password": "Passwuert",
+	"importusers-email": "E-Mailadress",
+	"importusers-realname": "richtegen Numm",
+	"right-import_users": "Benotzer a grousser Zuel importéieren",
+	"action-import_users": "Benotzer a grousser Zuel z'importéieren"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Жељко Тодоровић"
+		]
+	},
+	"importusers": "Uvezi korisnike",
+	"importusers-uploadfile": "Pošalji datoteku",
+	"importusers-form-caption": "Unesite datoteku:",
+	"importusers-form-replace-present": "Piši preko podataka postojećih korisnika",
+	"importusers-form-button": "Uvoz",
+	"importusers-user-added": "{{GENDER:$1|Korisnik „$1“ je dodat|Korisnica „$1“ je dodata}}.",
+	"importusers-user-present-update": "{{GENDER:$1|Korisnik|Korisnica}} „$1“ već postoji i {{GENDER:$1|ažuriran|ažurirana}} je.",
+	"importusers-user-invalid-format": "Korisnički podaci u liniji #$1 su neispravno formatirani ili je linija prazna. Preskočeno.",
+	"importusers-log": "Istorija uvoza korisnika",
+	"importusers-log-summary": "Opis uvoza:",
+	"importusers-log-summary-all": "Sve: $1",
+	"importusers-log-summary-added": "Dodato: $1",
+	"importusers-log-summary-updated": "Ažurirano: $1",
+	"importusers-login-name": "Korisničko ime",
+	"importusers-password": "lozinka",
+	"importusers-email": "mejl",
+	"importusers-realname": "pravo ime"
+}
