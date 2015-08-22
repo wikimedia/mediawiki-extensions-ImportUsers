@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"importusers-uploadfile": "ფაილის ატვირთვა",
+	"importusers-form-button": "იმპორტი",
+	"importusers-user-added": "{{GENDER:$1|მომხმარებელი}} „$1“ დაემატა.",
+	"importusers-user-present-update": "{{GENDER:$1|მომხმარებელი}} „$1“ უკვე არსებობს და განახლებულია.",
+	"importusers-log-summary": "იმპორტის რეზიუმე:",
+	"importusers-log-summary-all": "ყველა {{PLURAL:$1|მომხმარებელი|მომხმარებელი}}: $1",
+	"importusers-log-summary-added": "დამატებულია: $1 {{PLURAL:$1|მომხმარებელი|მომხმარებელი}}",
+	"importusers-log-summary-updated": "განახლდა: $1 {{PLURAL:$1|მომხმარებელი|მომხმარებელი}}",
+	"importusers-login-name": "ანგარიშის სახელი",
+	"importusers-password": "პაროლი",
+	"importusers-email": "ელ. ფოსტა",
+	"importusers-realname": "ნამდვილი სახელი"
+}
