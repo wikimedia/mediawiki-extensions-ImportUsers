@@ -8,7 +8,7 @@
 		]
 	},
 	"importusers": "Импортирование участников",
-	"importusers-desc": "[[Special:ImportUsers|Импорт большого количества учётных записей]] из CSV-файла; кодировка: UTF-8",
+	"importusers-desc": "Позволяет [[Special:ImportUsers|импортировать большое количество учётных записей]] из CSV-файла в кодировке UTF-8",
 	"importusers-uploadfile": "Загрузить файл",
 	"importusers-form-caption": "Входной файл:",
 	"importusers-file-structure": "Структура:",
@@ -21,7 +21,7 @@
 	"importusers-user-present-no-update": "{{GENDER:$1|Участник|Участница}} «$1» уже существует и не был обновлён.",
 	"importusers-user-invalid-format": "Данные участника в строке #$1 имеют неправильный формат или пусты и поэтому были пропущены.",
 	"importusers-log": "Журнал импорта участников",
-	"importusers-log-summary": "Итого",
+	"importusers-log-summary": "Описание импорта:",
 	"importusers-log-summary-all": "Всего: $1 участник{{PLURAL:$1||ов|а}}",
 	"importusers-log-summary-added": "Добавлено: $1 участник{{PLURAL:$1||ов|а}}",
 	"importusers-log-summary-updated": "Обновлено: $1 участник{{PLURAL:$1||ов|а}}",
