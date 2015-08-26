@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps",
+			"Giro720",
+			"Luckas",
+			"Macofe"
+		]
+	},
+	"importusers": "Importar Utilizadores",
+	"importusers-desc": "[[Special:ImportUsers|Importa utilizadores]] em bloco de um arquivo CSV; codificação: UTF-8",
+	"importusers-uploadfile": "Carregar arquivo",
+	"importusers-form-caption": "Arquivo de entrada:",
+	"importusers-form-replace-present": "Substituir utilizadores existentes",
+	"importusers-form-button": "Importar",
+	"importusers-user-added": "Usuário '''$1''' foi adicionado.",
+	"importusers-user-present-update": "Usuário '''$1''' já existe. Atualizado.",
+	"importusers-user-invalid-format": "Dados de usuário na linha #$1 têm um formato inválido ou estão vazios. Passado à frente.",
+	"importusers-log": "Registro de importação de utilizadores",
+	"importusers-log-summary": "Sumário",
+	"importusers-log-summary-all": "Todos",
+	"importusers-log-summary-added": "Adicionado",
+	"importusers-log-summary-updated": "Atualizado",
+	"importusers-login-name": "Nome de conta",
+	"importusers-password": "senha",
+	"importusers-email": "e-mail",
+	"importusers-realname": "nome real",
+	"right-import_users": "Importar utilizadores em bloco"
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"Macofe",
+			"SMP",
+			"Solde"
+		]
+	},
+	"importusers": "Importar usuaris",
+	"importusers-desc": "[[Special:ImportUsers|Importar usuaris]] en bloc des de fitxer CSV; codificació: UTF-8",
+	"importusers-uploadfile": "Carregar fitxer",
+	"importusers-form-caption": "Fitxer d'entrada:",
+	"importusers-file-structure": "Estructura:",
+	"importusers-file-format": "Format:",
+	"importusers-form-replace-present": "Reemplaça els usuaris existents",
+	"importusers-form-button": "Importa",
+	"importusers-user-added": "S'ha afegit l'usuari '''$1'''.",
+	"importusers-user-present-update": "L'usuari '''$1''' ja existeix actualment.\nActualitzat.",
+	"importusers-user-invalid-format": "Les dades d'usuari de la línia #$1 tenen un format invàlid o estan en blanc.\nS'han omès.",
+	"importusers-log": "Importa el registre d'usuaris",
+	"importusers-log-summary": "Resum",
+	"importusers-log-summary-all": "Tot",
+	"importusers-log-summary-added": "S'ha afegit",
+	"importusers-log-summary-updated": "S'ha actualitzat",
+	"importusers-login-name": "Nom d'entrada",
+	"importusers-password": "contrasenya",
+	"importusers-email": "correu electrònic",
+	"importusers-realname": "nom real",
+	"importusers-group": "grup d'usuaris",
+	"right-import_users": "Importar els usuaris en grans quantitats"
+}

@@ -2,13 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Darth Kule"
+			"Darth Kule",
+			"Macofe"
 		]
 	},
 	"importusers": "Importazione utenti",
 	"importusers-desc": "[[Special:ImportUsers|Importa utenti]] in massa da file CSV; codifica: UTF-8",
 	"importusers-uploadfile": "Carica un file",
 	"importusers-form-caption": "File di input:",
+	"importusers-file-structure": "Struttura:",
+	"importusers-file-format": "Formato:",
 	"importusers-form-replace-present": "Sostituire gli utenti esistenti",
 	"importusers-form-button": "Importa",
 	"importusers-user-added": "L'utente \"$1\" è {{GENDER:$1|stato aggiunto|stata aggiunta}}.",
