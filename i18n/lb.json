@@ -14,7 +14,7 @@
 	"importusers-form-button": "Importéieren",
 	"importusers-user-added": "{{GENDER:$1|D'Benotzesch|De Benotzer}} '''$1''' gouf derbäigesat.",
 	"importusers-user-present-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf aktualiséiert.",
-	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel. Iwwersprong.",
+	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel a goufen iwwersprong.",
 	"importusers-log": "Logbuch vun de Benotzerimporten",
 	"importusers-log-summary": "Resumé importéieren:",
 	"importusers-log-summary-all": "Total {{PLURAL:$1|Benotzer}}: $1",
