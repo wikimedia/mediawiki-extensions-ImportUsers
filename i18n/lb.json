@@ -6,7 +6,7 @@
 		]
 	},
 	"importusers": "Benotzer importéieren",
-	"importusers-desc": "[[Special:ImportUsers|Importéiert Benotzer]] aus engem CSV(Comma Separated Values)-Fichier; Codéierung: UTF-8",
+	"importusers-desc": "Erlaabt et [[Special:ImportUsers|Benotzer zesummen z'importéieren]] aus engem CSV(Comma Separated Values)-Fichier; Codéierung: UTF-8",
 	"importusers-uploadfile": "Fichier eroplueden",
 	"importusers-form-caption": "Fichier eraginn:",
 	"importusers-file-format": "Format:",
