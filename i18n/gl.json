@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Banjo",
+			"Toliño"
+		]
+	},
+	"importusers": "Importar usuarios",
+	"importusers-desc": "[[Special:ImportUsers|Importa usuarios]] en bloque desde ficheiros CSV; codificación: UTF-8",
+	"importusers-uploadfile": "Cargar o ficheiro",
+	"importusers-form-caption": "Ficheiro de entrada:",
+	"importusers-file-structure": "Estrutura:",
+	"importusers-file-format": "Formato:",
+	"importusers-form-replace-present": "Substituír os usuarios existentes",
+	"importusers-form-button": "Importar",
+	"importusers-user-added": "Engadiuse o usuario '''$1'''.",
+	"importusers-user-present-update": "O usuario '''$1''' xa existe.\nActualizado.",
+	"importusers-user-invalid-format": "Os datos de usuario na liña nº$1 teñen un formato inválido ou a liña está en branco.\nSaltouse a acción.",
+	"importusers-log": "Rexistro de importacións de usuarios",
+	"importusers-log-summary": "Resumo de importación:",
+	"importusers-log-summary-all": "Total: 1$ {{PLURAL:1$|usuarios|usuario}}",
+	"importusers-log-summary-added": "$1 {{PLURAL:$1|usuario engadido|usuarios engadidos}}",
+	"importusers-log-summary-updated": "$1 {{PLURAL:$1|usuario actualizado|usuarios actualizados}}",
+	"importusers-login-name": "Nome de usuario",
+	"importusers-password": "contrasinal",
+	"importusers-email": "correo electrónico",
+	"importusers-realname": "nome real",
+	"right-import_users": "Importar usuarios en masa",
+	"action-import_users": "importar usuarios en masa"
+}
