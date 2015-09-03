@@ -17,7 +17,7 @@
 	"importusers-log": "Istorija uvoza korisnika",
 	"importusers-log-summary": "Opis uvoza:",
 	"importusers-log-summary-all": "Sve: $1",
-	"importusers-log-summary-added": "Dodato: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|Dodato}}: $1",
 	"importusers-log-summary-updated": "Ažurirano: $1",
 	"importusers-login-name": "Korisničko ime",
 	"importusers-password": "lozinka",

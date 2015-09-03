@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"importusers": "Utinde ca 'mbortane",
+	"importusers-desc": "Fà [[Special:ImportUsers|'mbortà le utinde]] in masse da 'nu file CSV; codifiche: UTF-8",
+	"importusers-uploadfile": "Careche 'u file",
+	"importusers-form-caption": "File de input:",
+	"importusers-file": "Mitte 'a strutture d'u file e 'u formate:",
+	"importusers-file-structure": "Strutture:",
+	"importusers-file-format": "Formate:",
+	"importusers-form-replace-present": "Rimbiazze l'utinde esistende",
+	"importusers-form-add-to-group": "Aggiunge le utinde jndr'à le gruppe ca esistone",
+	"importusers-form-button": "'Mborte",
+	"importusers-user-added": "{{GENDER:$1|Utende}} '''$1''' ha state aggiunde.",
+	"importusers-user-present-update": "{{GENDER:$1|Utende}} '''$1''' esiste ggià e ha state aggiornate.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Utende}} '''$1''' esiste ggià e non g'à state aggiornate.",
+	"importusers-user-invalid-format": "'U date utende jndr'à linèe #$1 tène 'nu formate invalide o jè vianghe e avène zumbate.",
+	"importusers-log": "Archivije de l'utinde ca 'mbortane",
+	"importusers-log-list": "Utinde 'mbortate e aggiornate:",
+	"importusers-log-summary": "'Mborte 'u riepiloghe:",
+	"importusers-log-summary-all": "{{PLURAL:$1|Utende|Utinde }} totale: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|Utende|Utinde}} aggiunde: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Utende|Utinde}} aggiornate: $1",
+	"importusers-login-name": "Nome pe trasè",
+	"importusers-password": "password",
+	"importusers-email": "e-mail",
+	"importusers-realname": "nome vere",
+	"importusers-group": "gruppe de utinde",
+	"importusers-utf8": "codificate UTF-8",
+	"importusers-comma": "cambe separate cu 'a virgole",
+	"importusers-noquotes": "None doppie virgolette pu teste",
+	"right-import_users": "'Mborte utinde in masse",
+	"action-import_users": "'mborte le utinde jndr'à sta uicchi"
+}
