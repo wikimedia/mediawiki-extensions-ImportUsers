@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"importusers-uploadfile": "دوتنه پورته کول",
+	"importusers-file-structure": "جوړښت:",
+	"importusers-file-format": "بڼه:",
+	"importusers-form-button": "رالېږدول",
+	"importusers-user-added": "\"$1\" {{GENDER:$1|کارن}} ورگډ شوی.",
+	"importusers-log-summary": "لنډيز",
+	"importusers-log-summary-all": "ټول: $1",
+	"importusers-log-summary-added": "ورگډ شوي: $1",
+	"importusers-log-summary-updated": "اوسمهالېدلي: $1",
+	"importusers-login-name": "د ننوتلو کارن-نوم",
+	"importusers-password": "پټنوم",
+	"importusers-email": "برېښليک",
+	"importusers-realname": "اصلي نوم",
+	"importusers-group": "کارن ډله"
+}
