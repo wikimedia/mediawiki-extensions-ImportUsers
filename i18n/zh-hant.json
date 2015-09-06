@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Mark85296341",
+			"Simon Shek",
+			"Wrightbus"
+		]
+	},
+	"importusers": "匯入使用者",
+	"importusers-uploadfile": "上傳檔案",
+	"importusers-form-replace-present": "代替現有的使用者",
+	"importusers-form-button": "匯入",
+	"importusers-log": "導入用戶登錄",
+	"importusers-log-summary": "匯入摘要：",
+	"importusers-log-summary-all": "所有{{PLURAL:$1|使用者|使用者}}：$1",
+	"importusers-log-summary-added": "已增加{{PLURAL:$1|使用者|使用者}}：$1",
+	"importusers-log-summary-updated": "已更新{{PLURAL:$1|使用者|使用者}}：$1",
+	"importusers-login-name": "登錄名",
+	"importusers-password": "密碼",
+	"importusers-email": "電郵",
+	"importusers-realname": "真實姓名",
+	"right-import_users": "在大容量導入用戶"
+}
