@@ -1,5 +1,16 @@
 ## Changelog of the Import Users extension
 
+
+### 1.5.3
+
+Released: 2015-09-16
+Authored: Kghbln, translators from translatewiki.net
+
+* Added PLURAL and GENDER support to system message
+* Added system message documentation
+* Added translations for many more languages
+
+
 ### 1.5.2
 
 Released: 2015-01-27  

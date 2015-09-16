@@ -6,12 +6,12 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 1.5.2 2015-01-27
+ * @version 1.5.3 2015-09-16
  *
- * @links https://github.com/kghbln/ImportUsers/blob/master/README.md Documentation
+ * @links https://github.com/wikimedia/mediawiki-extensions-ImportUsers/blob/master/README.md Documentation
  * @links https://www.mediawiki.org/wiki/Extension_talk:ImportUsers Support
- * @links https://github.com/kghbln/ImportUsers/issues Bug tracker
- * @links https://github.com/kghbln/ImportUsers Source code
+ * @links https://phabricator.wikimedia.org/tag/importusers/ Bug tracker
+ * @links https://github.com/wikimedia/mediawiki-extensions-ImportUsers Source code
  *
  * @author Rouslan Zenetl, Yuriy Ilkiv
  *
@@ -27,7 +27,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.5.2',
+	'version' => '1.5.3',
 	'author' => array(
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
