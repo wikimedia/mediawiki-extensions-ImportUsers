@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"importusers-log-summary": "Impordi kokkuvõte:",
+	"importusers-log-summary-all": "{{PLURAL:$1|Kasutajaid}} kokku: $1",
+	"importusers-login-name": "Kasutajanimi",
+	"importusers-password": "parool",
+	"importusers-email": "e-post",
+	"importusers-realname": "tegelik nimi"
+}
