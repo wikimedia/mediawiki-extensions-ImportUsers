@@ -4,7 +4,8 @@
 			"Cwlin0416",
 			"Mark85296341",
 			"Simon Shek",
-			"Wrightbus"
+			"Wrightbus",
+			"Liuxinyu970226"
 		]
 	},
 	"importusers": "匯入使用者",
@@ -20,5 +21,6 @@
 	"importusers-password": "密碼",
 	"importusers-email": "電郵",
 	"importusers-realname": "真實姓名",
+	"importusers-group": "使用者群組",
 	"right-import_users": "在大容量導入用戶"
 }
