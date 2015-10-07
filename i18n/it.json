@@ -7,7 +7,7 @@
 		]
 	},
 	"importusers": "Importazione utenti",
-	"importusers-desc": "[[Special:ImportUsers|Importa utenti]] in massa da file CSV; codifica: UTF-8",
+	"importusers-desc": "Permette di [[Special:ImportUsers|importare utenti]] in massa da un file CSV con codifica UTF-8",
 	"importusers-uploadfile": "Carica un file",
 	"importusers-form-caption": "File di input:",
 	"importusers-file-structure": "Struttura:",
