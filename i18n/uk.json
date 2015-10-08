@@ -3,21 +3,25 @@
 		"authors": [
 			"Base",
 			"Prima klasy4na",
-			"Тест"
+			"Тест",
+			"Ата"
 		]
 	},
+	"importusers": "Імпортувати користувачів",
 	"importusers-desc": "Дозволяє масово [[Special:ImportUsers|імпортувати користувачів]] за допомогою кодованого у UTF-8 CSV-файлу",
 	"importusers-uploadfile": "Завантажити файл",
 	"importusers-form-caption": "Вхідний файл:",
 	"importusers-file": "Структура та формат файлу імпорту:",
 	"importusers-file-structure": "Структура:",
 	"importusers-file-format": "Формат:",
+	"importusers-form-replace-present": "Замінити наявних користувачів",
 	"importusers-form-add-to-group": "Додати користувачів до груп, що існують",
 	"importusers-form-button": "Імпортувати",
 	"importusers-user-added": "{{GENDER:$1|Користувача|Користувачку}} «$1» було додано.",
 	"importusers-user-present-update": "{{GENDER:$1|Користувач|Користувачка}} «$1» вже існує й {{GENDER:$1|був оновлений|була оновлена}}.",
 	"importusers-user-present-no-update": "{{GENDER:$1|Користувач|Користувачка}} «$1» вже існує й не {{GENDER:$1|був оновлений|була оновлена}}.",
 	"importusers-user-invalid-format": "Дані користувача у рядку #$1 мають неправильний формат або порожні, їх було пропущено.",
+	"importusers-log": "Журнал імпорту користувачів",
 	"importusers-log-list": "Імпортовані або оновлені користувачі:",
 	"importusers-log-summary": "Короткий опис імпорту:",
 	"importusers-log-summary-all": "Усього {{PLURAL:$1|1=користувач|користувачів}}: $1",
@@ -31,5 +35,6 @@
 	"importusers-utf8": "Кодовано у UTF-8",
 	"importusers-comma": "розділяйте поля комами",
 	"importusers-noquotes": "без подвійних лапок у тексті",
+	"right-import_users": "Масове імпортування користувачів",
 	"action-import_users": "імпортувати користувачів до цієї вікі"
 }
