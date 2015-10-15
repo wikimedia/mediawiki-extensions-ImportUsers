@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mopza",
+			"Octahedron80",
+			"Passawuth"
+		]
+	},
+	"importusers-form-button": "นำเข้า",
+	"importusers-log": "ปูมการนำเข้าผู้ใช้",
+	"importusers-log-summary-all": "ทั้งหมด",
+	"importusers-password": "รหัสผ่าน",
+	"importusers-email": "อีเมลของผู้ใช้",
+	"importusers-realname": "ชื่อจริง"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"IvanLanin"
+		]
+	},
+	"importusers": "Impor pengguna",
+	"importusers-desc": "[[Special:ImportUsers|Impor pengguna]] secara massal dari berkas CSV; enkode: UTF-8",
+	"importusers-uploadfile": "Muatkan berkas",
+	"importusers-form-caption": "Berkas CSV masukan (UTF-8):",
+	"importusers-form-replace-present": "Timpa pengguna yang sudah ada",
+	"importusers-form-button": "Impor",
+	"importusers-user-added": "Pengguna '''$1''' telah ditambahkan.",
+	"importusers-user-present-update": "Pengguna '''$1''' sudah ada.\nDiperbarui.",
+	"importusers-user-invalid-format": "Data pengguna pada baris #$1 tidak memiliki format yang sah atau kosong.\nDilompati.",
+	"importusers-log": "Impor log pengguna",
+	"importusers-log-summary": "Ringkasan",
+	"importusers-log-summary-all": "Semua: $1",
+	"importusers-log-summary-added": "Ditambahkan: $1",
+	"importusers-log-summary-updated": "Diperbarui: $1",
+	"importusers-login-name": "Nama masuk log",
+	"importusers-password": "kata sandi",
+	"importusers-email": "surel",
+	"importusers-realname": "nama asli",
+	"right-import_users": "Impor banyak pengguna"
+}

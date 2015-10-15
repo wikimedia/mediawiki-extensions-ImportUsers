@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"importusers": "Benutsere importierje",
+	"importusers-desc": "[[Special:ImportUsers|Importiert Benutsere]] uut ne CSV-Doatäi; Codierenge: UTF-8",
+	"importusers-uploadfile": "Doatäi hoochleede",
+	"importusers-form-caption": "CSV-Doatäi (UTF-8)",
+	"importusers-form-replace-present": "Bestoundene Benutsere ärsätte",
+	"importusers-form-button": "Importierje",
+	"importusers-user-added": "Die Benutser '''$1''' wuude importierd.",
+	"importusers-user-present-update": "N Benutser '''$1''' existiert al. Aktualisierd.",
+	"importusers-user-invalid-format": "Do Benutserdoaten in Riege #$1 hääbe n uungultich Formoat of sunt loos. Uursproangen.",
+	"importusers-log": "Benutserimport-Logbouk",
+	"importusers-log-summary": "Touhoopefoatenge",
+	"importusers-log-summary-all": "Aal",
+	"importusers-log-summary-added": "Bietouföiged",
+	"importusers-log-summary-updated": "Aktualisierd",
+	"importusers-login-name": "Benutsernoome",
+	"importusers-password": "Paaswoud",
+	"importusers-email": "E-Mail",
+	"importusers-realname": "Ächten Noome",
+	"right-import_users": "Benutserdoaten in grooten Uumfang importierje"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"importusers": "Umangkat ng mga tagagamit",
+	"importusers-desc": "[[Special:ImportUsers|Mga tagagamit ng pag-aangkat]] na bugsuan/bultuhan mula sa talaksang CSV; pagsasakodigo: UTF-8",
+	"importusers-uploadfile": "Ikarga ang talaksan",
+	"importusers-form-caption": "Ipasok ang talaksang CSV (UTF-8):",
+	"importusers-form-replace-present": "Palitan ang umiiral na mga tagagamit",
+	"importusers-form-button": "Angkatin",
+	"importusers-user-added": "Idinagdag ang tagagamit na si '''$1'''.",
+	"importusers-user-present-update": "Umiiral na ang tagagamit na si '''$1'''. Isinapanahon.",
+	"importusers-user-invalid-format": "Hindi tanggap ang anyo/pormat o walang laman ang dato ng tagagamit na nasa guhit na #$1. Nilaktawan.",
+	"importusers-log": "Talaan ng mga tagagamit na umaangkat",
+	"importusers-log-summary": "Buod",
+	"importusers-log-summary-all": "Lahat: $1",
+	"importusers-log-summary-added": "Naidagdag: $1",
+	"importusers-log-summary-updated": "Naisapanahon: $1",
+	"importusers-login-name": "Pangalang panglagda",
+	"importusers-password": "hudyat",
+	"importusers-email": "e-liham",
+	"importusers-realname": "totoong pangalan",
+	"right-import_users": "Umangkat ng bunton ng mga tagagamit",
+	"action-import_users": "umangkat ng bunton ng tagagamit"
+}

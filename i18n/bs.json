@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"importusers": "Uvoz korisnika",
+	"importusers-desc": "[[Special:ImportUsers|Uvozi korisnike]] u grupi iz CSV-datoteke; kodiranje: UTF-8",
+	"importusers-uploadfile": "Postavi datoteku",
+	"importusers-form-caption": "Unos CSV-datoteke (UTF-8):",
+	"importusers-form-replace-present": "Zamijeni postojeće korisnike",
+	"importusers-form-button": "Uvezi",
+	"importusers-user-added": "Korisnik '''$1''' je dodan.",
+	"importusers-user-present-update": "Korisnik '''$1''' već postoji. Ažuriran.",
+	"importusers-user-invalid-format": "Korisnički podaci na liniji #$1 nisu u valjanom formatu ili su prazni. Preskočeno.",
+	"importusers-log": "Zapisnik uvoza korisnika",
+	"importusers-log-summary": "Sažetak",
+	"importusers-log-summary-all": "Sve: $1",
+	"importusers-log-summary-added": "Dodat: $1",
+	"importusers-log-summary-updated": "Ažurirano: $1",
+	"importusers-login-name": "Ime pri prijavi",
+	"importusers-password": "šifra",
+	"importusers-email": "e-mail",
+	"importusers-realname": "pravo ime",
+	"right-import_users": "Uvoz korisnika u grupi"
+}

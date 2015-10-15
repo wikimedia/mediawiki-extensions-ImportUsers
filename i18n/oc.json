@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"importusers": "Importar d'utilizaires",
+	"importusers-desc": "[[Special:ImportUsers|Impòrta d'utilizaires]] en blòt dempuèi un fichièr CVS ; encodatge : UTF-8.",
+	"importusers-uploadfile": "Importar lo fichièr",
+	"importusers-form-caption": "Entratz un fichièr CVS (UTF-8)",
+	"importusers-form-replace-present": "Remplaça los utilizaires existents",
+	"importusers-form-button": "Importar",
+	"importusers-user-added": "L’utilizaire '''$1''' es estat apondut.",
+	"importusers-user-present-update": "l’utilizaire '''$1''' existís ja. Mesa a jorn efectuada.",
+	"importusers-user-invalid-format": "Las donadas d'utilizaire dins la linha #$1 son dins un format marrit o alara son inexistentas. Cap d'accion.",
+	"importusers-log": "Jornal de las importacions d'utilizaires",
+	"importusers-log-summary": "Somari",
+	"importusers-log-summary-all": "Total",
+	"importusers-log-summary-added": "Apondut",
+	"importusers-log-summary-updated": "Mesa a jorn",
+	"importusers-login-name": "Nom de l'escais",
+	"importusers-password": "Senhal",
+	"importusers-email": "adreça de corrièr electronic",
+	"importusers-realname": "nom vertadièr",
+	"right-import_users": "Importar d'utilizaires en massa",
+	"action-import_users": "importar d'utilizaires en massa"
+}

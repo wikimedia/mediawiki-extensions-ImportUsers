@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Jon Harald Søby",
+			"Nghtwlkr",
+			"Njardarlogar"
+		]
+	},
+	"importusers": "Importer brukarar",
+	"importusers-desc": "[[Special:ImportUsers|Importer brukarar]] frå ei CSV-fil; teiknkoding: UTF-8",
+	"importusers-uploadfile": "Last opp fil",
+	"importusers-form-caption": "CSV-fil for inntekst (UTF-8):",
+	"importusers-form-replace-present": "Erstatt brukarar som finst frå før",
+	"importusers-form-button": "Importer",
+	"importusers-user-added": "Brukaren '''$1''' har blitt lagt til.",
+	"importusers-user-present-update": "Brukaren '''$1''' finst allereie. Oppdatert.",
+	"importusers-user-invalid-format": "Brukerdataa på linja #$1 har ugyldig format eller er blank. Hoppa over.",
+	"importusers-log": "Loggføring for importering av brukarar",
+	"importusers-log-summary": "Samandrag",
+	"importusers-log-summary-all": "Alle: $1",
+	"importusers-log-summary-added": "Lagt til: $1",
+	"importusers-log-summary-updated": "Oppdatert: $1",
+	"importusers-login-name": "Inloggingsnamn",
+	"importusers-password": "passord",
+	"importusers-email": "e-post",
+	"importusers-realname": "verkeleg namn",
+	"right-import_users": "Importera fleire brukarar samstundes",
+	"action-import_users": "importer fleire brukarar samstundes"
+}

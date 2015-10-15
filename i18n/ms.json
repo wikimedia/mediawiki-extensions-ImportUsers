@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"importusers-uploadfile": "Muat naik fail",
+	"importusers-form-button": "Import",
+	"importusers-log-summary-all": "Semua: $1",
+	"importusers-password": "kata laluan",
+	"importusers-email": "e-mel",
+	"importusers-realname": "nama sebenar"
+}

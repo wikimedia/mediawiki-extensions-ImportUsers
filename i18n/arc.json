@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Basharh"
+		]
+	},
+	"importusers": "ܡܥܠܢܘܬܐ ܕܡܦܠܚܢ̈ܐ",
+	"importusers-uploadfile": "ܐܣܩ ܠܦܦܐ",
+	"importusers-form-button": "ܐܥܠ",
+	"importusers-log-summary": "ܦܣܝܩܬ̈ܐ",
+	"importusers-log-summary-all": "ܟܠ: $1",
+	"importusers-log-summary-added": "ܐܬܬܘܣܦܬ: $1",
+	"importusers-log-summary-updated": "ܐܬܚܕܬ: $1",
+	"importusers-login-name": "ܫܡܐ ܕܥܠܠܐ",
+	"importusers-password": "ܡܠܬܐ ܕܥܠܠܐ",
+	"importusers-email": "ܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ",
+	"importusers-realname": "ܫܡܐ ܫܪܝܪܐ"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Htt",
+			"Kaustubh"
+		]
+	},
+	"importusers": "सदस्य मागवा",
+	"importusers-desc": "CSV-संचिकेमधून अनेक सदस्य इंपोर्ट करा; एन्कोडिंग: UTF-8",
+	"importusers-uploadfile": "संचिका चढवा",
+	"importusers-form-caption": "CSV-संचिका (UTF-8)",
+	"importusers-form-replace-present": "सध्याच्या सदस्यांवर पुनर्लेखन करा",
+	"importusers-form-button": "इंपोर्ट",
+	"importusers-user-added": "'''$1''' सदस्य वाढविला.",
+	"importusers-user-present-update": "'''$1''' सदस्य अस्तित्वात आहे. अपडेट केला.",
+	"importusers-user-invalid-format": "#$1 या ओळीवरील सदस्य माहिती चुकीची अथवा रिकामी आहे. वगळली.",
+	"importusers-log": "इंपोर्ट नोंदी",
+	"importusers-log-summary": "संक्षिप्त माहिती",
+	"importusers-log-summary-all": "सर्व",
+	"importusers-log-summary-added": "वाढविले",
+	"importusers-log-summary-updated": "अपडेट केले",
+	"importusers-login-name": "सदस्य नाव",
+	"importusers-password": "परवलीचा शब्द",
+	"importusers-email": "विपत्र",
+	"importusers-realname": "खरे नाव"
+}

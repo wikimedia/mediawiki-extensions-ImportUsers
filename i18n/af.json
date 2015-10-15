@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arnobarnard",
+			"Naudefj"
+		]
+	},
+	"importusers-uploadfile": "Laai lêer",
+	"importusers-form-button": "Importeer",
+	"importusers-log-summary": "Samevatting",
+	"importusers-log-summary-all": "Alle",
+	"importusers-log-summary-added": "Bygevoeg: $1",
+	"importusers-log-summary-updated": "Bygewerk: $1",
+	"importusers-password": "wagwoord",
+	"importusers-email": "e-pos",
+	"importusers-realname": "regte naam"
+}

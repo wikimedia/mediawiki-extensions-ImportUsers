@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli",
+			"Roderick Mallia"
+		]
+	},
+	"importusers": "Importa utenti",
+	"importusers-uploadfile": "Tella' fajl",
+	"importusers-user-added": "L-utent '''$1''' ġie miżjud.",
+	"importusers-user-present-update": "L-utent '''$1''' diġà jeżisti.\nAġġornat.",
+	"importusers-log-summary": "Taqsira",
+	"importusers-log-summary-all": "Kollha: $1",
+	"importusers-log-summary-added": "Miżjud: $1",
+	"importusers-password": "password",
+	"importusers-email": "e-mail",
+	"importusers-realname": "isem proprju"
+}

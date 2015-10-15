@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chhorran",
+			"Lovekhmer",
+			"គីមស៊្រុន",
+			"វ័ណថារិទ្ធ"
+		]
+	},
+	"importusers": "នាំចូលអ្នកប្រើប្រាស់",
+	"importusers-uploadfile": "ផ្ទុកឯកសារឡើង",
+	"importusers-form-replace-present": "ជំនួសអ្នកប្រើប្រាស់ដែលមាន",
+	"importusers-form-button": "នាំចូល",
+	"importusers-user-added": "បានបន្ថែមហើយ អ្នកប្រើប្រាស់ '''$1''' ។",
+	"importusers-user-present-update": "អ្នកប្រើប្រាស់ '''$1''' មានហើយ។ បានបន្ទាន់សម័យ។",
+	"importusers-log": "នាំចូលកំណត់ហេតុអ្នកប្រើប្រាស់​",
+	"importusers-log-summary": "ចំណារពន្យល់",
+	"importusers-log-summary-all": "ទាំងអស់៖ $1",
+	"importusers-log-summary-added": "បានបន្ថែម៖ $1",
+	"importusers-log-summary-updated": "បានធ្វើឱ្យទាន់សម័យ៖ $1",
+	"importusers-login-name": "ឈ្មោះសំរាប់កត់ឈ្មោះចូល",
+	"importusers-password": "ពាក្យសំងាត់",
+	"importusers-email": "អ៊ីមែល",
+	"importusers-realname": "ឈ្មោះពិត"
+}

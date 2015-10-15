@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"TRYPPN",
+			"மதனாஹரன்"
+		]
+	},
+	"importusers": "பயனர்களை ஏற்றுமதி செய்யவும்",
+	"importusers-uploadfile": "கோப்பைப் பதிவேற்று",
+	"importusers-form-button": "ஏற்றுமதி செய்யவும்",
+	"importusers-user-added": "பயனர் '''$1''' சேர்க்கப்பட்டுள்ளார்.",
+	"importusers-log-summary": "சுருக்கம்",
+	"importusers-log-summary-all": "அனைத்தும்: $1",
+	"importusers-log-summary-added": "சேர்க்கப்பட்டது: $1",
+	"importusers-log-summary-updated": "புதிப்பிக்கப்பட்டது: $1",
+	"importusers-login-name": "புகுபதிகைப் பயனர் பெயர்",
+	"importusers-password": "கடவுச்சொல்",
+	"importusers-email": "மின்னஞ்சல்",
+	"importusers-realname": "உண்மையான பெயர்"
+}

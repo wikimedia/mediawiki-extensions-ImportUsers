@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"importusers": "Gebruikers importeren",
+	"importusers-desc": "[[Special:ImportUsers|Gebruikers in bulk importeren]] vanuit een CSV-bestand. Codering: UTF-8",
+	"importusers-uploadfile": "Bestand uploaden",
+	"importusers-form-caption": "Invoerbestand (kommagescheiden, UTF-8):",
+	"importusers-form-replace-present": "Bestaande gebruikers vervangen",
+	"importusers-form-button": "Importeren",
+	"importusers-user-added": "Gebruiker '''$1''' is toegevoegd.",
+	"importusers-user-present-update": "Gebruiker '''$1''' bestaat al. Bijgewerkt.",
+	"importusers-user-invalid-format": "De gebruikersgegevens in de regel #$1 hebben een ongeldige opmaak of zijn leeg. Overgeslagen.",
+	"importusers-log": "Logboek gebruikers importeren",
+	"importusers-log-summary": "Samenvatting",
+	"importusers-log-summary-all": "Alle: $1",
+	"importusers-log-summary-added": "Toegevoegd: $1",
+	"importusers-log-summary-updated": "Bijgewerkt: $1",
+	"importusers-login-name": "Gebruikersnaam",
+	"importusers-password": "wachtwoord",
+	"importusers-email": "e-mail",
+	"importusers-realname": "echte naam",
+	"right-import_users": "Gebruikers in bulk importeren",
+	"action-import_users": "gebruikers in bulk te importeren"
+}

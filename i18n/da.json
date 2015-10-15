@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"importusers-uploadfile": "Læg en fil op",
+	"importusers-form-button": "Importer",
+	"importusers-log": "Brugerimportlog",
+	"importusers-log-summary-updated": "Opdateret: $1",
+	"importusers-password": "adgangskode",
+	"importusers-email": "e-mail",
+	"importusers-realname": "virkeligt navn"
+}

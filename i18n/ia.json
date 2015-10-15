@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"importusers": "Importar usatores",
+	"importusers-desc": "[[Special:ImportUsers|Importa usatores]] in bloco ab un file CSV; codification: UTF-8",
+	"importusers-uploadfile": "Incargar file",
+	"importusers-form-caption": "File CSV de entrata (UTF-8):",
+	"importusers-form-replace-present": "Reimplaciar le usatores existente",
+	"importusers-form-button": "Importar",
+	"importusers-user-added": "Le usator '''$1''' ha essite addite.",
+	"importusers-user-present-update": "Le usator '''$1''' existe ja. Actualisate.",
+	"importusers-user-invalid-format": "Le datos de usator in le linea #$1 ha un formato invalide o es vacue. Omittite.",
+	"importusers-log": "Registro de importation de usatores",
+	"importusers-log-summary": "Summario",
+	"importusers-log-summary-all": "Totes: $1",
+	"importusers-log-summary-added": "Addite: $1",
+	"importusers-log-summary-updated": "Actualisate: $1",
+	"importusers-login-name": "Nomine de conto",
+	"importusers-password": "contrasigno",
+	"importusers-email": "e-mail",
+	"importusers-realname": "nomine real",
+	"right-import_users": "Importar usatores in massa"
+}

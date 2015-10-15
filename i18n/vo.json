@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Smeira"
+		]
+	},
+	"importusers": "Nüveigön gebanis",
+	"importusers-desc": "[[Special:ImportUsers|Nüveigon gebanis]] mödo se ragiv-CSV; kotam: UTF-8",
+	"importusers-uploadfile": "Löpükön ragivi",
+	"importusers-form-caption": "Ragiv-CSV (UTF-8)",
+	"importusers-form-replace-present": "Plaädön gebanis dabinöl",
+	"importusers-form-button": "Nüveigön",
+	"importusers-user-added": "Geban: '''$1''' peläükon.",
+	"importusers-user-present-update": "Geban: '''$1''' ya dabinon. Pevotükon.",
+	"importusers-user-invalid-format": "Lien: #$1 gebananünodas labon fomäti no lonöföli u vägon. Penedemon.",
+	"importusers-log": "Jenotalised nüveigamas",
+	"importusers-log-summary": "Plän brefik",
+	"importusers-log-summary-all": "Valik",
+	"importusers-log-summary-added": "Peläükon",
+	"importusers-log-summary-updated": "Pevotükon",
+	"importusers-login-name": "Gebananem",
+	"importusers-password": "letavöd",
+	"importusers-email": "ladet leäktronik",
+	"importusers-realname": "nem jenöfik"
+}

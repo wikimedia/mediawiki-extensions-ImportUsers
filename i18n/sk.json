@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"importusers": "Import používateľov",
+	"importusers-desc": "Hromadné [[Special:ImportUsers|importovanie používateľov]] z CSV súboru; kódovanie: UTF-8",
+	"importusers-uploadfile": "Nahrať súbor",
+	"importusers-form-caption": "Vstupný CSV súbor (UTF-8)",
+	"importusers-form-replace-present": "Nahradiť existujúcich používateľov",
+	"importusers-form-button": "Importovať",
+	"importusers-user-added": "Používateľ '''$1''' bol pridaný.",
+	"importusers-user-present-update": "Používateľ '''$1''' už existuje. Aktualizovaný.",
+	"importusers-user-invalid-format": "Údaje na riadku #$1 majú neplatný formát alebo je riadok prázdny. Riadok preskočený.",
+	"importusers-log": "Záznam importov používateľov",
+	"importusers-log-summary": "Zhrnutie",
+	"importusers-log-summary-all": "Všetky",
+	"importusers-log-summary-added": "Pridané",
+	"importusers-log-summary-updated": "Aktualizované",
+	"importusers-login-name": "Prihlasovacie meno",
+	"importusers-password": "heslo",
+	"importusers-email": "email",
+	"importusers-realname": "skutočné meno",
+	"right-import_users": "Hromadne importovať používateľov",
+	"action-import_users": "hromadne importovať používateľov"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim"
+		]
+	},
+	"importusers": "Ворид кардани Корбарон",
+	"importusers-uploadfile": "Фиристодани парванда",
+	"importusers-user-added": "Корбар '''$1''' илова шуд.",
+	"importusers-user-present-update": "Корбар '''$1''' аллакай вуҷуд дорад. Барӯз шудааст.",
+	"importusers-log-summary": "Хулоса",
+	"importusers-log-summary-all": "Ҳама",
+	"importusers-password": "гузарвожа",
+	"importusers-email": "почтаи электронӣ",
+	"importusers-realname": "номи аслӣ"
+}

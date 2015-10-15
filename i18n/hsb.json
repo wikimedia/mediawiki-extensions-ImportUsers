@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"importusers": "Wužiwarjow importować",
+	"importusers-desc": "[[Special:ImportUsers|Importuje wužiwarjow]] z CSV-dataje; kodowanje: UTF-8",
+	"importusers-uploadfile": "Dataju nahrać",
+	"importusers-form-caption": "Importowa CSV-dataja (UTF-8):",
+	"importusers-form-replace-present": "Eksistowacych wužiwarjow narunać",
+	"importusers-form-button": "Importować",
+	"importusers-user-added": "Wužiwar '''$1''' je so přidał.",
+	"importusers-user-present-update": "Wužiwar '''$1''' hižo eksistuje. Zaktualizowany.",
+	"importusers-user-invalid-format": "Wužiwarske daty w lince #$1 ma njepłaćiwy format abo su prózdne. Přeskočene.",
+	"importusers-log": "Protokol importowanja wužiwarjow",
+	"importusers-log-summary": "Zjeće",
+	"importusers-log-summary-all": "Wšě: $1",
+	"importusers-log-summary-added": "Přidaty: $1",
+	"importusers-log-summary-updated": "Zaktualizowany: $1",
+	"importusers-login-name": "Přizjewjenske mjeno",
+	"importusers-password": "hesło",
+	"importusers-email": "e-mejl",
+	"importusers-realname": "woprawdźite mjeno",
+	"right-import_users": "Wužiwarjow z masami importować",
+	"action-import_users": "wužiwarjow z masami importować"
+}

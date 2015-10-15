@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"importusers": "Nhập khẩu Thành viên",
+	"importusers-desc": "[[Special:ImportUsers|Nhập nhiều thành viên]] từ tập tin CSV; mã hóa: UTF-8",
+	"importusers-uploadfile": "Tải tập tin lên",
+	"importusers-form-caption": "Nhập tập tin CSV (UTF-8):",
+	"importusers-form-replace-present": "Thay thế những thành viên hiện có",
+	"importusers-form-button": "Nhập",
+	"importusers-user-added": "Thành viên '''$1''' đã được thêm vào.",
+	"importusers-user-present-update": "Thành viên '''$1''' đã tồn tại. Đã cập nhật.",
+	"importusers-user-invalid-format": "Dữ liệu thành viên tại dòng #$1 có định dạng sai hoặc bỏ trống. Bỏ qua.",
+	"importusers-log": "Nhật trình nhập thành viên",
+	"importusers-log-summary": "Tóm lược",
+	"importusers-log-summary-all": "Tất cả: $1",
+	"importusers-log-summary-added": "Đã thêm vào: $1",
+	"importusers-log-summary-updated": "Đã cập nhật: $1",
+	"importusers-login-name": "Tên đăng nhập",
+	"importusers-password": "mật khẩu",
+	"importusers-email": "thư điện tử",
+	"importusers-realname": "tên thật",
+	"right-import_users": "Nhập nhiều thành viên"
+}

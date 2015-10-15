@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"importusers": "Importați utilizatori",
+	"importusers-uploadfile": "Încarcă fișier",
+	"importusers-form-button": "Importă",
+	"importusers-user-added": "Utilizatorul '''$1''' a fost adăugat.",
+	"importusers-log-summary": "Rezumat",
+	"importusers-log-summary-all": "Total: $1",
+	"importusers-log-summary-added": "Adăugat: $1",
+	"importusers-log-summary-updated": "Actualizat: $1",
+	"importusers-login-name": "Nume autentificare",
+	"importusers-password": "parolă",
+	"importusers-email": "e-mail",
+	"importusers-realname": "nume real"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaustubh",
+			"Siddhartha Ghai",
+			"आलोक"
+		]
+	},
+	"importusers": "सदस्य आयात करें",
+	"importusers-desc": "CSV-फ़ाईल से अनेक सदस्य आयात करें; एन्कोडिंग: UTF-8",
+	"importusers-uploadfile": "संचिका चढ़ाएँ",
+	"importusers-form-caption": "इनपुट CSV-फ़ाईल (UTF-8)",
+	"importusers-form-replace-present": "अभीके सदस्य रिप्लेस करें",
+	"importusers-form-button": "आयात",
+	"importusers-user-added": "'''$1''' सदस्य बढा दिया।",
+	"importusers-user-present-update": "'''$1''' सदस्य अस्तित्वमें हैं। अपडेट किया।",
+	"importusers-user-invalid-format": "#$1 लाईन पर दी हुई सदस्य जानकारी गलत फ़ॉर्मैट में अथवा खाली है।\nछोड़ी गई।",
+	"importusers-log": "आयात सूची",
+	"importusers-log-summary": "संक्षिप्त जानकारी",
+	"importusers-log-summary-all": "सभी",
+	"importusers-log-summary-added": "बढाया",
+	"importusers-log-summary-updated": "अपडेट किया",
+	"importusers-login-name": "लॉग इन नाम",
+	"importusers-password": "कूटशब्द",
+	"importusers-email": "इ-मेल",
+	"importusers-realname": "असली नाम"
+}

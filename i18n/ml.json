@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp",
+			"Shijualex"
+		]
+	},
+	"importusers": "ഉപയോക്താക്കളെ ഇറക്കുമതി ചെയ്യുക",
+	"importusers-uploadfile": "പ്രമാണം അപ്‌ലോഡ് ചെയ്യുക",
+	"importusers-form-replace-present": "നിലവിലുള്ള ഉപയോക്താക്കളെ റീപ്ലേസ് ചെയ്യുക",
+	"importusers-form-button": "ഇറക്കുമതി",
+	"importusers-log": "ഉപയോക്തൃ ഇറക്കുമതി രേഖ",
+	"importusers-log-summary": "ചുരുക്കം",
+	"importusers-log-summary-all": "എല്ലാം",
+	"importusers-log-summary-added": "ചേർത്തു",
+	"importusers-log-summary-updated": "പുതുക്കിയിരിക്കുന്നു",
+	"importusers-login-name": "ലോഗിൻ നാമം",
+	"importusers-password": "രഹസ്യവാക്ക്",
+	"importusers-email": "ഇമെയിൽ",
+	"importusers-realname": "യഥാർത്ഥ പേര്‌"
+}

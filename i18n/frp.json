@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"importusers": "Importar des usanciérs",
+	"importusers-uploadfile": "Tèlèchargiér lo fichiér",
+	"importusers-form-caption": "Buchiéd un fichiér CVS (UTF-8) :",
+	"importusers-form-replace-present": "Remplaciér los usanciérs ègzistents",
+	"importusers-form-button": "Importar",
+	"importusers-user-added": "L’usanciér '''$1''' at étâ apondu.",
+	"importusers-user-present-update": "L’usanciér '''$1''' ègziste ja.\nBetâ a jorn.",
+	"importusers-log": "Jornal de les importacions d’usanciérs",
+	"importusers-log-summary": "Rèsumâ",
+	"importusers-log-summary-all": "Tôs : $1",
+	"importusers-log-summary-added": "Apondu : $1",
+	"importusers-log-summary-updated": "Betâ a jorn : $1",
+	"importusers-login-name": "Nom d’usanciér",
+	"importusers-password": "contresegno",
+	"importusers-email": "adrèce èlèctronica",
+	"importusers-realname": "veré nom",
+	"right-import_users": "Importar des usanciérs en massa"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meursault2004",
+			"Pras"
+		]
+	},
+	"importusers-uploadfile": "Unggahna berkas",
+	"importusers-form-button": "Impor",
+	"importusers-user-added": "Panganggo '''$1''' wis ditambah.",
+	"importusers-log": "Impor log panganggo",
+	"importusers-log-summary": "Ringkesan",
+	"importusers-log-summary-all": "Kabèh",
+	"importusers-log-summary-added": "Ditambah",
+	"importusers-log-summary-updated": "Dimutakiraké",
+	"importusers-login-name": "Jeneng log mlebu",
+	"importusers-password": "tembung sandhi",
+	"importusers-email": "e-mail",
+	"importusers-realname": "jeneng asli"
+}

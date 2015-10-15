@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"importusers": "استيراد مستخدمين",
+	"importusers-desc": "[[Special:ImportUsers|يستورد المستخدمين]] بشكل كمي من ملف CSV؛ التكويد: UTF-8",
+	"importusers-uploadfile": "رفع ملف",
+	"importusers-form-caption": "المدخل ملف CSV (UTF-8):",
+	"importusers-form-replace-present": "استبدل المستخدمين الموجودين",
+	"importusers-form-button": "استيراد",
+	"importusers-user-added": "المستخدم '''$1''' تمت إضافته.",
+	"importusers-user-present-update": "المستخدم '''$1''' موجود بالفعل. تم التحديث.",
+	"importusers-user-invalid-format": "بيانات المستخدم في السطر #$1 لها صيغة غير صحيحة أو فارغة. تم تجاهلها.",
+	"importusers-log": "استيراد سجل المستخدمين",
+	"importusers-log-summary": "ملخص",
+	"importusers-log-summary-all": "الكل: $1",
+	"importusers-log-summary-added": "أضاف: $1",
+	"importusers-log-summary-updated": "حدث: $1",
+	"importusers-login-name": "اسم الدخول",
+	"importusers-password": "كلمة السر",
+	"importusers-email": "البريد الإلكتروني",
+	"importusers-realname": "الاسم الحقيقي",
+	"right-import_users": "استيراد المستخدمين بشكل كمي",
+	"action-import_users": "استيراد المستخدمين بشكل كمي"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karduelis",
+			"Manco Capac",
+			"Marmase",
+			"Suelnur",
+			"Vito Genovese"
+		]
+	},
+	"importusers": "Kullanıcıları içe aktar",
+	"importusers-desc": "CSV dosyasından toplu olarak [[Special:ImportUsers|Kullanıcı aktarma]]; encoding: UTF-8",
+	"importusers-uploadfile": "Dosya yükle",
+	"importusers-form-caption": "CSV-dosyası (UTF-8) aktar",
+	"importusers-form-replace-present": "Varolan kullanıcıları değiştir",
+	"importusers-form-button": "İçe aktar",
+	"importusers-user-added": "Kullanıcı '''$1''' eklendi.",
+	"importusers-user-present-update": "Kullanıcı '''$1''' zaten var.\nGüncellendi",
+	"importusers-user-invalid-format": "#$1 satırındaki kullanıcı verisi geçersiz ya da boş.\nAtlandı.",
+	"importusers-log": "Kullanıcı kaydını içe aktar",
+	"importusers-log-summary": "Özet",
+	"importusers-log-summary-all": "Hepsi: $1",
+	"importusers-log-summary-added": "Eklendi:$1",
+	"importusers-log-summary-updated": "Güncellendi:$1",
+	"importusers-login-name": "Giriş adı",
+	"importusers-password": "Parola",
+	"importusers-email": "E-posta",
+	"importusers-realname": "gerçek isminiz",
+	"right-import_users": "Kullanıcıları küme olarak içe aktarır"
+}

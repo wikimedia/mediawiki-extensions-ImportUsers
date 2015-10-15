@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Jack Phoenix",
+			"Nike"
+		]
+	},
+	"importusers": "Tuo käyttäjiä",
+	"importusers-desc": "[[Special:ImportUsers|Tuo käyttäjiä]] UTF-8-merkistökoodatusta CSV-tiedostosta.",
+	"importusers-uploadfile": "Tallenna tiedosto",
+	"importusers-form-caption": "CSV-tiedosto (UTF-8)",
+	"importusers-form-replace-present": "Korvaa olemassaolevat käyttäjät",
+	"importusers-form-button": "Tuo",
+	"importusers-user-added": "Käyttäjä '''$1''' on lisätty.",
+	"importusers-user-present-update": "Käyttäjä '''$1''' on jo olemassa. Päivitetty.",
+	"importusers-user-invalid-format": "Käyttäjätiedolla rivillä #$1 on kelvoton muoto tai on tyhjä. Ohitettu.",
+	"importusers-log": "Käyttäjien tuontiloki",
+	"importusers-log-summary": "Yhteenveto",
+	"importusers-log-summary-all": "Kaikki: $1",
+	"importusers-log-summary-added": "Lisätty: $1",
+	"importusers-log-summary-updated": "Päivitetty: $1",
+	"importusers-login-name": "Kirjautumisnimi",
+	"importusers-password": "salasana",
+	"importusers-email": "sähköposti",
+	"importusers-realname": "oikea nimi",
+	"right-import_users": "Massatuoda käyttäjiä"
+}

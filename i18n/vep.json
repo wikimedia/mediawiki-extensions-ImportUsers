@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский"
+		]
+	},
+	"importusers": "Importiruida kävutajid",
+	"importusers-form-button": "Importiruida",
+	"importusers-log-summary-all": "Kaiked",
+	"importusers-log-summary-added": "Ližatud",
+	"importusers-log-summary-updated": "Udištadud",
+	"importusers-login-name": "Kävutajan nimi",
+	"importusers-password": "peitsana",
+	"importusers-email": "e-počt",
+	"importusers-realname": "todesine nimi"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"importusers": "Enporzhiañ implijerien",
+	"importusers-desc": "[[Special:ImportUsers|Enporzhiañ a ran implijerien]] dre vern adalek ur restr CVS ; enkoderezh : UTF-8.",
+	"importusers-uploadfile": "Kargañ ar restr",
+	"importusers-form-caption": "Enmont ur restr CSV (UTF-8) :",
+	"importusers-form-replace-present": "Erlec'hiañ an implijerien zo anezho",
+	"importusers-form-button": "Enporzhiañ",
+	"importusers-user-added": "Ouzhpennet eo bet an implijer '''$1'''.",
+	"importusers-user-present-update": "An implijer '''$1''' zo anezhañ dija.\nHizivaet eo bet.",
+	"importusers-user-invalid-format": "Pe eo direizh furmad ar roadennoù implijer el linenn #$1 pe n'eus ket anezho.\nNa ober netra.",
+	"importusers-log": "Marilh enporzhiadurioù an implijerien",
+	"importusers-log-summary": "Diverradur",
+	"importusers-log-summary-all": "An holl : $1",
+	"importusers-log-summary-added": "Ouzhpenne : $1",
+	"importusers-log-summary-updated": "Hizivaet : $1",
+	"importusers-login-name": "Anv implijer",
+	"importusers-password": "ger-tremen",
+	"importusers-email": "postel",
+	"importusers-realname": "gwir anv",
+	"right-import_users": "Enporzhiañ implijerien a-vern"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Kobazulo",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"importusers": "Lankideak inportatu",
+	"importusers-uploadfile": "Fitxategia igo",
+	"importusers-form-replace-present": "Existitzen diren lankideak ordeztu",
+	"importusers-form-button": "Inportatu",
+	"importusers-user-added": "'''$1''' lankidea gehitu da.",
+	"importusers-user-present-update": "'''$1''' erabiltzailea jada existitzen da. Eguneratua.",
+	"importusers-log-summary": "Laburpena",
+	"importusers-log-summary-all": "Denak: $1",
+	"importusers-log-summary-added": "Gehitua: $1",
+	"importusers-log-summary-updated": "Eguneratua: $1",
+	"importusers-login-name": "Saioa hasteko izena",
+	"importusers-password": "pasahitza",
+	"importusers-email": "e-posta",
+	"importusers-realname": "benetako izena"
+}

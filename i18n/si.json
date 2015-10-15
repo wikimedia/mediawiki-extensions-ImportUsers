@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"importusers-form-button": "ආයාත කරන්න",
+	"importusers-log-summary": "සාරාංශය",
+	"importusers-log-summary-all": "සියල්ල: $1",
+	"importusers-log-summary-added": "එක් කරන ලදී: $1",
+	"importusers-login-name": "පිවිසුම් නාමය",
+	"importusers-password": "මුරපදය",
+	"importusers-email": "විද්‍යුත් තැපෑල",
+	"importusers-realname": "සැබෑ නාමය"
+}

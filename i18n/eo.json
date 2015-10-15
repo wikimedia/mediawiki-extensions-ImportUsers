@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki",
+			"Yekrats"
+		]
+	},
+	"importusers": "Importi uzantojn",
+	"importusers-uploadfile": "Alŝuti dosieron",
+	"importusers-form-button": "Importi",
+	"importusers-user-added": "Uzanto '''$1''' estis aldonita.",
+	"importusers-user-present-update": "Uzanto '''$1''' jam ekzistas. Ĝisdatigita.",
+	"importusers-log": "Protokolo de importoj de uzantoj",
+	"importusers-log-summary": "Resumo",
+	"importusers-log-summary-all": "Ĉiuj: $1",
+	"importusers-log-summary-added": "Aldonita: $1",
+	"importusers-log-summary-updated": "Ĝisdatigita: $1",
+	"importusers-login-name": "Salutnomo",
+	"importusers-password": "pasvorto",
+	"importusers-email": "retadreso",
+	"importusers-realname": "reala nomo"
+}

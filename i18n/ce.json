@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"importusers-uploadfile": "Файл чуяккхар",
+	"importusers-log": "Декъашхойн импортан тептар",
+	"importusers-log-summary-all": "Ерриг: $1",
+	"importusers-login-name": "Декъашхочун дӀаяздаран цӀе",
+	"importusers-password": "пароль"
+}

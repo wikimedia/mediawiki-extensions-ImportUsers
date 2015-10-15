@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dalibor Bosits",
+			"Ex13"
+		]
+	},
+	"importusers": "Uvezi suradnike",
+	"importusers-desc": "[[Special:ImportUsers|Uvoženje suradnika]] u grupi iz CSV datoteke; enkodiranje: UTF-8",
+	"importusers-uploadfile": "Postavi datoteku",
+	"importusers-form-caption": "Umetni CSV datoteku (UTF-8)",
+	"importusers-form-replace-present": "Zamijeni postojeće suradnike",
+	"importusers-form-button": "Uvezi",
+	"importusers-user-added": "Suradnik '''$1''' je dodan",
+	"importusers-user-present-update": "Suradnik '''$1''' već postoji. Ažurirano.",
+	"importusers-user-invalid-format": "Suradnički podaci u redu #$1 su u neispravnom formatu ili prazni. Preskočeno.",
+	"importusers-log": "Uvezi evidenciju suradnika",
+	"importusers-log-summary": "Sažetak",
+	"importusers-log-summary-all": "Sve",
+	"importusers-log-summary-added": "Dodano",
+	"importusers-log-summary-updated": "Ažurirano",
+	"importusers-login-name": "Ime za prijavu",
+	"importusers-password": "lozinka",
+	"importusers-email": "elektronička pošta",
+	"importusers-realname": "pravo ime",
+	"right-import_users": "Uvezi suradnike u grupu"
+}

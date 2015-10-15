@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"importusers": "Імпарт удзельнікаў",
+	"importusers-desc": "[[Special:ImportUsers|Масавы імпарт удзельнікаў]] з файлу ў фармаце CSV з кадыроўкай UTF-8",
+	"importusers-uploadfile": "Загрузіць файл",
+	"importusers-form-caption": "Уводны файл у фармаце CSV (UTF-8):",
+	"importusers-form-replace-present": "Замяніць існуючых удзельнікаў",
+	"importusers-form-button": "Імпартаваць",
+	"importusers-user-added": "Дададзены ўдзельнік '''$1'''.",
+	"importusers-user-present-update": "Удзельнік '''$1''' ужо існуе. Абноўлены.",
+	"importusers-user-invalid-format": "Зьвесткі пра ўдзельніка ў радку #$1 маюць няслушны фармат ці пустыя. Прапушчаны.",
+	"importusers-log": "Журнал імпартаваньняў удзельнікаў",
+	"importusers-log-summary": "Вывады",
+	"importusers-log-summary-all": "Усе: $1",
+	"importusers-log-summary-added": "Дададзены: $1",
+	"importusers-log-summary-updated": "Абноўлены: $1",
+	"importusers-login-name": "Імя ўдзельніка",
+	"importusers-password": "пароль",
+	"importusers-email": "Адрас электроннай пошты",
+	"importusers-realname": "сапраўднае імя",
+	"right-import_users": "масавы імпарт удзельнікаў"
+}

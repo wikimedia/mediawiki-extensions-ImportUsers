@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"importusers-log-summary-all": "Вшыткы",
+	"importusers-log-summary-added": "Придане",
+	"importusers-log-summary-updated": "Актуалізоване",
+	"importusers-login-name": "Мено приголошіня",
+	"importusers-password": "гесло",
+	"importusers-email": "електронічна пошта",
+	"importusers-realname": "скуточне мено"
+}
