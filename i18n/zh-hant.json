@@ -10,6 +10,7 @@
 	},
 	"importusers": "匯入使用者",
 	"importusers-uploadfile": "上傳檔案",
+	"importusers-file-format": "格式：",
 	"importusers-form-replace-present": "代替現有的使用者",
 	"importusers-form-button": "匯入",
 	"importusers-log": "導入用戶登錄",
