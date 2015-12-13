@@ -6,7 +6,8 @@
 			"M.M.S.",
 			"Najami",
 			"Nghtwlkr",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Jopparn"
 		]
 	},
 	"importusers": "Importera användare",
@@ -20,9 +21,9 @@
 	"importusers-user-invalid-format": "Användardatan på rad $1 har ogiltigt format eller är tom och hoppades över.",
 	"importusers-log": "Användarimporteringslogg",
 	"importusers-log-summary": "Importsammanfattning:",
-	"importusers-log-summary-all": "Antal {{PLURAL:$1|användare}}: $1",
-	"importusers-log-summary-added": "Tillagda {{PLURAL:$1|användare}}: $1",
-	"importusers-log-summary-updated": "Uppdaterade {{PLURAL:$1|användare}}: $1",
+	"importusers-log-summary-all": "{{PLURAL:$1|Användare}} totalt: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|Användare}} tillagda: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Användare}} uppdaterade: $1",
 	"importusers-login-name": "Inloggningsnamn",
 	"importusers-password": "lösenord",
 	"importusers-email": "e-post",
