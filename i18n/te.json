@@ -10,7 +10,7 @@
 	"importusers-user-added": "'''$1''' అనే వాడుకరిని చేర్చాం.",
 	"importusers-user-present-update": "'''$1''' అనే వాడుకరి ఈసరికే ఉన్నారు. తాజాకరించాం.",
 	"importusers-log": "దిగుమతి వాడుకరుల చిట్టా",
-	"importusers-log-summary": "సంగ్రహం",
+	"importusers-log-summary": "దిగుమతి సారాంశం:",
 	"importusers-log-summary-all": "అన్నీ: $1",
 	"importusers-log-summary-added": "చేర్చారు: $1",
 	"importusers-log-summary-updated": "తాజాకరించినవి: $1",
