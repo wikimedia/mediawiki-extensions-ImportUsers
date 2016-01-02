@@ -24,8 +24,7 @@ class SpecialImportUsers extends SpecialPage {
 		global $wgOut, $wgUser;
 
 		if( !$wgUser->isAllowed( 'import_users' ) ) {
-			$wgOut->permissionRequired( 'import_users' );
-			return;
+			throw new PermissionsError( 'import_users' );
 		}
 
 		$this->setHeaders();
