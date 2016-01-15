@@ -15,6 +15,10 @@ class SpecialImportUsers extends SpecialPage {
 		parent::__construct( 'ImportUsers', 'import_users' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Show the special page
 	 *
