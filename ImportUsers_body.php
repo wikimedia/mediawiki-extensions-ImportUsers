@@ -156,7 +156,7 @@ class SpecialImportUsers extends SpecialPage {
 
 		$output .= '<br /><b>' . wfMessage( 'importusers-log-summary' )->text() . '</b><br />';
 		$output .= wfMessage( 'importusers-log-summary-all', $summary['all'] )->text() . '<br />';
-		$output .= wfMessage( 'importusers-log-summary-added', $summary['added'] )->text() . '<br />';
+		$output .= wfMessage( 'importusers-log-summary-added', $summary['added'], $newuserarray[0] )->text() . '<br />';
 		$output .= wfMessage( 'importusers-log-summary-updated', $summary['updated'] )->text() . '<br />';
 
 		return $output;

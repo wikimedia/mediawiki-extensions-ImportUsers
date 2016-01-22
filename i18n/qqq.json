@@ -23,7 +23,7 @@
 	"importusers-log-list": "This is the subheader of the log's output section.",
 	"importusers-log-summary": "This is a log message.",
 	"importusers-log-summary-all": "This is a log message.\n\n* \"$1\" is the number of users.\n\n{{Identical|Total user}}",
-	"importusers-log-summary-added": "This is a log message.\n\n* \"$1\" is the number of users.\n\n{{Identical|User added}}",
+	"importusers-log-summary-added": "This is a log message.\n\n* \"$1\" is the number of users.\n* \"$2\" is the username of the first user, used for GENDER support in singular case\n\n{{Identical|User added}}",
 	"importusers-log-summary-updated": "This is a log message.\n\n* \"$1\" is the number of users.\n\n{{Identical|User updated}}",
 	"importusers-login-name": "This is a help text.",
 	"importusers-password": "This is a help text.\n\n{{Identical|Password}}",
