@@ -16,7 +16,7 @@
 	"importusers-log": "Dnevnik uvoza uporabnikov",
 	"importusers-log-summary": "Povzetek uvoza:",
 	"importusers-log-summary-all": "Skupno {{PLURAL:$1|uporabnikov}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Uporabnikov}} dodano: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Uporabnikov}}}} dodano: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Uporabnikov}} posodobljeno: $1",
 	"importusers-login-name": "Prijavno ime",
 	"importusers-password": "geslo",

@@ -25,7 +25,7 @@
 	"importusers-log-list": "被导入或更新的用户：",
 	"importusers-log-summary": "导入摘要：",
 	"importusers-log-summary-all": "合计{{PLURAL:$1|用户}}：$1",
-	"importusers-log-summary-added": "添加的{{PLURAL:$1|用户}}：$1",
+	"importusers-log-summary-added": "添加的{{PLURAL:$1|{{GENDER:$2|用户}}}}：$1",
 	"importusers-log-summary-updated": "更新的{{PLURAL:$1|用户}}：$1",
 	"importusers-login-name": "登录名",
 	"importusers-password": "密码",

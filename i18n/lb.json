@@ -18,7 +18,7 @@
 	"importusers-log": "Logbuch vun de Benotzerimporten",
 	"importusers-log-summary": "Resumé importéieren:",
 	"importusers-log-summary-all": "Total {{PLURAL:$1|Benotzer}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Benotzer}} derbäigesat: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1||{{GENDER:$2|Benotzer}}}} derbäigesat: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Benotzer}} aktualiséiert: $1",
 	"importusers-login-name": "Benotzernumm",
 	"importusers-password": "Passwuert",

@@ -26,7 +26,7 @@
 	"importusers-log-list": "Importierte oder aktualisierte Benutzer:",
 	"importusers-log-summary": "Zusammenfassung des Benutzerimports:",
 	"importusers-log-summary-all": "{{PLURAL:$1|Benutzer}} insgesamt: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Benutzer}} hinzugefügt: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Benutzer|Benutzerin}}|Benutzer}} hinzugefügt: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Benutzer}} aktualisiert: $1",
 	"importusers-login-name": "Benutzername",
 	"importusers-password": "Passwort",
