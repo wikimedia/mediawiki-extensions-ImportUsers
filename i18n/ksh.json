@@ -22,7 +22,7 @@
 	"importusers-log-list": "Emmpotehrte udder aanjepaßte Metmaacher",
 	"importusers-log-summary": "Zersammefaßong för der Empoot.",
 	"importusers-log-summary-all": "Metmaacher ensjesamp: $1{{PLURAL:$1|}}",
-	"importusers-log-summary-added": "Metmaacher derbei jedonn: $1{{PLURAL:$1|}}",
+	"importusers-log-summary-added": "Metmaacher derbei jedonn: $1{{PLURAL:$1|}}{{GENDER:$2|}}",
 	"importusers-log-summary-updated": "Metmaacher obb ene neuje Schtand jebraat: $1{{PLURAL:$1|}}",
 	"importusers-login-name": "Metmaacher-Name",
 	"importusers-password": "Paßwoot",
