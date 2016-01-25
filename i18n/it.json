@@ -20,7 +20,7 @@
 	"importusers-log": "Registro importazione utenti",
 	"importusers-log-summary": "Oggetto dell'importazione:",
 	"importusers-log-summary-all": "Totale {{PLURAL:$1|utente|utenti}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Utente aggiunto|Utenti aggiunti}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Utente}} aggiunto|Utenti aggiunti}}: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Utente aggiornato|Utenti aggiornati}}: $1",
 	"importusers-login-name": "Nome utente",
 	"importusers-password": "password",

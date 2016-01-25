@@ -27,7 +27,7 @@
 	"importusers-log-list": "Utilisateurs importés ou mis à jour :",
 	"importusers-log-summary": "Résumé de l’importation :",
 	"importusers-log-summary-all": "Nombre total d’{{PLURAL:$1|utilisateurs}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Utilisateur ajouté|Utilisateurs ajoutés}} : $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Utilisateur ajouté|Utilisatrice ajoutée}}|{{GENDER:$2|Utilisateurs ajoutés|Utilisatrices ajoutées}}}} : $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Utilisateur|Utilisateurs}} mis à jour : $1",
 	"importusers-login-name": "Nom d’utilisateur",
 	"importusers-password": "mot de passe",
