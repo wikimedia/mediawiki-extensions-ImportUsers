@@ -22,7 +22,7 @@
 	"importusers-log": "Användarimporteringslogg",
 	"importusers-log-summary": "Importsammanfattning:",
 	"importusers-log-summary-all": "{{PLURAL:$1|Användare}} totalt: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Användare}} tillagda: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Användare}}}} har lagts till: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Användare}} uppdaterade: $1",
 	"importusers-login-name": "Inloggningsnamn",
 	"importusers-password": "lösenord",
