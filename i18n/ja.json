@@ -21,7 +21,7 @@
 	"importusers-log": "利用者インポート記録",
 	"importusers-log-summary": "要約の取り込み:",
 	"importusers-log-summary-all": "利用者の合計：$1",
-	"importusers-log-summary-added": "追加された{{PLURAL:$1|{{PLURAL:$2|利用者}}}}: $1",
+	"importusers-log-summary-added": "追加された{{PLURAL:$1|{{GENDER:$2|利用者}}}}: $1",
 	"importusers-log-summary-updated": "更新された利用者: $1",
 	"importusers-login-name": "ログイン名",
 	"importusers-password": "パスワード",
