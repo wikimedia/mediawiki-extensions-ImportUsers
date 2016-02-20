@@ -4,7 +4,8 @@
 			"Base",
 			"Prima klasy4na",
 			"Тест",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"importusers": "Імпортувати користувачів",
@@ -25,7 +26,7 @@
 	"importusers-log-list": "Імпортовані або оновлені користувачі:",
 	"importusers-log-summary": "Короткий опис імпорту:",
 	"importusers-log-summary-all": "Усього {{PLURAL:$1|1=користувач|користувачів}}: $1",
-	"importusers-log-summary-added": "Додано {{PLURAL:$1|користувача|користувачів}}: $1",
+	"importusers-log-summary-added": "Додано {{PLURAL:$1|{{GENDER:$2|користувача|користувачку}}|користувачів}}: $1",
 	"importusers-log-summary-updated": "Оновлено {{PLURAL:$1|користувачів}}: $1",
 	"importusers-login-name": "Назва облікового запису",
 	"importusers-password": "пароль",
