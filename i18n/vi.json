@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Dinhxuanduyet"
 		]
 	},
 	"importusers": "Nhập khẩu Thành viên",
@@ -15,8 +16,8 @@
 	"importusers-user-present-update": "Thành viên '''$1''' đã tồn tại. Đã cập nhật.",
 	"importusers-user-invalid-format": "Dữ liệu thành viên tại dòng #$1 có định dạng sai hoặc bỏ trống. Bỏ qua.",
 	"importusers-log": "Nhật trình nhập thành viên",
-	"importusers-log-summary": "Tóm lược",
-	"importusers-log-summary-all": "Tất cả: $1",
+	"importusers-log-summary": "Nhập tóm lược:",
+	"importusers-log-summary-all": "Tổng {{PLURAL:$1|user|người dùng}}: $1",
 	"importusers-log-summary-added": "Đã thêm vào: $1",
 	"importusers-log-summary-updated": "Đã cập nhật: $1",
 	"importusers-login-name": "Tên đăng nhập",
