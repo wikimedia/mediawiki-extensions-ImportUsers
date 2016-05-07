@@ -8,12 +8,12 @@
 	},
 	"importusers": "Ҡатнашыусыларҙы күсереп алыу",
 	"importusers-desc": "UTF-8 кодировкаһында CSV-файлынан [[Special:ImportUsers|күп күләмдәге иҫәп яҙмаларын күсереп алырға]] мөмкинлек бирә.",
-	"importusers-uploadfile": "Файлды күсереү",
-	"importusers-form-caption": "Инеүсе файл",
-	"importusers-file-structure": "Структура",
+	"importusers-uploadfile": "Файл тейәү",
+	"importusers-form-caption": "Инеүсе файл:",
+	"importusers-file-structure": "Структура:",
 	"importusers-file-format": "Формат:",
 	"importusers-form-replace-present": "Булған ҡулланыусыларҙы алыштырыу",
-	"importusers-form-add-to-group": "Булған төркөмгә ҡулланыусылар өҫтәү",
+	"importusers-form-add-to-group": "Булған төркөмгә ҡулланыусыларҙы өҫтәү",
 	"importusers-form-button": "Күсерергә",
 	"importusers-user-added": "{{GENDER:$1|ҡатнашыусы}} «$1» өҫтәлгән.",
 	"importusers-user-present-update": "{{GENDER:$1|ҡатнашыусы}} «$1» бар һәм яңыртылған.",
@@ -30,5 +30,5 @@
 	"importusers-realname": "Хәҙерге исемегеҙ",
 	"importusers-group": "ҡулланыусы төркөмө",
 	"importusers-utf8": "UTF-8 кодировкаһында",
-	"right-import_users": "Бер юлы бер нисә ҡулланыусыны күсереү"
+	"right-import_users": "бер юлы бер нисә ҡулланыусыны күсереү"
 }
