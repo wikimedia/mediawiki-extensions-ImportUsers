@@ -3,7 +3,8 @@
 		"authors": [
 			"Crt",
 			"Jack Phoenix",
-			"Nike"
+			"Nike",
+			"01miki10"
 		]
 	},
 	"importusers": "Tuo käyttäjiä",
@@ -11,18 +12,26 @@
 	"importusers-uploadfile": "Tallenna tiedosto",
 	"importusers-form-caption": "CSV-tiedosto (UTF-8)",
 	"importusers-form-replace-present": "Korvaa olemassaolevat käyttäjät",
+	"importusers-form-add-to-group": "Lisää käyttäjiä nykyisiin ryhmiin",
 	"importusers-form-button": "Tuo",
-	"importusers-user-added": "Käyttäjä '''$1''' on lisätty.",
-	"importusers-user-present-update": "Käyttäjä '''$1''' on jo olemassa. Päivitetty.",
-	"importusers-user-invalid-format": "Käyttäjätiedolla rivillä #$1 on kelvoton muoto tai on tyhjä. Ohitettu.",
+	"importusers-user-added": "{{GENDER:$1|Käyttäjä}} \"$1\" on lisätty.",
+	"importusers-user-present-update": "{{GENDER:$1|Käyttäjä}} \"$1\" on jo olemassa ja se on päivitetty.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Käyttäjä}} \"$1\" on jo olemassa ja sitä ei ole päivitetty.",
+	"importusers-user-invalid-format": "Käyttäjätiedolla rivillä #$1 on kelvoton muoto tai se on tyhjä, ja se ohitettiin.",
 	"importusers-log": "Käyttäjien tuontiloki",
-	"importusers-log-summary": "Yhteenveto",
-	"importusers-log-summary-all": "Kaikki: $1",
-	"importusers-log-summary-added": "Lisätty: $1",
-	"importusers-log-summary-updated": "Päivitetty: $1",
+	"importusers-log-list": "Tuodut tai päivitetyt käyttäjät:",
+	"importusers-log-summary": "Tuontiyhteenveto:",
+	"importusers-log-summary-all": "{{PLURAL:$1|Käyttäjiä}} yhteensä: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Käyttäjiä}}}} lisätty: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Käyttäjiä}} päivitetty: $1",
 	"importusers-login-name": "Kirjautumisnimi",
 	"importusers-password": "salasana",
 	"importusers-email": "sähköposti",
 	"importusers-realname": "oikea nimi",
-	"right-import_users": "Massatuoda käyttäjiä"
+	"importusers-group": "käyttäjäryhmä",
+	"importusers-utf8": "UTF-8-koodattu",
+	"importusers-comma": "erota kentät pilkuilla",
+	"importusers-noquotes": "ei lainausmerkkejä tekstissä",
+	"right-import_users": "Massatuoda käyttäjiä",
+	"action-import_users": "tuoda käyttäjiä tähän wikiin"
 }
