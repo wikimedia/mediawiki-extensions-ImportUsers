@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
 	"importusers": "ייבוא משתמשים",
@@ -25,5 +26,5 @@
 	"importusers-email": "דוא\"ל",
 	"importusers-realname": "שם אמיתי",
 	"right-import_users": "ייבוא משתמשים מרובים",
-	"action-import_users": "לייבא משתמשים מרובים"
+	"action-import_users": "לייבא משתמשים לאתר"
 }
