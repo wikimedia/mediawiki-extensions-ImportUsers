@@ -3,7 +3,8 @@
 		"authors": [
 			"Ficell",
 			"Kurousagi",
-			"Ykhwong"
+			"Ykhwong",
+			"아라"
 		]
 	},
 	"importusers": "사용자 가져오기",
@@ -16,7 +17,7 @@
 	"importusers-form-replace-present": "이미 존재하는 사용자 대치하기",
 	"importusers-form-add-to-group": "사용자를 이미 존재하는 그룹에 추가하기",
 	"importusers-form-button": "불러오기",
-	"importusers-user-added": "{{GENDER:$1|사용자}} \"$1\"이(가) 추가되었습니다.",
+	"importusers-user-added": "\"$1\" {{GENDER:$1|사용자}}가 추가되었습니다.",
 	"importusers-user-present-update": "{{GENDER:$1|사용자}} \"$1\"은(는) 이미 존재하고 갱신되었습니다.",
 	"importusers-user-present-no-update": "{{GENDER:$1|사용자}} \"$1\"은(는) 이미 존재하고 갱신되지 않았습니다.",
 	"importusers-user-invalid-format": "$1 줄의 사용자 데이터가 비었거나 잘못된 형식을 가지고 있어서 건너뜁니다.",
