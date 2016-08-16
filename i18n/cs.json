@@ -23,5 +23,6 @@
 	"importusers-password": "heslo",
 	"importusers-email": "e-mail",
 	"importusers-realname": "skutečné jméno",
-	"right-import_users": "Hromadné importování uživatelů"
+	"right-import_users": "Hromadné importování uživatelů",
+	"action-import_users": "importovat uživatele na tuto wiki"
 }
