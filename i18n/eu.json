@@ -3,7 +3,8 @@
 		"authors": [
 			"An13sa",
 			"Kobazulo",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Sator"
 		]
 	},
 	"importusers": "Lankideak inportatu",
@@ -15,7 +16,7 @@
 	"importusers-log-summary": "Inportazioaren laburpena:",
 	"importusers-log-summary-all": "Denak: $1",
 	"importusers-log-summary-added": "Gehitua: $1",
-	"importusers-log-summary-updated": "Eguneratua: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Lankide eguneratua|Lankide eguneratuak}}: $1",
 	"importusers-login-name": "Saioa hasteko izena",
 	"importusers-password": "pasahitza",
 	"importusers-email": "e-posta",
