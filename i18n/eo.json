@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Yekrats"
+			"Yekrats",
+			"Robin van der Vliet"
 		]
 	},
 	"importusers": "Importi uzantojn",
 	"importusers-uploadfile": "Alŝuti dosieron",
-	"importusers-form-button": "Importi",
+	"importusers-form-button": "Enporti",
 	"importusers-user-added": "Uzanto '''$1''' estis aldonita.",
 	"importusers-user-present-update": "Uzanto '''$1''' jam ekzistas. Ĝisdatigita.",
 	"importusers-log": "Protokolo de importoj de uzantoj",
