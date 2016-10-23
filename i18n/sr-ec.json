@@ -4,11 +4,12 @@
 			"Milicevic01",
 			"Rancher",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Сербијана"
 		]
 	},
 	"importusers": "Увези кориснике",
-	"importusers-uploadfile": "Пошаљи датотеку",
+	"importusers-uploadfile": "Отпреми датотеку",
 	"importusers-form-caption": "Унесите датотеку:",
 	"importusers-file-structure": "Структура:",
 	"importusers-file-format": "Формат:",
@@ -26,6 +27,6 @@
 	"importusers-log-summary-updated": "Ажурирано: $1",
 	"importusers-login-name": "Корисничко име",
 	"importusers-password": "лозинка",
-	"importusers-email": "е-пошта",
+	"importusers-email": "имејл",
 	"importusers-realname": "право име"
 }

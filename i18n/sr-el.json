@@ -3,11 +3,12 @@
 		"authors": [
 			"Michaello",
 			"Milicevic01",
-			"Жељко Тодоровић"
+			"Жељко Тодоровић",
+			"Сербијана"
 		]
 	},
 	"importusers": "Uvezi korisnike",
-	"importusers-uploadfile": "Pošalji datoteku",
+	"importusers-uploadfile": "Otpremi datoteku",
 	"importusers-form-caption": "Unesite datoteku:",
 	"importusers-file-structure": "Struktura:",
 	"importusers-file-format": "Format:",
@@ -25,6 +26,6 @@
 	"importusers-log-summary-updated": "Ažurirano: $1",
 	"importusers-login-name": "Korisničko ime",
 	"importusers-password": "lozinka",
-	"importusers-email": "mejl",
+	"importusers-email": "imejl",
 	"importusers-realname": "pravo ime"
 }
