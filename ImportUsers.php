@@ -1,19 +1,21 @@
 <?php
 /**
- * An extension to MediaWiki that allows to import users in bulk from a UTF-8 encoded CSV file.
+ * An extension to MediaWiki allowing to import users in bulk from a UTF-8 encoded CSV file.
  *
  * @file
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 1.5.3 2015-09-16
+ * @version 1.5.4 2016-10-28
  *
- * @links https://github.com/wikimedia/mediawiki-extensions-ImportUsers/blob/master/README.md Documentation
+ * @links https://www.mediawiki.org/wiki/Extension:ImportUsers Homepage
+ * @links https://phabricator.wikimedia.org/diffusion/EIUS/browse/master/README.md Documentation
  * @links https://www.mediawiki.org/wiki/Extension_talk:ImportUsers Support
  * @links https://phabricator.wikimedia.org/tag/importusers/ Bug tracker
- * @links https://github.com/wikimedia/mediawiki-extensions-ImportUsers Source code
+ * @links https://phabricator.wikimedia.org/diffusion/EIUS/extensions-importusers.git Source code
+ * @links https://github.com/wikimedia/mediawiki-extensions-ImportUsers/releases Downloads
  *
- * @author Rouslan Zenetl, Yuriy Ilkiv
+ * @author Rouslan Zenetl, Yuriy Ilkiv (original authors)
  *
  * @license Public Domain - you are free to use this extension for any reason and mutilate it to your heart's liking.
  */
@@ -27,7 +29,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.5.3',
+	'version' => '1.5.4',
 	'author' => array(
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
