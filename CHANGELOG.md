@@ -6,6 +6,17 @@ users in bulk from a UTF-8 encoded CSV file.
 This file documents the development changes.
 
 
+### Version 2.0.0  
+
+Released: 2016-10-28  
+Authored: Kghbln
+
+* Dropped compatibility with PHP 5.3 and lower
+* Dropped compatibility with MediaWiki 1.22.x and lower
+* Removed i18n-shim for php-files
+* Converted to PHP 5.4+ short array syntax
+
+
 ### Version 1.5.4
 
 Released: 2016-10-28  

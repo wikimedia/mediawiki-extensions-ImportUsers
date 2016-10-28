@@ -52,19 +52,19 @@ class SpecialImportUsers extends SpecialPage {
 
 		$action = htmlspecialchars( $titleObj->getLocalURL() );
 
-		$fileStructure = $wgLang->commaList( array(
+		$fileStructure = $wgLang->commaList( [
 			wfMessage( 'importusers-login-name' )->text(),
 			wfMessage( 'importusers-password' )->text(),
 			wfMessage( 'importusers-email' )->text(),
 			wfMessage( 'importusers-realname' )->text(),
 			wfMessage( 'importusers-group' )->text()
-			)
+			]
 		);
-		$fileFormat = $wgLang->commaList( array(
+		$fileFormat = $wgLang->commaList( [
 			wfMessage( 'importusers-utf8' )->text(),
 			wfMessage( 'importusers-comma' )->text(),
 			wfMessage( 'importusers-noquotes' )->text()
-			)
+			]
 		);
 
 		$output = '<form enctype="multipart/form-data" method="post"  action="' . $action . '">';
@@ -100,14 +100,14 @@ class SpecialImportUsers extends SpecialPage {
 
 		return $output;
 	}
- 
+
 	function analyzeUsers( $fileinfo, $replace_present, $importusers_add_to_group ) {
 
-		$summary = array(
+		$summary = [
 			'all' => 0,
 			'added' => 0,
 			'updated' => 0
-		);
+		];
 
 		$filedata = explode( "\n", rtrim( file_get_contents( $fileinfo['tmp_name'] ) ) );
 		$output = '<h3>' . wfMessage( 'importusers-log' )->text() . '</h3><br />';

@@ -6,11 +6,10 @@ encoded CSV file.
 
 ### Compatibility
 
-* PHP 5.3+
-* MediaWiki 1.17.x - 1.26.x
+* PHP 5.4+
+* MediaWiki 1.23+
 
-**Note that this extension is not yet compatible with MediaWiki 1.27+.** See also the
-CHANGELOG.md file provided with the code.
+See also the CHANGELOG.md file provided with the code.
 
 
 ### Installation
@@ -21,7 +20,7 @@ CHANGELOG.md file provided with the code.
 
 (3) Add the following code at the bottom of your "LocalSettings.php" file:
 ```
-require_once "$IP/extensions/ImportUsers/ImportUsers";
+require_once "$IP/extensions/ImportUsers/ImportUsers.php";
 ```
 (4) Go to "Special:Version" on your wiki to verify that the extension is successfully installed.
 
@@ -30,9 +29,8 @@ require_once "$IP/extensions/ImportUsers/ImportUsers";
 
 ### Notes
 
-After importing users you might want to run the ["initSiteStats.php"][init] (MediaWiki ≥ 1.21.x)
-or the ["initStats.php"][init] (MW ≤ 1.20.x) to update the statistics of your wiki on registered
-users.
+After importing users you might want to run the "initSiteStats.php" maintenance script [0] to update
+the statistics of your wiki on registered users.
 
 
-[init]: https://www.mediawiki.org/wiki/Manual:InitSiteStats.php
+[0] https://www.mediawiki.org/wiki/Manual:InitSiteStats.php

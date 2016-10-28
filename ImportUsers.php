@@ -6,7 +6,7 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 1.5.4 2016-10-28
+ * @version 2.0.0 2016-10-28
  *
  * @links https://www.mediawiki.org/wiki/Extension:ImportUsers Homepage
  * @links https://phabricator.wikimedia.org/diffusion/EIUS/browse/master/README.md Documentation
@@ -26,26 +26,25 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	}
 
 /* Display extension properties on MediaWiki. */
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['specialpage'][] = [
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '1.5.4',
-	'author' => array(
+	'version' => '2.0.0',
+	'author' => [
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',
 		'...'
-		),
+	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ImportUsers',
 	'descriptionmsg' => 'importusers-desc',
 	'license-name' => 'PD'
-);
+];
 
 /*  Register extension class. */
 $wgAutoloadClasses['SpecialImportUsers'] = __DIR__ . '/ImportUsers_body.php';
 
 /* Register extension messages. */
 $wgMessagesDirs['ImportUsers'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ImportUsers'] = __DIR__ . '/ImportUsers.i18n.php';
 $wgExtensionMessagesFiles['ImportUsersAlias'] = __DIR__ . '/ImportUsers.alias.php';
 
 /* Register special page into MediaWiki. */
