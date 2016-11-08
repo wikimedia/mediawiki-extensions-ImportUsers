@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dalibor Bosits",
-			"Ex13"
+			"Ex13",
+			"SpeedyGonsales"
 		]
 	},
 	"importusers": "Uvezi suradnike",
@@ -20,7 +21,7 @@
 	"importusers-log-summary-added": "Dodano",
 	"importusers-log-summary-updated": "Ažurirano",
 	"importusers-login-name": "Ime za prijavu",
-	"importusers-password": "lozinka",
+	"importusers-password": "zaporka",
 	"importusers-email": "elektronička pošta",
 	"importusers-realname": "pravo ime",
 	"right-import_users": "Uvezi suradnike u grupu"
