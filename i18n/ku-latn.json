@@ -5,6 +5,6 @@
 		]
 	},
 	"importusers-log-summary": "Kurte",
-	"importusers-log-summary-all": "Hemû: $1",
+	"importusers-log-summary-all": "Hemû {{PLURAL:$1|bikarhêner}}: $1",
 	"importusers-password": "şîfre"
 }
