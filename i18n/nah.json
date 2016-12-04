@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fluence",
-			"Ricardo gs"
+			"Ricardo gs",
+			"Akapochtli"
 		]
 	},
 	"importusers-uploadfile": "Tlahcuilōlquetza",
@@ -10,7 +11,7 @@
 	"importusers-log-summary": "Tlahcuilōltōn",
 	"importusers-log-summary-all": "Mochintin: $1",
 	"importusers-log-summary-updated": "Ōmoyancuīlih: $1",
-	"importusers-password": "tlahtōlichtacāyōtl",
+	"importusers-password": "tlahtolichtacayotl",
 	"importusers-email": "e-mail",
 	"importusers-realname": "melāhuac motōcā"
 }
