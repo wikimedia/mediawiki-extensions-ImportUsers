@@ -43,6 +43,13 @@ $specialPageAliases['bjn'] = [
 	]
 ];
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = [
+	'ImportUsers' => [
+		'ব্যবহারকারী_আমদানি'
+	]
+];
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = [
 	'ImportUsers' => [
