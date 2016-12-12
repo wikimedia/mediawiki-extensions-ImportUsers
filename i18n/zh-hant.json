@@ -5,7 +5,8 @@
 			"Mark85296341",
 			"Simon Shek",
 			"Wrightbus",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LNDDYL"
 		]
 	},
 	"importusers": "匯入使用者",
@@ -13,7 +14,7 @@
 	"importusers-file-format": "格式：",
 	"importusers-form-replace-present": "代替現有的使用者",
 	"importusers-form-button": "匯入",
-	"importusers-log": "導入用戶登錄",
+	"importusers-log": "匯入使用者記錄檔",
 	"importusers-log-summary": "匯入摘要：",
 	"importusers-log-summary-all": "所有{{PLURAL:$1|使用者|使用者}}：$1",
 	"importusers-log-summary-added": "已增加{{PLURAL:$1|{{GENDER:$2|使用者}}|使用者}}：$1",
@@ -23,5 +24,5 @@
 	"importusers-email": "電郵",
 	"importusers-realname": "真實姓名",
 	"importusers-group": "使用者群組",
-	"right-import_users": "在大容量導入用戶"
+	"right-import_users": "大量匯入使用者"
 }
