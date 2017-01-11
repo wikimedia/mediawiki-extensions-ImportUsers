@@ -17,7 +17,7 @@
 	"importusers-log-summary": "Summario de importation:",
 	"importusers-log-summary-all": "Total de {{PLURAL:$1|usatores}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Usator}}|Usatores}} addite: $1",
-	"importusers-log-summary-updated": "{{PLURAL:$1|{{GENDER:$2|Usator}}|Usatores}} actualisate: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Usator|Usatores}} actualisate: $1",
 	"importusers-login-name": "Nomine de conto",
 	"importusers-password": "contrasigno",
 	"importusers-email": "e-mail",
