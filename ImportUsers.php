@@ -37,7 +37,7 @@ $wgExtensionCredits['specialpage'][] = [
 	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ImportUsers',
 	'descriptionmsg' => 'importusers-desc',
-	'license-name' => 'PD'
+	'license-name' => 'Unlicense'
 ];
 
 /*  Register extension class. */
