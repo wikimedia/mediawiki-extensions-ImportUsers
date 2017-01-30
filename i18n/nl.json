@@ -1,27 +1,36 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Mainframe98"
 		]
 	},
 	"importusers": "Gebruikers importeren",
 	"importusers-desc": "[[Special:ImportUsers|Gebruikers in bulk importeren]] vanuit een CSV-bestand. Codering: UTF-8",
 	"importusers-uploadfile": "Bestand uploaden",
-	"importusers-form-caption": "Invoerbestand (kommagescheiden, UTF-8):",
+	"importusers-form-caption": "Invoerbestand:",
+	"importusers-file-structure": "Indeling:",
+	"importusers-file-format": "Formaat:",
 	"importusers-form-replace-present": "Bestaande gebruikers vervangen",
 	"importusers-form-button": "Importeren",
-	"importusers-user-added": "Gebruiker '''$1''' is toegevoegd.",
-	"importusers-user-present-update": "Gebruiker '''$1''' bestaat al. Bijgewerkt.",
-	"importusers-user-invalid-format": "De gebruikersgegevens in de regel #$1 hebben een ongeldige opmaak of zijn leeg. Overgeslagen.",
+	"importusers-user-added": "{{GENDER:$1|Gebruiker}} \"$1\" is toegevoegd.",
+	"importusers-user-present-update": "{{GENDER:$1|Gebruiker}} \"$1\" bestaat al en is bijgewerkt.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Gebruiker}} \"$1\" bestaat al en is niet bijgewerkt.",
+	"importusers-user-invalid-format": "De gebruikersgegevens in de regel #$1 hebben een ongeldige opmaak of zijn leeg. Deze is overgeslagen.",
 	"importusers-log": "Logboek gebruikers importeren",
-	"importusers-log-summary": "Samenvatting",
-	"importusers-log-summary-all": "Alle: $1",
-	"importusers-log-summary-added": "Toegevoegd: $1",
-	"importusers-log-summary-updated": "Bijgewerkt: $1",
+	"importusers-log-list": "Geïmporteerde of bijgewerkt gebruikers:",
+	"importusers-log-summary": "Importsamenvatting:",
+	"importusers-log-summary-all": "Totaal aantal {{PLURAL:$1|gebruikers}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Gebruiker}}|Gebruikers}} toegevoegd: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Gebruiker|Gebruikers}} bijgewerkt: $1",
 	"importusers-login-name": "Gebruikersnaam",
 	"importusers-password": "wachtwoord",
 	"importusers-email": "e-mail",
 	"importusers-realname": "echte naam",
+	"importusers-group": "gebruikersgroep",
+	"importusers-utf8": "UTF-8 gecodeerd",
+	"importusers-comma": "door komma's gescheiden",
+	"importusers-noquotes": "geen dubbele aanhalingstekens voor tekst",
 	"right-import_users": "Gebruikers in bulk importeren",
 	"action-import_users": "gebruikers in bulk te importeren"
 }
