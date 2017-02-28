@@ -23,6 +23,7 @@
 	"importusers-password": "Senhal",
 	"importusers-email": "adreça de corrièr electronic",
 	"importusers-realname": "nom vertadièr",
+	"importusers-group": "grop d'utilizaires",
 	"right-import_users": "Importar d'utilizaires en massa",
 	"action-import_users": "importar d'utilizaires en massa"
 }
