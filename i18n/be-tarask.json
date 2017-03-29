@@ -3,7 +3,8 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Renessaince"
+			"Renessaince",
+			"Red Winged Duck"
 		]
 	},
 	"importusers": "Імпарт удзельнікаў",
@@ -18,7 +19,7 @@
 	"importusers-log": "Журнал імпартаваньняў удзельнікаў",
 	"importusers-log-summary": "Апісаньне імпарту:",
 	"importusers-log-summary-all": "Агулам удзельнік{{PLURAL:$1||і|аў}}: $1",
-	"importusers-log-summary-added": "Дададзен{{PLURAL:$1|ы ўдзельнік|ыя ўдзельнікі|а ўдзельнікаў}}: $1",
+	"importusers-log-summary-added": "Дададзен{{PLURAL:$1|ы {{GENDER:$2|ўдзельнік|ўдзельніца}}|ыя ўдзельнікі|а ўдзельнікаў}}: $1",
 	"importusers-log-summary-updated": "Абноўлен{{PLURAL:$1|ы ўдзельнік|ыя ўдзельнікі|а ўдзельнікаў}}: $1",
 	"importusers-login-name": "Імя ўдзельніка",
 	"importusers-password": "пароль",
