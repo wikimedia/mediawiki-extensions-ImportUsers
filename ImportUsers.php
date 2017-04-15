@@ -49,7 +49,6 @@ $wgExtensionMessagesFiles['ImportUsersAlias'] = __DIR__ . '/ImportUsers.alias.ph
 
 /* Register special page into MediaWiki. */
 $wgSpecialPages['ImportUsers'] = 'SpecialImportUsers';
-$wgSpecialPageGroups['ImportUsers'] = 'users';
 
 /* Create new right and set permissions */
 $wgAvailableRights[] = 'import_users';

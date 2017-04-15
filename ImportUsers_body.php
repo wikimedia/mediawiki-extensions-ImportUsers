@@ -174,4 +174,8 @@ class SpecialImportUsers extends SpecialPage {
                         }
                 }
         }
+
+	protected function getGroupName() {
+		return 'users';
+	}
 }
