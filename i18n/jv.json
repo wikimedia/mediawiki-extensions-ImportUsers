@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Meursault2004",
-			"Pras"
+			"Pras",
+			"NoiX180"
 		]
 	},
 	"importusers-uploadfile": "Unggahna berkas",
 	"importusers-form-button": "Impor",
 	"importusers-user-added": "Panganggo '''$1''' wis ditambah.",
 	"importusers-log": "Impor log panganggo",
-	"importusers-log-summary": "Ringkesan",
-	"importusers-log-summary-all": "Kabèh",
-	"importusers-log-summary-added": "Ditambah",
-	"importusers-log-summary-updated": "Dimutakiraké",
+	"importusers-log-summary": "Ringkesan impor:",
+	"importusers-log-summary-all": "Gunggung {{PLURAL:$1|panganggo}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|Panganggo}} sing ditambah: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Panganggo}} sing dianyari: $1",
 	"importusers-login-name": "Jeneng log mlebu",
 	"importusers-password": "tembung sandhi",
 	"importusers-email": "e-mail",
