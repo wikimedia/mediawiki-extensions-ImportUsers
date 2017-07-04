@@ -19,7 +19,7 @@ See also the CHANGELOG.md file provided with the code.
 (2) Extract the files in a directory called `ImportUsers` in your `extensions/` folder.
 
 (3) Add the following code at the bottom of your "LocalSettings.php" file:
-```php
+```
 require_once "$IP/extensions/ImportUsers/ImportUsers.php";
 ```
 (4) Configure if desired. See the "Configuration" section below.
@@ -36,7 +36,7 @@ In case you would like to assign the right to an additional user group, e.g. "sy
 to your "LocalSettings.php" file after the inclusion of the extension as described in the "Installation"
 section above:
 
-```php
+```
 $wgGroupPermissions['sysop']['import_users'] = true;
 ```
 
