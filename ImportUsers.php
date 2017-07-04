@@ -6,18 +6,18 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 2.0.0 2016-10-28
+ * @version 2.1.0 2017-07-04
  *
  * @links https://www.mediawiki.org/wiki/Extension:ImportUsers Homepage
  * @links https://phabricator.wikimedia.org/diffusion/EIUS/browse/master/README.md Documentation
  * @links https://www.mediawiki.org/wiki/Extension_talk:ImportUsers Support
  * @links https://phabricator.wikimedia.org/tag/importusers/ Bug tracker
- * @links https://phabricator.wikimedia.org/diffusion/EIUS/extensions-importusers.git Source code
+ * @links https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ImportUsers Source code
  * @links https://github.com/wikimedia/mediawiki-extensions-ImportUsers/releases Downloads
  *
  * @author Rouslan Zenetl, Yuriy Ilkiv (original authors)
  *
- * @license Public Domain - you are free to use this extension for any reason and mutilate it to your heart's liking.
+ * @license https://unlicense.org/ The Unlicense.
  */
 
 /* Ensure that the script cannot be executed outside of MediaWiki. */
@@ -29,7 +29,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = [
 	'path' => __FILE__,
 	'name' => 'Import Users',
-	'version' => '2.0.0',
+	'version' => '2.1.0',
 	'author' => [
 		'Yuriy Ilkiv',
 		'Rouslan Zenetl',

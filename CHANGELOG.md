@@ -6,7 +6,22 @@ users in bulk from a UTF-8 encoded CSV file.
 This file documents the development changes.
 
 
-### Version 2.0.0  
+### Version 2.1.0
+
+Released: 2017-07-04  
+Authored: Kghbln
+
+* Added compatibility for MW 1.26.x and higher
+* Migrated registration of special pages to `SpecialPage::getGroupName` (by Umherirrender)
+* Added translations for many more languages (by translators via translatewiki.net)
+* Added special page alias for Bengali (by Aftabuzzaman)
+* Fix license notation to match SPDX (by Umherirrender)
+* Updated COPYING (by Kghbln)
+* Extended README.md (by Kghbln)
+* Updated file documentation (by Kghbln)
+
+
+### Version 2.0.0
 
 Released: 2016-10-28  
 Authored: Kghbln
@@ -20,19 +35,19 @@ Authored: Kghbln
 ### Version 1.5.4
 
 Released: 2016-10-28  
-Authored: Kghbln, translators from translatewiki.net
+Authored: Kghbln
 
-* Added translations for many more languages
+* Added translations for many more languages (by translators via translatewiki.net)
 
 
-### Version 1.5.3  
+### Version 1.5.3
 
-Released: 2015-09-16
-Authored: Kghbln, translators from translatewiki.net
+Released: 2015-09-16  
+Authored: Kghbln
 
 * Added PLURAL and GENDER support to system message
 * Added system message documentation
-* Added translations for many more languages
+* Added translations for many more languages (by translators via translatewiki.net)
 
 
 ### Version 1.5.2
