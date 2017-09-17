@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Glanthor Reviol"
+			"Glanthor Reviol",
+			"Rodrigo"
 		]
 	},
 	"importusers": "Szerkesztők importálása",
@@ -14,8 +15,8 @@
 	"importusers-user-present-update": "'''$1''' nevű felhasználó már létezik.\nFrissítve.",
 	"importusers-user-invalid-format": "A(z) #$1. sorban levő felhasználói adatok érvénytelen formátumúak, vagy nincsenek megadva.\nÁtugorva.",
 	"importusers-log": "Importált szerkesztői azonosítók naplója",
-	"importusers-log-summary": "Összefoglaló",
-	"importusers-log-summary-all": "Összes",
+	"importusers-log-summary": "Átvétel összefoglaló",
+	"importusers-log-summary-all": "Összes {{PLURAL:$1|felhasználó|felhasználó}}: $1",
 	"importusers-log-summary-added": "Hozzáadva",
 	"importusers-log-summary-updated": "Frissítve",
 	"importusers-login-name": "Felhasználói név",
