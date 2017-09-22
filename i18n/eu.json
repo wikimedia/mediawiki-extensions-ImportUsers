@@ -4,7 +4,8 @@
 			"An13sa",
 			"Kobazulo",
 			"පසිඳු කාවින්ද",
-			"Sator"
+			"Sator",
+			"Mikel Ibaiba"
 		]
 	},
 	"importusers": "Lankideak inportatu",
@@ -12,10 +13,10 @@
 	"importusers-form-replace-present": "Existitzen diren lankideak ordeztu",
 	"importusers-form-button": "Inportatu",
 	"importusers-user-added": "'''$1''' {{GENDER:$1|lankidea}} gehitu da.",
-	"importusers-user-present-update": "'''$1''' erabiltzailea jada existitzen da. Eguneratua.",
+	"importusers-user-present-update": "\"$1\"{{GENDER:$1|erabiltzailea}} jada existitzen da eta eguneratua izan da.",
 	"importusers-log-summary": "Inportazioaren laburpena:",
 	"importusers-log-summary-all": "{{PLURAL:$1|Denak}}: $1",
-	"importusers-log-summary-added": "Gehitua: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Erabiltzaile}}|Erabiltzaileak}} gehitua: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Lankide eguneratua|Lankide eguneratuak}}: $1",
 	"importusers-login-name": "Saioa hasteko izena",
 	"importusers-password": "pasahitza",
