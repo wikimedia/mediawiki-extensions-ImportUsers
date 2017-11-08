@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"importusers": "Importar usuarios",
+	"importusers-desc": "Permite [[Special:ImportUsers|importar usuarios]] en masa dende un ficheru CSV con codificación UTF-8",
+	"importusers-uploadfile": "Xubir ficheru",
+	"importusers-form-caption": "Ficheru d'entrada:",
+	"importusers-file": "Estructura y formatu del ficheru d'entrada:",
+	"importusers-file-structure": "Estructura:",
+	"importusers-file-format": "Formatu:",
+	"importusers-form-replace-present": "Reemplazar usuarios esistentes",
+	"importusers-form-add-to-group": "Amestar los usuarios a grupos esistentes",
+	"importusers-form-button": "Importar",
+	"importusers-user-added": "Amestóse {{GENDER:$1|l'usuariu|la usuaria}} «$1».",
+	"importusers-user-present-update": "Yá esiste {{GENDER:$1|l'usuariu|la usuaria}} «$1» y actualizóse.",
+	"importusers-user-present-no-update": "Yá esiste {{GENDER:$1|l'usuariu|la usuaria}} «$1» y nun s'actualizó.",
+	"importusers-user-invalid-format": "Los datos d'usuariu de la llinia $1 tienen un formatu inválidu o tán en blancu y saltáronse.",
+	"importusers-log": "Rexistru d'importación d'usuarios",
+	"importusers-log-list": "Usuarios importaos o actualizaos:",
+	"importusers-log-summary": "Resume d'importación:",
+	"importusers-log-summary-all": "Total d'{{PLURAL:$1|usuariu|usuarios}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Usuariu añadíu|Usuaria añadida}}|Usuarios añadíos}}: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Usuariu actualizáu|Usuarios actualizaos}}: $1",
+	"importusers-login-name": "Nome d'usuariu",
+	"importusers-password": "contraseña",
+	"importusers-email": "corréu electrónicu",
+	"importusers-realname": "nome real",
+	"importusers-group": "grupu d'usuarios",
+	"importusers-utf8": "codificao en UTF-8",
+	"importusers-comma": "dixebrar campos con comes",
+	"importusers-noquotes": "ensin comines dobles pa testu",
+	"right-import_users": "Importar usuarios en masa",
+	"action-import_users": "importar usuarios a esta wiki"
+}
