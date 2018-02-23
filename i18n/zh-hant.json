@@ -6,15 +6,26 @@
 			"Simon Shek",
 			"Wrightbus",
 			"Liuxinyu970226",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
 	"importusers": "匯入使用者",
+	"importusers-desc": "允許從 UTF-8 編碼的 CSV 檔案來大量[[Special:ImportUsers|匯入使用者]]",
 	"importusers-uploadfile": "上傳檔案",
+	"importusers-form-caption": "輸入檔案：",
+	"importusers-file": "輸入檔案的結構與格式：",
+	"importusers-file-structure": "結構：",
 	"importusers-file-format": "格式：",
 	"importusers-form-replace-present": "代替現有的使用者",
+	"importusers-form-add-to-group": "添加使用者至現有群組",
 	"importusers-form-button": "匯入",
+	"importusers-user-added": "{{GENDER:$1|使用者}}「$1」已被添加。",
+	"importusers-user-present-update": "{{GENDER:$1|使用者}}「$1」已存在並已更新。",
+	"importusers-user-present-no-update": "{{GENDER:$1|使用者}}「$1」已存在但尚未更新。",
+	"importusers-user-invalid-format": "在 #$1 行的使用者資料為無效格式或是內容為空，因此被忽略過。",
 	"importusers-log": "匯入使用者記錄檔",
+	"importusers-log-list": "已匯入或已更新的使用者：",
 	"importusers-log-summary": "匯入摘要：",
 	"importusers-log-summary-all": "所有{{PLURAL:$1|使用者|使用者}}：$1",
 	"importusers-log-summary-added": "已增加{{PLURAL:$1|{{GENDER:$2|使用者}}|使用者}}：$1",
@@ -24,5 +35,9 @@
 	"importusers-email": "電郵",
 	"importusers-realname": "真實姓名",
 	"importusers-group": "使用者群組",
-	"right-import_users": "大量匯入使用者"
+	"importusers-utf8": "UTF-8 編碼",
+	"importusers-comma": "以逗號分隔欄位",
+	"importusers-noquotes": "無雙引號文字",
+	"right-import_users": "大量匯入使用者",
+	"action-import_users": "匯入使用者至此 wiki"
 }
