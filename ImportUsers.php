@@ -6,8 +6,6 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 2.1.0 2017-07-04
- *
  * @links https://www.mediawiki.org/wiki/Extension:ImportUsers Homepage
  * @links https://phabricator.wikimedia.org/diffusion/EIUS/browse/master/README.md Documentation
  * @links https://www.mediawiki.org/wiki/Extension_talk:ImportUsers Support

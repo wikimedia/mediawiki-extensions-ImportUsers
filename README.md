@@ -7,7 +7,7 @@ encoded CSV file.
 ### Compatibility
 
 * PHP 5.4+
-* MediaWiki 1.23+
+* MediaWiki 1.25+
 
 See also the CHANGELOG.md file provided with the code.
 
@@ -20,7 +20,7 @@ See also the CHANGELOG.md file provided with the code.
 
 (3) Add the following code at the bottom of your "LocalSettings.php" file:
 ```
-require_once "$IP/extensions/ImportUsers/ImportUsers.php";
+wfLoadExtension( 'ImportUsers' );
 ```
 (4) Configure if desired. See the "Configuration" section below.
 

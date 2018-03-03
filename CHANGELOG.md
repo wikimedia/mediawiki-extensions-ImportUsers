@@ -5,6 +5,15 @@ users in bulk from a UTF-8 encoded CSV file.
 
 This file documents the development changes.
 
+### Version 2.2.0
+
+Released: 2018-03-03  
+Authored: Kghbln
+
+* Dropped compatibility for MW 1.24.x and lower
+* Converted ImportUsers to use extension registration (by Jayprakash12345)
+* Added translation updates (by translators via translatewiki.net)
+
 
 ### Version 2.1.0
 
