@@ -1,0 +1,36 @@
+{
+	"name": "Import Users",
+	"version": "2.2.0",
+	"author": [
+		"Yuriy Ilkiv",
+		"Rouslan Zenetl",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ImportUsers",
+	"descriptionmsg": "importusers-desc",
+	"license-name": "Unlicense",
+	"type": "specialpage",
+	"AvailableRights": [
+		"import_users"
+	],
+	"GroupPermissions": {
+		"bureaucrat": {
+			"import_users": true
+		}
+	},
+	"SpecialPages": {
+		"ImportUsers": "SpecialImportUsers"
+	},
+	"MessagesDirs": {
+		"ImportUsers": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ImportUsersAlias": "ImportUsers.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialImportUsers": "ImportUsers_body.php"
+	},
+	"manifest_version": 1
+}

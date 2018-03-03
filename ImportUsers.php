@@ -20,36 +20,16 @@
  * @license https://unlicense.org/ The Unlicense.
  */
 
-/* Ensure that the script cannot be executed outside of MediaWiki. */
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is part of a MediaWiki extension and cannot be run standalone!' );
-	}
-
-/* Display extension properties on MediaWiki. */
-$wgExtensionCredits['specialpage'][] = [
-	'path' => __FILE__,
-	'name' => 'Import Users',
-	'version' => '2.1.0',
-	'author' => [
-		'Yuriy Ilkiv',
-		'Rouslan Zenetl',
-		'...'
-	],
-	'url' => 'https://www.mediawiki.org/wiki/Extension:ImportUsers',
-	'descriptionmsg' => 'importusers-desc',
-	'license-name' => 'Unlicense'
-];
-
-/*  Register extension class. */
-$wgAutoloadClasses['SpecialImportUsers'] = __DIR__ . '/ImportUsers_body.php';
-
-/* Register extension messages. */
-$wgMessagesDirs['ImportUsers'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ImportUsersAlias'] = __DIR__ . '/ImportUsers.alias.php';
-
-/* Register special page into MediaWiki. */
-$wgSpecialPages['ImportUsers'] = 'SpecialImportUsers';
-
-/* Create new right and set permissions */
-$wgAvailableRights[] = 'import_users';
-$wgGroupPermissions['bureaucrat']['import_users'] = true;
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'ImportUsers' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['ImportUsers'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the ImportUsers extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the ImportUsers extension requires MediaWiki 1.25+' );
+}
