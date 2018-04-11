@@ -5,7 +5,8 @@
 			"Glavkos",
 			"Omnipaedista",
 			"Protnet",
-			"ZaDiak"
+			"ZaDiak",
+			"Nikosgranturismogt"
 		]
 	},
 	"importusers": "Εισαγωγή χρηστών",
@@ -15,10 +16,11 @@
 	"importusers-log": "Αρχείο καταγραφής εισαγωγής χρηστών",
 	"importusers-log-summary": "Σύνοψη εισαγωγής:",
 	"importusers-log-summary-all": "Σύνολο {{PLURAL:$1|χρήστη|χρηστών}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Χρήστης|Χρήστες}} προστέθηκαν: $1",
-	"importusers-log-summary-updated": "Ενημερώθηκε",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Χρήστης}}|Χρήστες}} προστέθηκαν: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Χρήστης|Χρήστες}} που ενημερώθηκαν: $1",
 	"importusers-login-name": "Όνομα σύνδεσης",
 	"importusers-password": "κωδικός",
 	"importusers-email": "ηλεκτρονική διεύθυνση",
-	"importusers-realname": "πραγματικό όνομα"
+	"importusers-realname": "πραγματικό όνομα",
+	"importusers-group": "Ομάδα χρηστών"
 }
