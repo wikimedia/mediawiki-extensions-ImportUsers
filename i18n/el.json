@@ -11,7 +11,7 @@
 	},
 	"importusers": "Εισαγωγή χρηστών",
 	"importusers-uploadfile": "Ανέβασμα αρχείου",
-	"importusers-form-caption": "Εισαγωγή ενός αρχείου CSV (UTF-8)",
+	"importusers-form-caption": "Εισαγωγή αρχείου:",
 	"importusers-form-button": "Εισαγωγή",
 	"importusers-log": "Αρχείο καταγραφής εισαγωγής χρηστών",
 	"importusers-log-summary": "Σύνοψη εισαγωγής:",
