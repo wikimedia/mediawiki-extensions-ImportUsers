@@ -12,6 +12,8 @@
 	"importusers": "Εισαγωγή χρηστών",
 	"importusers-uploadfile": "Ανέβασμα αρχείου",
 	"importusers-form-caption": "Εισαγωγή αρχείου:",
+	"importusers-file-structure": "Δομή:",
+	"importusers-file-format": "Μορφή:",
 	"importusers-form-button": "Εισαγωγή",
 	"importusers-log": "Αρχείο καταγραφής εισαγωγής χρηστών",
 	"importusers-log-summary": "Σύνοψη εισαγωγής:",
@@ -22,5 +24,6 @@
 	"importusers-password": "κωδικός",
 	"importusers-email": "ηλεκτρονική διεύθυνση",
 	"importusers-realname": "πραγματικό όνομα",
-	"importusers-group": "Ομάδα χρηστών"
+	"importusers-group": "Ομάδα χρηστών",
+	"importusers-utf8": "UTF-8 κωδικοποιημένο"
 }
