@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
 	"importusers": "Umangkat ng mga tagagamit",
@@ -19,7 +20,7 @@
 	"importusers-log-summary-added": "Naidagdag: $1",
 	"importusers-log-summary-updated": "Naisapanahon: $1",
 	"importusers-login-name": "Pangalang panglagda",
-	"importusers-password": "hudyat",
+	"importusers-password": "password",
 	"importusers-email": "e-liham",
 	"importusers-realname": "totoong pangalan",
 	"right-import_users": "Umangkat ng bunton ng mga tagagamit",
