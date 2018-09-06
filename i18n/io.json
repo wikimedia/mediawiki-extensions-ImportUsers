@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"importusers-log-summary-all": "Quanto di {{PLURAL:$1|uzero|uzeri}}: $1"
+}
