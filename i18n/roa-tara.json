@@ -22,7 +22,7 @@
 	"importusers-log-list": "Utinde 'mbortate e aggiornate:",
 	"importusers-log-summary": "'Mborte 'u riepiloghe:",
 	"importusers-log-summary-all": "{{PLURAL:$1|Utende|Utinde }} totale: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Utende|Utinde}} aggiunde: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Utende}}|Utinde}} aggiunde: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Utende|Utinde}} aggiornate: $1",
 	"importusers-login-name": "Nome pe trasè",
 	"importusers-password": "password",
