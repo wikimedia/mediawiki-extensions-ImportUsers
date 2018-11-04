@@ -22,7 +22,7 @@
 	"importusers-log-list": "Увезени или подновени корисници:",
 	"importusers-log-summary": "Опис на увозот:",
 	"importusers-log-summary-all": "Вкупно {{PLURAL:$1|корисници}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|Додаден корисник|Додадени корисници}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|КОрисникот додаде}}|Корисниците додадоа}}: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Попдновен корисник|Попдновени корисници}}: $1",
 	"importusers-login-name": "Корисничко име",
 	"importusers-password": "лозинка",
