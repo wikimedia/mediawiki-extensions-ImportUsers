@@ -4,7 +4,8 @@
 			"Crt",
 			"Jack Phoenix",
 			"Nike",
-			"01miki10"
+			"01miki10",
+			"Valtlait"
 		]
 	},
 	"importusers": "Tuo käyttäjiä",
@@ -14,9 +15,9 @@
 	"importusers-form-replace-present": "Korvaa olemassaolevat käyttäjät",
 	"importusers-form-add-to-group": "Lisää käyttäjiä nykyisiin ryhmiin",
 	"importusers-form-button": "Tuo",
-	"importusers-user-added": "{{GENDER:$1|Käyttäjä}} \"$1\" on lisätty.",
-	"importusers-user-present-update": "{{GENDER:$1|Käyttäjä}} \"$1\" on jo olemassa ja se on päivitetty.",
-	"importusers-user-present-no-update": "{{GENDER:$1|Käyttäjä}} \"$1\" on jo olemassa ja sitä ei ole päivitetty.",
+	"importusers-user-added": "{{GENDER:$1|Käyttäjä}} ”$1” on lisätty.",
+	"importusers-user-present-update": "{{GENDER:$1|Käyttäjä}} ”$1” on jo olemassa ja se on päivitetty.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Käyttäjä}} ”$1” on jo olemassa ja sitä ei ole päivitetty.",
 	"importusers-user-invalid-format": "Käyttäjätiedolla rivillä #$1 on kelvoton muoto tai se on tyhjä, ja se ohitettiin.",
 	"importusers-log": "Käyttäjien tuontiloki",
 	"importusers-log-list": "Tuodut tai päivitetyt käyttäjät:",
