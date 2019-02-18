@@ -82,11 +82,11 @@ class SpecialImportUsers extends SpecialPage {
 				<td align="right" width="160">' . wfMessage( 'importusers-form-caption' )->text() . ' </td>
 				<td><input name="users_file" type="file" size=40 /></td>
 			</tr>';
-                $output .= '<tr>
+		$output .= '<tr>
 				<td align=right></td>
 				<td><input name="replace_present" type="checkbox" />' . wfMessage( 'importusers-form-replace-present' )->text() . '</td>
 			</tr>';
-                $output .= '<tr>
+		$output .= '<tr>
 				<td align=right></td>
 				<td><input name="add_to_group" type="checkbox" />' . wfMessage( 'importusers-form-add-to-group' )->text() . '</td>
 			</tr>';
@@ -133,23 +133,21 @@ class SpecialImportUsers extends SpecialPage {
 				$nextUser->addToDatabase();
 				$nextUser->setPassword( $newuserarray[1] );
 				$nextUser->saveSettings();
- 
-	                        $this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
- 
+
+				$this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
+
 				$output .= wfMessage( 'importusers-user-added', $newuserarray[0] )->text() . '<br />';
 				$summary['added']++;
+			} elseif ( $replace_present ) {
+				$nextUser->setPassword( $newuserarray[1] );
+				$nextUser->saveSettings();
+
+				$this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
+
+				$output .= wfMessage( 'importusers-user-present-update', $newuserarray[0] )->text() . '<br />';
+				$summary['updated']++;
 			} else {
-				if ( $replace_present ) {
-					$nextUser->setPassword( $newuserarray[1] );
-					$nextUser->saveSettings();
- 
-		                        $this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
- 
-					$output .= wfMessage( 'importusers-user-present-update', $newuserarray[0] )->text() . '<br />';
-					$summary['updated']++;
-				} else {
-					$output .= wfMessage( 'importusers-user-present-no-update', $newuserarray[0] )->text() . '<br />';
-				}
+				$output .= wfMessage( 'importusers-user-present-no-update', $newuserarray[0] )->text() . '<br />';
 			}
 			$summary['all']++;
 		}
@@ -162,18 +160,18 @@ class SpecialImportUsers extends SpecialPage {
 		return $output;
 	}
 
-       function AddToGroup( $u, $user_array, $add_to_group_checked ) {
-                global $wgOut, $wgUser;
-                if( $wgUser->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
-                        for( $i = 4 ; $i < sizeof( $user_array) ; $i++ ) {
-                                if ( in_array( $user_array[ $i], User::getAllGroups() ) ) {
-                                        if ( !in_array( $user_array[ $i], $u->getGroups() ) ) {
-                                                $u->addGroup( $user_array[ $i] );
-                                       }
-                                }
-                        }
-                }
-        }
+	function AddToGroup( $u, $user_array, $add_to_group_checked ) {
+		global $wgUser;
+		if ( $wgUser->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
+			for ( $i = 4; $i < count( $user_array ); $i++ ) {
+				if ( in_array( $user_array[ $i], User::getAllGroups() ) ) {
+					if ( !in_array( $user_array[ $i], $u->getGroups() ) ) {
+						$u->addGroup( $user_array[ $i] );
+					}
+				}
+			}
+		}
+	}
 
 	protected function getGroupName() {
 		return 'users';
