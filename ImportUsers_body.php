@@ -25,34 +25,34 @@ class SpecialImportUsers extends SpecialPage {
 	 * @param $par Mixed: parameter passed to the special page or null
 	 */
 	public function execute( $par ) {
-		global $wgOut, $wgUser;
-
-		if( !$wgUser->isAllowed( 'import_users' ) ) {
+		$use = $this->getUser();
+		$out = $this->getOutput();
+		if( !$use->isAllowed( 'import_users' ) ) {
 			throw new PermissionsError( 'import_users' );
 		}
 
 		$this->setHeaders();
 
 		if ( isset( $_FILES['users_file'] ) ) {
-			$wgOut->addHTML( $this->analyzeUsers(
+			$out->addHTML( $this->analyzeUsers(
 				$_FILES['users_file'],
 				isset( $_POST['replace_present'] ),
 				isset( $_POST['add_to_group'] )
 				)
 			);
 		} else {
-			$wgOut->addHTML( $this->makeForm() );
+			$out->addHTML( $this->makeForm() );
 		}
 	}
 
 	function makeForm() {
-		global $wgLang;
+		$lan = $this->getLanguage();
 
 		$titleObj = SpecialPage::getTitleFor( 'ImportUsers' );
 
 		$action = htmlspecialchars( $titleObj->getLocalURL() );
 
-		$fileStructure = $wgLang->commaList( [
+		$fileStructure = $lan->commaList( [
 			wfMessage( 'importusers-login-name' )->text(),
 			wfMessage( 'importusers-password' )->text(),
 			wfMessage( 'importusers-email' )->text(),
@@ -60,14 +60,14 @@ class SpecialImportUsers extends SpecialPage {
 			wfMessage( 'importusers-group' )->text()
 			]
 		);
-		$fileFormat = $wgLang->commaList( [
+		$fileFormat = $lan->commaList( [
 			wfMessage( 'importusers-utf8' )->text(),
 			wfMessage( 'importusers-comma' )->text(),
 			wfMessage( 'importusers-noquotes' )->text()
 			]
 		);
 
-		$output = '<form enctype="multipart/form-data" method="post"  action="' . $action . '">';
+		$output = '<form enctype="multipart/form-data" method="post" action="' . $action . '">';
 		$output .= '<h3>' . wfMessage( 'importusers-file' )->text() . '</h3>';
 		$output .= '<dl>
 				<dt>' . wfMessage( 'importusers-file-structure' )->text() . '</dt>
@@ -161,8 +161,9 @@ class SpecialImportUsers extends SpecialPage {
 	}
 
 	function AddToGroup( $u, $user_array, $add_to_group_checked ) {
-		global $wgUser;
-		if ( $wgUser->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
+		$user = $this->getUser();
+
+		if ( $user->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
 			for ( $i = 4; $i < count( $user_array ); $i++ ) {
 				if ( in_array( $user_array[ $i], User::getAllGroups() ) ) {
 					if ( !in_array( $user_array[ $i], $u->getGroups() ) ) {
