@@ -3,12 +3,13 @@
 		"authors": [
 			"Mopza",
 			"Octahedron80",
-			"Passawuth"
+			"Passawuth",
+			"Horus"
 		]
 	},
 	"importusers-form-button": "นำเข้า",
 	"importusers-log": "ปูมการนำเข้าผู้ใช้",
-	"importusers-log-summary-all": "ทั้งหมด",
+	"importusers-log-summary-all": "ผู้ใช้ทั้งหมด: $1",
 	"importusers-password": "รหัสผ่าน",
 	"importusers-email": "อีเมลของผู้ใช้",
 	"importusers-realname": "ชื่อจริง"
