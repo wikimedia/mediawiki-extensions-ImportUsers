@@ -27,7 +27,7 @@ class SpecialImportUsers extends SpecialPage {
 	public function execute( $par ) {
 		$use = $this->getUser();
 		$out = $this->getOutput();
-		if( !$use->isAllowed( 'import_users' ) ) {
+		if ( !$use->isAllowed( 'import_users' ) ) {
 			throw new PermissionsError( 'import_users' );
 		}
 
@@ -102,7 +102,6 @@ class SpecialImportUsers extends SpecialPage {
 	}
 
 	function analyzeUsers( $fileinfo, $replace_present, $importusers_add_to_group ) {
-
 		$summary = [
 			'all' => 0,
 			'added' => 0,
