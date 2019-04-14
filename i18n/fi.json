@@ -5,13 +5,14 @@
 			"Jack Phoenix",
 			"Nike",
 			"01miki10",
-			"Valtlait"
+			"Valtlait",
+			"Pyscowicz"
 		]
 	},
 	"importusers": "Tuo käyttäjiä",
 	"importusers-desc": "[[Special:ImportUsers|Tuo käyttäjiä]] UTF-8-merkistökoodatusta CSV-tiedostosta.",
 	"importusers-uploadfile": "Tallenna tiedosto",
-	"importusers-form-caption": "CSV-tiedosto (UTF-8)",
+	"importusers-form-caption": "Syöttötiedosto:",
 	"importusers-form-replace-present": "Korvaa olemassaolevat käyttäjät",
 	"importusers-form-add-to-group": "Lisää käyttäjiä nykyisiin ryhmiin",
 	"importusers-form-button": "Tuo",

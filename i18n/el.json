@@ -21,7 +21,7 @@
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Χρήστης}}|Χρήστες}} προστέθηκαν: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Χρήστης|Χρήστες}} που ενημερώθηκαν: $1",
 	"importusers-login-name": "Όνομα σύνδεσης",
-	"importusers-password": "κωδικός",
+	"importusers-password": "συνθηματικό",
 	"importusers-email": "ηλεκτρονική διεύθυνση",
 	"importusers-realname": "πραγματικό όνομα",
 	"importusers-group": "Ομάδα χρηστών",
