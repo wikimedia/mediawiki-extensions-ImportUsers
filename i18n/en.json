@@ -29,7 +29,7 @@
 	"importusers-log-summary-updated": "{{PLURAL:$1|User|Users}} updated: $1",
 	"importusers-login-name": "Login name",
 	"importusers-password": "password",
-	"importusers-email": "e-mail",
+	"importusers-email": "email",
 	"importusers-realname": "real name",
 	"importusers-group": "user group",
 	"importusers-utf8": "UTF-8 encoded",
