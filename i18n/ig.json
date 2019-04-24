@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ukabia"
+			"Ukabia",
+			"Oby Ezeilo"
 		]
 	},
-	"importusers-password": "okwúngáfè"
+	"importusers-password": "okwúngáfè",
+	"importusers-email": "imelu"
 }
