@@ -20,5 +20,6 @@
 	"importusers-user-present-update": "{{GENDER:$1|karber}} \"$1\" xora debya yo u rpcane bıyo.",
 	"importusers-log-summary": "Xulasa",
 	"importusers-log-summary-all": "Hemın: $1",
-	"importusers-email": "e-poste"
+	"importusers-email": "e-poste",
+	"importusers-realname": "nameyo raştıkên"
 }
