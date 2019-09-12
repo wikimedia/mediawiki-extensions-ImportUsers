@@ -4,7 +4,8 @@
 			"Janusz 'Ency' Dorożyński",
 			"McMonster",
 			"Sp5uhe",
-			"Chrumps"
+			"Chrumps",
+			"Rail"
 		]
 	},
 	"importusers": "Import kont użytkowników",
@@ -17,15 +18,15 @@
 	"importusers-form-replace-present": "Zamiana istniejących kont",
 	"importusers-form-add-to-group": "Dodanie użytkowników do istniejących grup",
 	"importusers-form-button": "Import",
-	"importusers-user-added": "Konto \"$1\" zostało dodane.",
+	"importusers-user-added": "{{GENDER:$1|Użytkownik „$1” został dodany|Użytkowniczka „$1” została dodana}}.",
 	"importusers-user-present-update": "Konto \"$1\" już istniało i zostało zaktualizowane.",
 	"importusers-user-present-no-update": "Konto \"$1\" już istniało i nie zostało zaktualizowane.",
-	"importusers-user-invalid-format": "Dane użytkownika w wierszu #$1 miały błędny format lub były puste - zostały pominięte.",
+	"importusers-user-invalid-format": "Dane użytkownika w wierszu #$1 miały błędny format lub były puste i zostały pominięte.",
 	"importusers-log": "Dziennik (log) importu",
 	"importusers-log-list": "Konta zaimportowane lub zaktualizowane:",
 	"importusers-log-summary": "Podsumowanie importu:",
 	"importusers-log-summary-all": "Łącznie {{PLURAL:$1|użytkownik|użytkowników}}: $1",
-	"importusers-log-summary-added": "Kont dodanych: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Dodany użytkownik|Dodana użytkowniczka}}|{{GENDER:$2|Dodani użytkownicy|Dodane użytkowniczki}}}}: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Zaktualizowany użytkownik|Zaktualizowanych użytkowników}}: $1",
 	"importusers-login-name": "Nazwa konta",
 	"importusers-password": "hasło",

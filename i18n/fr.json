@@ -6,7 +6,8 @@
 			"PieRRoMaN",
 			"Sherbrooke",
 			"Urhixidur",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"importusers": "Importer des utilisateurs",
@@ -19,9 +20,9 @@
 	"importusers-form-replace-present": "Remplacer les utilisateurs existants",
 	"importusers-form-add-to-group": "Ajouter des utilisateurs aux groupes existants",
 	"importusers-form-button": "Importer",
-	"importusers-user-added": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » a été {{GENDER:$1|ajouté|ajoutée}}.",
-	"importusers-user-present-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et a été {{GENDER:$1|mis|mise}} à jour.",
-	"importusers-user-present-no-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et n’a pas été {{GENDER:$1|mis|mise}} à jour.",
+	"importusers-user-added": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » a été {{GENDER:$1|ajouté|ajoutée}}.",
+	"importusers-user-present-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et a été {{GENDER:$1|mis|mise}} à jour.",
+	"importusers-user-present-no-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et n’a pas été {{GENDER:$1|mis|mise}} à jour.",
 	"importusers-user-invalid-format": "Les données utilisateur de la ligne #$1 n’ont pas un format correct ou sont vides, et ont été ignorées.",
 	"importusers-log": "Journal des importations d'utilisateurs",
 	"importusers-log-list": "Utilisateurs importés ou mis à jour :",
@@ -36,7 +37,7 @@
 	"importusers-group": "groupe utilisateur",
 	"importusers-utf8": "encodé en UTF-8",
 	"importusers-comma": "champs séparés par des virgules",
-	"importusers-noquotes": "pas de guillemets pour le texte",
+	"importusers-noquotes": "pas de guillemets anglais pour le texte",
 	"right-import_users": "Importer des utilisateurs en masse",
 	"action-import_users": "importer des utilisateurs en masse"
 }
