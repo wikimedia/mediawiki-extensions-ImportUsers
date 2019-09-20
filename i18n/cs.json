@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danny B.",
-			"Mormegil"
+			"Mormegil",
+			"MrJaroslavik"
 		]
 	},
 	"importusers": "Importovat uživatele",
@@ -15,8 +16,8 @@
 	"importusers-user-present-update": "Uživatel '''$1''' již existuje. Aktualizován.",
 	"importusers-user-invalid-format": "Údaje na řádku #$1 mají neplatný formát anebo je řádek prázdný. Přeskočeno.",
 	"importusers-log": "Kniha importů uživatelů",
-	"importusers-log-summary": "Shrnutí",
-	"importusers-log-summary-all": "Vše",
+	"importusers-log-summary": "Importovat shrnutí:",
+	"importusers-log-summary-all": "Celkem {{PLURAL:$1|uživatel|uživatelů}}: $1",
 	"importusers-log-summary-added": "Přidané",
 	"importusers-log-summary-updated": "Aktualizované",
 	"importusers-login-name": "Přihlašovací jméno",
