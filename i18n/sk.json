@@ -1,13 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Vlad5250"
 		]
 	},
 	"importusers": "Import používateľov",
 	"importusers-desc": "Hromadné [[Special:ImportUsers|importovanie používateľov]] z CSV súboru; kódovanie: UTF-8",
 	"importusers-uploadfile": "Nahrať súbor",
-	"importusers-form-caption": "Vstupný CSV súbor (UTF-8)",
+	"importusers-form-caption": "Vstupný súbor:",
+	"importusers-file-structure": "Štruktúra:",
+	"importusers-file-format": "Formát:",
 	"importusers-form-replace-present": "Nahradiť existujúcich používateľov",
 	"importusers-form-button": "Importovať",
 	"importusers-user-added": "Používateľ '''$1''' bol pridaný.",
