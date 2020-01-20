@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Botuzhaleny-sodamo"
+			"Botuzhaleny-sodamo",
+			"Rueter"
 		]
 	},
-	"importusers-uploadfile": "Йовкстамс файла",
+	"importusers-uploadfile": "Тонгомс файла",
 	"importusers-form-button": "Совавтомс",
 	"importusers-log-summary-all": "Весе",
 	"importusers-log-summary-added": "Поладозь",
