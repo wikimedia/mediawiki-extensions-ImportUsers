@@ -25,7 +25,7 @@
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|КОрисникот додаде}}|Корисниците додадоа}}: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Попдновен корисник|Попдновени корисници}}: $1",
 	"importusers-login-name": "Корисничко име",
-	"importusers-password": "јавка",
+	"importusers-password": "лозинка",
 	"importusers-email": "е-пошта",
 	"importusers-realname": "вистинско име",
 	"importusers-group": "корисничка група",
