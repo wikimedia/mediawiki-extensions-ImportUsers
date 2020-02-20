@@ -15,7 +15,7 @@
  *
  * @author Rouslan Zenetl, Yuriy Ilkiv (original authors)
  *
- * @license https://unlicense.org/ The Unlicense.
+ * @license Unlicense
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {

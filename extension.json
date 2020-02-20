@@ -30,7 +30,7 @@
 		"ImportUsersAlias": "ImportUsers.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialImportUsers": "ImportUsers_body.php"
+		"SpecialImportUsers": "SpecialImportUsers.php"
 	},
 	"manifest_version": 1
 }
