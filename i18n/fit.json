@@ -4,6 +4,16 @@
 			"Pyscowicz"
 		]
 	},
+	"importusers": "Eksporteeraa käyttäjiä",
 	"importusers-uploadfile": "Lattaa ylös fiili",
-	"importusers-form-button": "Importeeraa"
+	"importusers-form-caption": "Syöttöfiili:",
+	"importusers-form-button": "Importeeraa",
+	"importusers-user-added": "{{GENDER:$1|Käyttäjä}} ”$1” oon lisätty.",
+	"importusers-user-present-update": "{{GENDER:$1|Käyttäjä}} ”$1” oon jo olemassa ja se oon päivitetty.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Käyttäjä}} ”$1” oon jo olemassa ja sitä ei ole päivitetty.",
+	"importusers-user-invalid-format": "Käyttäjätieolla rivillä #$1 oon kelvoton muoto tai se oon tyhjä, ja se ohitettiin.",
+	"importusers-log": "Käyttäjitten eksporteerausloki",
+	"importusers-email": "e-posti",
+	"importusers-group": "käyttäjäjoukko",
+	"importusers-utf8": "UTF-8-kootattu"
 }
