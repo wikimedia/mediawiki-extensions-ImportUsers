@@ -4,9 +4,11 @@
 			"Mopza",
 			"Octahedron80",
 			"Passawuth",
-			"Horus"
+			"Horus",
+			"Aefgh39622"
 		]
 	},
+	"importusers-uploadfile": "อัปโหลดไฟล์",
 	"importusers-form-button": "นำเข้า",
 	"importusers-log": "ปูมการนำเข้าผู้ใช้",
 	"importusers-log-summary-all": "ผู้ใช้ทั้งหมด: $1",
