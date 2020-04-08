@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FarsiNevis",
 			"Huji",
 			"Mjbmr",
 			"Reza1615"
@@ -15,7 +16,7 @@
 	"importusers-log-summary": "خلاصه",
 	"importusers-log-summary-all": "همه: $1",
 	"importusers-log-summary-added": "افزوده شد: $1",
-	"importusers-log-summary-updated": "به روز رسانی: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|کاربر|کاربران}} روزآمد شده: $1",
 	"importusers-login-name": "نام ورود به سیستم",
 	"importusers-password": "گذرواژه",
 	"importusers-email": "ایمیل",
