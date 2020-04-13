@@ -9,7 +9,7 @@
 		]
 	},
 	"importusers": "Benutzer importieren",
-	"importusers-desc": "Ergänzt eine Spezialseite zum [[Special:ImportUsers|Import von Benutzern]] aus Dateien im CSV-Format (UTF-8)",
+	"importusers-desc": "Erweitert das Wiki um eine [[Special:ImportUsers|Spezialseite]] zum Import von Benutzern aus Dateien im CSV-Format (UTF-8)",
 	"importusers-uploadfile": "Datei hochladen",
 	"importusers-form-caption": "Importdatei:",
 	"importusers-file": "Aufbau und Formatierung der CSV-Importdatei:",
