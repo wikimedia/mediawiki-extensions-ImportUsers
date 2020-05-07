@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"BadDog",
 			"Karduelis",
 			"Manco Capac",
 			"Marmase",
@@ -20,7 +21,7 @@
 	"importusers-form-add-to-group": "Mevcut gruplara kullanıcı ekle",
 	"importusers-form-button": "İçe aktar",
 	"importusers-user-added": "{{GENDER:$1|Kullanıcı}} \"$1\" eklendi.",
-	"importusers-user-present-update": "{{GENDER$1|Kullanıcı}} \"$1\" zaten var ve güncellendi.",
+	"importusers-user-present-update": "{{GENDER:$1|Kullanıcı}} \"$1\" zaten var ve güncellendi.",
 	"importusers-user-present-no-update": "{{GENDER:$1|Kullanıcı}} \"$1\" zaten var ve güncellenmedi.",
 	"importusers-user-invalid-format": "#$1 satırındaki kullanıcı verileri geçersiz biçime sahip veya boş ve atlandı.",
 	"importusers-log": "Kullanıcı kaydını içe aktar",
