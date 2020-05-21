@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Meursault2004",
+			"N219",
 			"NoiX180",
 			"Pras"
 		]
@@ -15,7 +16,7 @@
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Panganggo}}|Panganggo}} sing ditambahaké: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Panganggo}} sing dianyari: $1",
 	"importusers-login-name": "Jeneng log mlebu",
-	"importusers-password": "tembung wadi",
+	"importusers-password": "tembung sandi",
 	"importusers-email": "layang-èl",
 	"importusers-realname": "jeneng asli"
 }
