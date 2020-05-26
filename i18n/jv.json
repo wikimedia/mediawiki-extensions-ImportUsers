@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Meursault2004",
 			"N219",
 			"NoiX180",
@@ -9,12 +10,12 @@
 	},
 	"importusers-uploadfile": "Unggah barkas",
 	"importusers-form-button": "Impor",
-	"importusers-user-added": "{{GENDER:$1|Panganggo}} \"$1\" wis ditambahaké.",
-	"importusers-log": "Impor log panganggo",
+	"importusers-user-added": "{{GENDER:$1|Naraguna}} \"$1\" wis ditambahaké.",
+	"importusers-log": "Impor log naraguna",
 	"importusers-log-summary": "Ringkesan impor:",
-	"importusers-log-summary-all": "Gunggung {{PLURAL:$1|panganggo}}: $1",
-	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Panganggo}}|Panganggo}} sing ditambahaké: $1",
-	"importusers-log-summary-updated": "{{PLURAL:$1|Panganggo}} sing dianyari: $1",
+	"importusers-log-summary-all": "Gunggung {{PLURAL:$1|naraguna}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Naraguna}}|Naraguna}} sing ditambahaké: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Naraguna}} sing dianyari: $1",
 	"importusers-login-name": "Jeneng log mlebu",
 	"importusers-password": "tembung sandi",
 	"importusers-email": "layang-èl",
