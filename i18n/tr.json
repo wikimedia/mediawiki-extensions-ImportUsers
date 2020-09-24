@@ -6,6 +6,7 @@
 			"Karduelis",
 			"Manco Capac",
 			"Marmase",
+			"MuratTheTurkish",
 			"Suelnur",
 			"Vito Genovese"
 		]
@@ -14,7 +15,7 @@
 	"importusers-desc": "UTF-8 kodlu bir CSV dosyasından [[Special:ImportUsers|kullanıcı aktarımları]] için toplu olarak izin verir",
 	"importusers-uploadfile": "Dosya yükle",
 	"importusers-form-caption": "Giriş dosyası:",
-	"importusers-file": "Giriş dosyası yapısı ve formatı:",
+	"importusers-file": "Giriş dosyası yapısı ve biçimi:",
 	"importusers-file-structure": "Yapısı:",
 	"importusers-file-format": "Biçim:",
 	"importusers-form-replace-present": "Varolan kullanıcıları değiştir",
@@ -31,13 +32,13 @@
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Kullanıcı}}|Kullanıcı}} eklendi: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Kullanıcı}} güncellendi: $1",
 	"importusers-login-name": "Giriş adı",
-	"importusers-password": "Parola",
-	"importusers-email": "E-posta",
-	"importusers-realname": "gerçek isminiz",
+	"importusers-password": "parola",
+	"importusers-email": "e-posta",
+	"importusers-realname": "gerçek ad",
 	"importusers-group": "kullanıcı grubu",
 	"importusers-utf8": "UTF-8 kodlanmış",
 	"importusers-comma": "virgül içeren ayrı alanlar",
 	"importusers-noquotes": "metin için çift tırnak yok",
-	"right-import_users": "Kullanıcıları küme olarak içe aktarır",
-	"action-import_users": "kullanıcıları bu wikiye aktar"
+	"right-import_users": "Kullanıcıları küme olarak içe aktar",
+	"action-import_users": "kullanıcıları bu vikiye içe aktar"
 }
