@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amara-Amaziɣ",
+			"Lhoussine AIT TAYFST",
 			"Zanatos"
 		]
 	},
-	"importusers-log-summary-all": "ⵟⵓⵟⴰⵍ ⵏ ⵉⵙⵎⵔⴰⵙⵏ: $1",
-	"importusers-login-name": "ⵉⵙⵎ ⵏ ⵓⵙⵎⵔⴰⵙ",
-	"importusers-password": "ⵜⴰⴳⵓⵔⵉ ⵏ ⵓⵣⵔⴰⵢ"
+	"importusers-log-summary-all": "ṭuṭal n ismrasn: $1",
+	"importusers-login-name": "ism n usmras",
+	"importusers-password": "taguri n uzray"
 }
