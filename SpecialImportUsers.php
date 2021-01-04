@@ -33,9 +33,10 @@ class SpecialImportUsers extends SpecialPage {
 
 		$this->setHeaders();
 
-		if ( isset( $_FILES['users_file'] ) ) {
+		$upload = $this->getRequest()->getUpload( 'users_file' );
+		if ( $upload->exists() ) {
 			$out->addHTML( $this->analyzeUsers(
-				$_FILES['users_file'],
+				$upload,
 				isset( $_POST['replace_present'] ),
 				isset( $_POST['add_to_group'] )
 				)
@@ -101,14 +102,14 @@ class SpecialImportUsers extends SpecialPage {
 		return $output;
 	}
 
-	function analyzeUsers( $fileinfo, $replace_present, $importusers_add_to_group ) {
+	function analyzeUsers( $upload, $replace_present, $importusers_add_to_group ) {
 		$summary = [
 			'all' => 0,
 			'added' => 0,
 			'updated' => 0
 		];
 
-		$filedata = explode( "\n", rtrim( file_get_contents( $fileinfo['tmp_name'] ) ) );
+		$filedata = explode( "\n", rtrim( file_get_contents( $upload->getTempName() ) ) );
 		$output = '<h3>' . wfMessage( 'importusers-log' )->text() . '</h3><br />';
 		$output .= '<b>' . wfMessage( 'importusers-log-list' )->text() . '</b><br />';
 
