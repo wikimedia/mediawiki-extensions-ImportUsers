@@ -5,6 +5,7 @@
 			"Kobazulo",
 			"Mikel Ibaiba",
 			"Sator",
+			"Xabier Armendaritz",
 			"පසිඳු කාවින්ද"
 		]
 	},
@@ -15,7 +16,7 @@
 	"importusers-user-added": "'''$1''' {{GENDER:$1|lankidea}} gehitu da.",
 	"importusers-user-present-update": "\"$1\"{{GENDER:$1|erabiltzailea}} jada existitzen da eta eguneratua izan da.",
 	"importusers-log-summary": "Inportazioaren laburpena:",
-	"importusers-log-summary-all": "{{PLURAL:$1|Denak}}: $1",
+	"importusers-log-summary-all": "{{PLURAL:$1|Erabiltzaileak, guztira}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Erabiltzaile}}|Erabiltzaileak}} gehitua: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|Lankide eguneratua|Lankide eguneratuak}}: $1",
 	"importusers-login-name": "Saioa hasteko izena",
