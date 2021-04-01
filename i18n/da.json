@@ -2,14 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Saederup92"
 		]
 	},
+	"importusers": "Importer brugere",
 	"importusers-uploadfile": "Læg en fil op",
+	"importusers-file-structure": "Struktur:",
+	"importusers-file-format": "Format:",
+	"importusers-form-replace-present": "Erstat eksisterende brugere",
+	"importusers-form-add-to-group": "Tilføj brugere til eksisterende grupper",
 	"importusers-form-button": "Importer",
-	"importusers-log": "Brugerimportlog",
-	"importusers-log-summary-updated": "Opdateret: $1",
+	"importusers-log": "Brugerimporteringslog",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Bruger|Brugere}} opdateret: $1",
 	"importusers-password": "adgangskode",
 	"importusers-email": "e-mail",
-	"importusers-realname": "virkeligt navn"
+	"importusers-realname": "virkeligt navn",
+	"importusers-group": "brugergruppe"
 }
