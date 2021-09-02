@@ -22,7 +22,7 @@
 	"importusers-log-summary": "תקציר יבוא:",
 	"importusers-log-summary-all": "{{PLURAL:$1|משתמש אחד|סך משתמשים: $1}}",
 	"importusers-log-summary-added": "נוסף: $1",
-	"importusers-log-summary-updated": "עודכן: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|משתמש עודכן|משתמשים עודכנו}}: $1",
 	"importusers-login-name": "שם המשתמש",
 	"importusers-password": "סיסמה",
 	"importusers-email": "דוא״ל",
