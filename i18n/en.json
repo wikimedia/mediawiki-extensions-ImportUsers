@@ -11,7 +11,7 @@
 	"importusers-desc": "Allows to [[Special:ImportUsers|import users]] in bulk from a UTF-8 encoded CSV file",
 	"importusers-uploadfile": "Upload file",
 	"importusers-form-caption": "Input file:",
-	"importusers-file": "Imput file structure and format:",
+	"importusers-file": "Input file structure and format:",
 	"importusers-file-structure": "Structure:",
 	"importusers-file-format": "Format:",
 	"importusers-form-replace-present": "Replace existing users",
