@@ -8,6 +8,7 @@
 	"importusers-desc": "Permitte [[Special:ImportUsers|importar usatores]] in massa ab un file CSV con codification UTF-8",
 	"importusers-uploadfile": "Incargar file",
 	"importusers-form-caption": "File de entrata:",
+	"importusers-file": "Structura e formato del file de entrata:",
 	"importusers-form-replace-present": "Reimplaciar le usatores existente",
 	"importusers-form-button": "Importar",
 	"importusers-user-added": "{{GENDER:$1|Le usator}} \"$1\" ha essite addite.",
