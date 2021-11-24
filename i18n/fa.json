@@ -4,7 +4,8 @@
 			"FarsiNevis",
 			"Huji",
 			"Mjbmr",
-			"Reza1615"
+			"Reza1615",
+			"Jeeputer"
 		]
 	},
 	"importusers": "درون‌ریزی کاربران",
@@ -13,9 +14,9 @@
 	"importusers-file-format": "قالب:",
 	"importusers-form-button": "درون‌ریزی",
 	"importusers-log": "برون‌بری سیاهه کاربران",
-	"importusers-log-summary": "خلاصه",
-	"importusers-log-summary-all": "همه: $1",
-	"importusers-log-summary-added": "افزوده شد: $1",
+	"importusers-log-summary": "خلاصهٔ درون‌ریزی:",
+	"importusers-log-summary-all": "{{PLURAL:$1|کاربران}} کل: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|کاربر}}|کاربران}} افزوده‌شده: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|کاربر|کاربران}} روزآمد شده: $1",
 	"importusers-login-name": "نام ورود به سیستم",
 	"importusers-password": "گذرواژه",
