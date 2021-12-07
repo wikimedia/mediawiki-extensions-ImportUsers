@@ -6,11 +6,12 @@
 			"Jack Phoenix",
 			"Nike",
 			"Pyscowicz",
-			"Valtlait"
+			"Valtlait",
+			"Veikk0.ma"
 		]
 	},
 	"importusers": "Tuo käyttäjiä",
-	"importusers-desc": "[[Special:ImportUsers|Tuo käyttäjiä]] UTF-8-merkistökoodatusta CSV-tiedostosta.",
+	"importusers-desc": "[[Special:ImportUsers|Tuo käyttäjiä]] UTF-8-merkistökoodatusta CSV-tiedostosta",
 	"importusers-uploadfile": "Tallenna tiedosto",
 	"importusers-form-caption": "Syöttötiedosto:",
 	"importusers-form-replace-present": "Korvaa olemassaolevat käyttäjät",

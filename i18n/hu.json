@@ -2,23 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Glanthor Reviol",
-			"Rodrigo"
+			"Rodrigo",
+			"Tacsipacsi"
 		]
 	},
 	"importusers": "Szerkesztők importálása",
-	"importusers-desc": "[[Special:ImportUsers|Szerkesztői azonosítók importálása]] tömegesen CSV fájlból; kódolás: UTF-8",
+	"importusers-desc": "Lehetővé teszi [[Special:ImportUsers|szerkesztői azonosítók tömeges importálását]] egy UTF-8 kódolású CSV fájlból",
 	"importusers-uploadfile": "Fájl feltöltése",
-	"importusers-form-caption": "CSV fájl beolvasása (utf-8)",
+	"importusers-form-caption": "Bemeneti fájl:",
 	"importusers-form-replace-present": "Jelenlegi szerkesztői fiókok lecserélése",
 	"importusers-form-button": "Importálás",
-	"importusers-user-added": "'''$1''' felhasználó hozzáadva.",
-	"importusers-user-present-update": "'''$1''' nevű felhasználó már létezik.\nFrissítve.",
-	"importusers-user-invalid-format": "A(z) #$1. sorban levő felhasználói adatok érvénytelen formátumúak, vagy nincsenek megadva.\nÁtugorva.",
+	"importusers-user-added": "„$1” felhasználó hozzáadva.",
+	"importusers-user-present-update": "„$1” nevű felhasználó már létezik.\nFrissítve.",
+	"importusers-user-invalid-format": "A(z) $1. sorban levő felhasználói adatok érvénytelen formátumúak, vagy nincsenek megadva, így át lettek ugorva.",
 	"importusers-log": "Importált szerkesztői azonosítók naplója",
 	"importusers-log-summary": "Átvétel összefoglaló",
 	"importusers-log-summary-all": "Összes {{PLURAL:$1|felhasználó|felhasználó}}: $1",
-	"importusers-log-summary-added": "Hozzáadva",
-	"importusers-log-summary-updated": "Frissítve",
+	"importusers-log-summary-added": "$1 {{PLURAL:$1|{{GENDER:$2|felhasználó}}}} hozzáadva",
+	"importusers-log-summary-updated": "$1 {{PLURAL:$1|felhasználó}} frissítve",
 	"importusers-login-name": "Felhasználói név",
 	"importusers-password": "jelszó",
 	"importusers-email": "e-mail",

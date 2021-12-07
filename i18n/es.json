@@ -5,7 +5,8 @@
 			"Imre",
 			"Locos epraix",
 			"Macofe",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Jakeukalane"
 		]
 	},
 	"importusers": "Importar usuarios",
@@ -37,5 +38,5 @@
 	"importusers-comma": "separar campos con comas",
 	"importusers-noquotes": "sin comillas dobles para el texto",
 	"right-import_users": "Importar usuarios en bloque",
-	"action-import_users": "importar usuarios a este wiki"
+	"action-import_users": "importar usuarios a esta wiki"
 }

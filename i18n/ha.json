@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Gwanki"
+		]
 	},
-	"importusers-log-summary": "Taƙaici",
-	"importusers-log-summary-all": "Duka"
+	"importusers-log-summary": "Shigo da taƙaitawa:",
+	"importusers-log-summary-all": "Dukkan {{PLURAL:$1|ma'aikaci|ma'aikata}}: $1"
 }

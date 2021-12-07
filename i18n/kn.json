@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nayvik"
+			"Nayvik",
+			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
 		]
 	},
-	"importusers-log-summary": "ಸಾರಾಂಶ",
-	"importusers-log-summary-all": "ಎಲ್ಲಾ",
+	"importusers-log-summary": "ಆಮದು ಸಾರಾಂಶ:",
+	"importusers-log-summary-all": "ಎಲ್ಲಾ {{PLURAL:$1|ಬಳಕೆದಾರ|ಬಳಕೆದಾರರು}}: $1",
 	"importusers-password": "ಪ್ರವೇಶಪದ",
 	"importusers-email": "ಇ-ಅಂಚೆ"
 }

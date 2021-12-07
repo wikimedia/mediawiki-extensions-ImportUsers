@@ -4,9 +4,9 @@
 			"Умар"
 		]
 	},
-	"importusers-uploadfile": "Файл чуяккхар",
+	"importusers-uploadfile": "Файл чуйаккхар",
 	"importusers-log": "Декъашхойн импортан тептар",
-	"importusers-log-summary-all": "Ерриг: $1",
-	"importusers-login-name": "Декъашхочун дӀаяздаран цӀе",
+	"importusers-log-summary-all": "Берриге: $1 {{PLURAL:$1|декъашхой}}",
+	"importusers-login-name": "Декъашхочун дӀайаздаран цӀе",
 	"importusers-password": "пароль"
 }
