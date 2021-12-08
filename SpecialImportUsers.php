@@ -164,10 +164,13 @@ class SpecialImportUsers extends SpecialPage {
 		$user = $this->getUser();
 
 		if ( $user->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
+			$userGroupManager = MediaWikiServices::getInstance()->getUserGroupManager();
+			$allUserGroups = $userGroupManager->listAllGroups();
+			$userGroups = $userGroupManager->getUserGroups( $u );
 			for ( $i = 4; $i < count( $user_array ); $i++ ) {
-				if ( in_array( $user_array[ $i], User::getAllGroups() ) ) {
-					if ( !in_array( $user_array[ $i], $u->getGroups() ) ) {
-						$u->addGroup( $user_array[ $i] );
+				if ( in_array( $user_array[$i], $allUserGroups ) ) {
+					if ( !in_array( $user_array[$i], $userGroups ) ) {
+						$userGroupManager->addUserToGroup( $u, $user_array[$i] );
 					}
 				}
 			}
