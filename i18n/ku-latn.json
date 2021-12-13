@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
-	"importusers-log-summary": "Kurte",
+	"importusers-log-summary": "Kurteya împortkirinê:",
 	"importusers-log-summary-all": "Hemû {{PLURAL:$1|bikarhêner}}: $1",
 	"importusers-password": "şîfre"
 }

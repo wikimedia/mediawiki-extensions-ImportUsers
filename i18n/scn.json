@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"importusers-uploadfile": "Càrrica nu file",
+	"importusers-form-button": "Mporta",
+	"importusers-user-added": "L'utenti \"$1\" fu {{GENDER:$1|agghiunciutu|agghiunciuta}}.",
+	"importusers-log-summary-all": "Tutali {{PLURAL:$1|utenti}}: $1",
+	"importusers-password": "password",
+	"importusers-email": "email",
+	"importusers-realname": "nomu veru",
+	"importusers-group": "gruppu utenti"
+}

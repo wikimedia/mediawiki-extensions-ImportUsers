@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joao Xavier"
+			"Joao Xavier",
+			"JSantos"
 		]
 	},
 	"importusers-uploadfile": "Sendez arkivo",
-	"importusers-log-summary-all": "Quanto di {{PLURAL:$1|uzero|uzeri}}: $1"
+	"importusers-log-summary-all": "Quanto di {{PLURAL:$1|uzero|uzeri}}: $1",
+	"importusers-email": "e-posto"
 }

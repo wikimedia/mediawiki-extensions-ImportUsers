@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Botuzhaleny-sodamo",
-			"Rueter"
+			"Rueter",
+			"Denö"
 		]
 	},
 	"importusers-uploadfile": "Тонгомс файла",
 	"importusers-form-button": "Совавтомс",
-	"importusers-log-summary-all": "Весе",
+	"importusers-log-summary-all": "Ансяк: $1 {{PLURAL:$1|теиця|теицят}}",
 	"importusers-log-summary-added": "Поладозь",
 	"importusers-password": "совамо вал",
 	"importusers-email": "е-сёрма",

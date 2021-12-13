@@ -6,11 +6,12 @@
 			"Rxy",
 			"Shirayuki",
 			"Sujiniku",
-			"青子守歌"
+			"青子守歌",
+			"Marine-Blue"
 		]
 	},
 	"importusers": "利用者をインポート",
-	"importusers-desc": "CSVファイル（UTF-8 エンコード）から一括して[[Special:ImportUsers|利用者を取り込む]]ことを許可",
+	"importusers-desc": "CSVファイル（UTF-8 エンコード）から一括して[[Special:ImportUsers|利用者をインポートする]]ことを許可",
 	"importusers-uploadfile": "ファイルをアップロード",
 	"importusers-form-caption": "ファイルを入力してください :",
 	"importusers-form-replace-present": "既存利用者を置き換える",
