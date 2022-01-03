@@ -4,19 +4,25 @@
 			"Bennylin",
 			"Diki Ananta",
 			"IvanLanin",
-			"Sumbukompor"
+			"Sumbukompor",
+			"Daud I.F. Argana"
 		]
 	},
 	"importusers": "Impor pengguna",
-	"importusers-desc": "[[Special:ImportUsers|Impor pengguna]] secara massal dari berkas CSV; enkode: UTF-8",
+	"importusers-desc": "Memungkinkan untuk [[Special:ImportUsers|mengimpor pengguna]] secara massal dari berkas CSV dengan enkode UTF-8",
 	"importusers-uploadfile": "Muatkan berkas",
 	"importusers-form-caption": "Berkas masukan:",
+	"importusers-file-structure": "Struktur:",
+	"importusers-file-format": "Format:",
 	"importusers-form-replace-present": "Timpa pengguna yang sudah ada",
+	"importusers-form-add-to-group": "Tambahkan pengguna ke kelompok yang ada",
 	"importusers-form-button": "Impor",
 	"importusers-user-added": "{{GENDER:$1|Pengguna}} \"$1\" telah ditambahkan.",
 	"importusers-user-present-update": "{{GENDER:$1|Pengguna}} \"$1\" sudah ada dan telah diperbarui.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Pengguna}} \"$1\" sudah ada dan belum diperbarui.",
 	"importusers-user-invalid-format": "Data pengguna pada baris #$1 tidak memiliki format yang sah atau kosong dan telah dilompati.",
 	"importusers-log": "Impor log pengguna",
+	"importusers-log-list": "Pengguna yang diimpor atau diperbarui:",
 	"importusers-log-summary": "Ringkasan impor:",
 	"importusers-log-summary-all": "Total {{PLURAL:$1|pengguna|pengguna}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Pengguna}}|Pengguna}} ditambahkan: $1",
@@ -25,5 +31,10 @@
 	"importusers-password": "kata sandi",
 	"importusers-email": "surel",
 	"importusers-realname": "nama asli",
-	"right-import_users": "Impor banyak pengguna"
+	"importusers-group": "kelompok pengguna",
+	"importusers-utf8": "enkode UTF-8",
+	"importusers-comma": "pisahkan isian dengan tanda koma",
+	"importusers-noquotes": "jangan sertakan tanda kurung ganda untuk teks",
+	"right-import_users": "Impor banyak pengguna",
+	"action-import_users": "mengimpor pengguna ke wiki ini"
 }
