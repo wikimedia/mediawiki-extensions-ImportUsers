@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"FarsiNevis",
 			"Huji",
 			"Jeeputer",
@@ -19,7 +20,7 @@
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|کاربر}}|کاربران}} افزوده‌شده: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|کاربر|کاربران}} روزآمد شده: $1",
 	"importusers-login-name": "نام ورود به سیستم",
-	"importusers-password": "گذرواژه",
+	"importusers-password": "رمز عبور",
 	"importusers-email": "ایمیل",
 	"importusers-realname": "نام واقعی"
 }
