@@ -3,14 +3,15 @@
 		"authors": [
 			"Akapochtli",
 			"Fluence",
-			"Ricardo gs"
+			"Ricardo gs",
+			"Languaeditor"
 		]
 	},
-	"importusers-uploadfile": "Tlahcuilōlquetza",
+	"importusers-uploadfile": "Xiktlehkolti amatl",
 	"importusers-form-button": "Tiquicōhuāz",
 	"importusers-log-summary": "Tlahcuilōltōn",
-	"importusers-log-summary-all": "Mochintin: $1",
-	"importusers-log-summary-updated": "Omoyancuilih: $1",
+	"importusers-log-summary-all": "Nochi: $1",
+	"importusers-log-summary-updated": "Moyankwilki: $1",
 	"importusers-password": "tlahtolichtacayotl",
 	"importusers-email": "e-mail",
 	"importusers-realname": "melāhuac motōcā",
