@@ -22,7 +22,7 @@
 	"importusers-user-added": "{{GENDER:$1|המשתמש \"$1\" נוסף|המשתמשת \"$1\" נוספה}}",
 	"importusers-user-present-update": "{{GENDER:$1|המשתמש \"$1\" כבר קיים ועודכן|המשתמשת \"$1\" כבר קיימת ועודכנה}}.",
 	"importusers-user-present-no-update": "{{GENDER:$1|המשתמש $1 כבר קיים ולא עודכן|המשתמשת $1 כבר קיימת ולא עודכנה}}.",
-	"importusers-user-invalid-format": "נתוני המשתמש בשורה $1# ריקים או שהם בפורמט בלתי תקין, ולכן דולגו.",
+	"importusers-user-invalid-format": "נתוני המשתמש בשורה $1# בלתי־תקינים או ריקים, ולכן דולגו.",
 	"importusers-log": "יומן ייבוא משתמשים",
 	"importusers-log-list": "משתמשים מיובאים או מעודכנים:",
 	"importusers-log-summary": "תקציר יבוא:",
