@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Snakesteuben"
+			"Snakesteuben",
+			"PiefPafPier"
 		]
 	},
 	"importusers-form-button": "Ymportearje",
-	"importusers-log-summary-all": "Alle"
+	"importusers-log-summary-all": "Totaaltal {{PLURAL:$1|meidoggers}}: $1"
 }
