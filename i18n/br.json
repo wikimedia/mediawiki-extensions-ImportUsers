@@ -3,6 +3,7 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
@@ -12,8 +13,8 @@
 	"importusers-form-caption": "Enmont ur restr CSV (UTF-8) :",
 	"importusers-form-replace-present": "Erlec'hiañ an implijerien zo anezho",
 	"importusers-form-button": "Enporzhiañ",
-	"importusers-user-added": "Ouzhpennet eo bet an implijer '''$1'''.",
-	"importusers-user-present-update": "An implijer '''$1''' zo anezhañ dija.\nHizivaet eo bet.",
+	"importusers-user-added": "Ouzhpennet eo bet an implijer{{GENDER:$1||ez}} '''$1'''.",
+	"importusers-user-present-update": "An implijer{{GENDER:$1||ez}} '''$1''' zo anezh{{GENDER:$1|añ|i}} dija hag a zo bet hizivaet.",
 	"importusers-user-invalid-format": "Pe eo direizh furmad ar roadennoù implijer el linenn #$1 pe n'eus ket anezho.\nNa ober netra.",
 	"importusers-log": "Marilh enporzhiadurioù an implijerien",
 	"importusers-log-summary": "Diverradur",
