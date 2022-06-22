@@ -6,6 +6,7 @@
 		]
 	},
 	"importusers-uploadfile": "Sendez arkivo",
+	"importusers-form-button": "Importacar",
 	"importusers-log-summary-all": "Quanto di {{PLURAL:$1|uzero|uzeri}}: $1",
 	"importusers-email": "e-posto"
 }
