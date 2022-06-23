@@ -9,7 +9,7 @@
 			"YaronSh"
 		]
 	},
-	"importusers": "ייבוא משתמשים",
+	"importusers": "יבוא משתמשים",
 	"importusers-desc": "מאפשר [[Special:ImportUsers|לייבא משתמשים]] במקובץ מקובץ CSV מקודד UTF-8",
 	"importusers-uploadfile": "העלאת קובץ",
 	"importusers-form-caption": "קובץ קלט:",
@@ -18,12 +18,12 @@
 	"importusers-file-format": "תסדיר:",
 	"importusers-form-replace-present": "החלפת משתמשים קיימים",
 	"importusers-form-add-to-group": "הוספת משתמשים לקבוצות קיימות",
-	"importusers-form-button": "ייבוא",
+	"importusers-form-button": "יבוא",
 	"importusers-user-added": "{{GENDER:$1|המשתמש \"$1\" נוסף|המשתמשת \"$1\" נוספה}}",
 	"importusers-user-present-update": "{{GENDER:$1|המשתמש \"$1\" כבר קיים ועודכן|המשתמשת \"$1\" כבר קיימת ועודכנה}}.",
 	"importusers-user-present-no-update": "{{GENDER:$1|המשתמש $1 כבר קיים ולא עודכן|המשתמשת $1 כבר קיימת ולא עודכנה}}.",
 	"importusers-user-invalid-format": "נתוני המשתמש בשורה $1# בלתי־תקינים או ריקים, ולכן דולגו.",
-	"importusers-log": "יומן ייבוא משתמשים",
+	"importusers-log": "יומן יבוא משתמשים",
 	"importusers-log-list": "משתמשים מיובאים או מעודכנים:",
 	"importusers-log-summary": "תקציר יבוא:",
 	"importusers-log-summary-all": "{{PLURAL:$1|משתמש אחד|סך משתמשים: $1}}",
@@ -37,6 +37,6 @@
 	"importusers-utf8": "מקודד ב־UTF-8",
 	"importusers-comma": "הפרדות שדות בפסיקים",
 	"importusers-noquotes": "ללא מירכאות כפולות עבור טקסט",
-	"right-import_users": "ייבוא משתמשים מרובים",
+	"right-import_users": "יבוא משתמשים מרובים",
 	"action-import_users": "לייבא משתמשים לאתר"
 }

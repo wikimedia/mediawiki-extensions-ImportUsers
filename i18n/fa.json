@@ -22,5 +22,6 @@
 	"importusers-login-name": "نام ورود به سیستم",
 	"importusers-password": "رمز عبور",
 	"importusers-email": "ایمیل",
-	"importusers-realname": "نام واقعی"
+	"importusers-realname": "نام واقعی",
+	"importusers-group": "گروه‌ کاربر"
 }
