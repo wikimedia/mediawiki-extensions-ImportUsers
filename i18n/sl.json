@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"importusers": "Uvoz uporabnikov",
@@ -22,5 +23,6 @@
 	"importusers-password": "geslo",
 	"importusers-email": "e-pošta",
 	"importusers-realname": "pravo ime",
+	"importusers-group": "uporabniška skupina",
 	"right-import_users": "Množično uvažanje uporabnikov"
 }
