@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"importusers": "Uvoz uporabnikov",
 	"importusers-desc": "Omogoča množično [[Special:ImportUsers|uvažaje uporabnikov]] iz datoteke CSV, kodirane v UTF-8",
 	"importusers-uploadfile": "Naloži datoteko",
 	"importusers-form-caption": "Vhodna datoteka:",
+	"importusers-file-format": "Oblika:",
 	"importusers-form-replace-present": "Zamenjaj obstoječe uporabnike",
 	"importusers-form-button": "Uvozi",
 	"importusers-user-added": "{{GENDER:$1|Uporabnika|Uporabnico}} '''$1''' smo dodali.",
@@ -22,5 +24,6 @@
 	"importusers-password": "geslo",
 	"importusers-email": "e-pošta",
 	"importusers-realname": "pravo ime",
+	"importusers-group": "uporabniška skupina",
 	"right-import_users": "Množično uvažanje uporabnikov"
 }
