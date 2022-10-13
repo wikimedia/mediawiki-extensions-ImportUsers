@@ -4,7 +4,8 @@
 			"Kaustubh",
 			"Sfic",
 			"Siddhartha Ghai",
-			"आलोक"
+			"आलोक",
+			"Saurmandal"
 		]
 	},
 	"importusers": "सदस्य आयात करें",
@@ -16,7 +17,7 @@
 	"importusers-user-added": "{{GENDER:$1|सदस्य}} \"$1\" जुड़ चुका है।",
 	"importusers-user-present-update": "{{GENDER:$1|सदस्य}} \"$1\" पहले से उपस्थित है और अद्यतन भी हो चुका है।",
 	"importusers-user-invalid-format": "#$1 लाईन पर दी हुई सदस्य जानकारी गलत फ़ॉर्मैट में अथवा खाली है।\nछोड़ी गई।",
-	"importusers-log": "आयात सदस्य सूची",
+	"importusers-log": "आयात सदस्य लॉग",
 	"importusers-log-summary": "आयात सारांश:",
 	"importusers-log-summary-all": "सभी {{PLURAL:$1|सदस्य}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|सदस्य}}|सदस्य}} जोड़ा गया: $1",
