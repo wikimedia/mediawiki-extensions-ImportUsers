@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
-	"importusers-uploadfile": "Բեռնել նիշք"
+	"importusers-uploadfile": "Նիշք վերբեռնել"
 }
