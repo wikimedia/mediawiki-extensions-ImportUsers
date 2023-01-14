@@ -133,7 +133,7 @@ class SpecialImportUsers extends SpecialPage {
 			$uid = $nextUser->idForName();
 			if ( $uid === 0 ) {
 				$nextUser->addToDatabase();
-				$nextUser->setPassword( $newuserarray[1] );
+				$output .= $this->setPassword( $nextUser, $newuserarray[1] );
 				$nextUser->saveSettings();
 
 				$this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
@@ -141,7 +141,7 @@ class SpecialImportUsers extends SpecialPage {
 				$output .= wfMessage( 'importusers-user-added', $newuserarray[0] )->text() . '<br />';
 				$summary['added']++;
 			} elseif ( $replace_present ) {
-				$nextUser->setPassword( $newuserarray[1] );
+				$output .= $this->setPassword( $nextUser, $newuserarray[1] );
 				$nextUser->saveSettings();
 
 				$this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
@@ -177,6 +177,35 @@ class SpecialImportUsers extends SpecialPage {
 				}
 			}
 		}
+	}
+
+	/**
+	 * Set a password on a user or return error
+	 *
+	 * @param User $user
+	 * @param string $password
+	 * @return string HTML error message or empty string on success
+	 */
+	private function setPassword( User $user, string $password ) {
+		if ( $password === '' ) {
+			// Assume empty means the user intentionally did not
+			// want a password set.
+			return;
+		}
+		$status = $user->changeAuthenticationData( [
+			'password' => $password,
+			'retype' => $password,
+			'username' => $user->getName()
+		] );
+		if ( !$status->isGood() ) {
+			// We weren't able to set a password.
+			// Probably password is too weak.
+			return wfMessage( 'importusers-bad-password' )
+				->params( wfEscapeWikiText( $user->getName() ) )
+				->params( $status->getWikiText() )
+				->parse() . '<br>';
+		}
+		return '';
 	}
 
 	protected function getGroupName() {
