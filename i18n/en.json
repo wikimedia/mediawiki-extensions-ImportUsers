@@ -35,6 +35,7 @@
 	"importusers-utf8": "UTF-8 encoded",
 	"importusers-comma": "separate fields with commas",
 	"importusers-noquotes": "no double-quotes for text",
+	"importusers-bad-password": "Could not set the password for user \"$1\" due to error \"$2\". User will not be able to log in by password until they reset their password via email.",
 	"right-import_users": "Import users in bulk",
 	"action-import_users": "import users into this wiki"
 }
