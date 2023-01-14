@@ -34,6 +34,7 @@
 	"importusers-utf8": "This is a help text.",
 	"importusers-comma": "This is a help text.",
 	"importusers-noquotes": "This is a help text.",
+	"importusers-bad-password": "Message shown if we cannot set a password for a user. $1 is username, $2 is the reason we cannot set a password. Most commonly $2 will be something like {{msg-mw|passwordincommonlist}} but could also be something like {{msg-mw|authenticationdatachange-ignored}}. If there are multiple errors $2 may be a bulleted list of error messages.",
 	"right-import_users": "{{doc-right|import_users}}",
 	"action-import_users": "{{doc-action|import_users}}"
 }
