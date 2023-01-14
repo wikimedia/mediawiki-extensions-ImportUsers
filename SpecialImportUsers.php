@@ -8,8 +8,7 @@
 
 use MediaWiki\MediaWikiServices;
 
-class SpecialImportUsers extends SpecialPage {
-
+class SpecialImportUsers extends FormSpecialPage {
 	/**
 	 * Constructor -- set up the new special page
 	 */
@@ -21,101 +20,135 @@ class SpecialImportUsers extends SpecialPage {
 		return true;
 	}
 
+	protected function getFormFields() {
+		return [
+			// Note required=>true is broken on file uploads, so
+			// don't specify it here (T327007).
+			'csvfile' => [
+				'type' => 'file',
+				'label-message' => 'importusers-uploadfile',
+				'validation-callback' => [ $this, 'validateCSVFile' ],
+				// Try to be generous with possible types in case of mislabel.
+				'accept' => [
+					'text/csv',
+					'text/plain',
+					'text/x-csv',
+					// The internet claims CSV files are sometimes sent as this
+					'application/vnd.ms-excel',
+					'.csv',
+					'.txt'
+				]
+			],
+			'replacePresent' => [
+				'type' => 'check',
+				'label-message' => 'importusers-form-replace-present',
+			],
+			'addToGroup' => [
+				'type' => 'check',
+				'label-message' => 'importusers-form-add-to-group',
+			],
+		];
+	}
+
 	/**
-	 * Show the special page
+	 * Check that the CSV file is valid
 	 *
-	 * @param string|null $par parameter passed to the special page or null
+	 * @return Message|bool If file is ok or the error message
 	 */
-	public function execute( $par ) {
-		$use = $this->getUser();
-		$out = $this->getOutput();
-		if ( !$use->isAllowed( 'import_users' ) ) {
-			throw new PermissionsError( 'import_users' );
+	public function validateCSVFile() {
+		$upload = $this->getRequest()->getUpload( 'wpcsvfile' );
+		if ( !$upload->exists() ) {
+			return $this->msg( 'htmlform-required' );
 		}
+		$tmpName = $upload->getTempName();
+		if ( !file_exists( $tmpName ) || filesize( $tmpName ) < 3 ) {
+			return $this->msg( 'htmlform-required' );
+		}
+		$contents = file_get_contents( $tmpName, false, null, 0, 2048 );
+		if ( strpos( $contents, ',' ) === false ) {
+			return $this->msg( 'importusers-invalid-file' );
+		}
+		// Possible TODO: Check that the file is valid UTF-8 and doesn't
+		// contain weird binary characters.
+		return true;
+	}
 
-		$this->setHeaders();
+	/**
+	 * Get the description of the csv format.
+	 *
+	 * @return string
+	 */
+	private function getFileStructure() {
+		// Do not use language comma list, since this is
+		// supposed to be showing the CSV format, so we
+		// would not want the comma translated into ፣ or 、.
+		return implode( ', ', [
+			$this->msg( 'importusers-login-name' )->plain(),
+			$this->msg( 'importusers-password' )->plain(),
+			$this->msg( 'importusers-email' )->plain(),
+			$this->msg( 'importusers-realname' )->plain(),
+			$this->msg( 'importusers-group' )->plain()
+		] );
+	}
 
-		$upload = $this->getRequest()->getUpload( 'users_file' );
-		if ( $upload->exists() ) {
-			$out->addHTML( $this->analyzeUsers(
-				$upload,
-				isset( $_POST['replace_present'] ),
-				isset( $_POST['add_to_group'] )
-				)
+	protected function alterForm( HTMLForm $form ) {
+		$form->setWrapperLegendMsg( 'importusers-uploadfile' )
+			->setSubmitTextMsg( 'importusers-form-button' );
+	}
+
+	protected function preHtml() {
+		return Html::element( 'h3', [], $this->msg( 'importusers-file' )->text() )
+			. Html::rawElement( 'dl', [],
+				Html::element( 'dt', [], $this->msg( 'importusers-file-structure' )->text() )
+				. Html::element( 'dd', [], $this->getFileStructure() )
+				. Html::element( 'dt', [], $this->msg( 'importusers-file-format' )->text() )
+				. Html::element( 'dd', [], $this->msg( 'importusers-file-format-desc' )->text() )
 			);
-		} else {
-			$out->addHTML( $this->makeForm() );
-		}
 	}
 
-	function makeForm() {
-		$lan = $this->getLanguage();
+	public function onSubmit( $data ) {
+		// Due to password hashing, this can take a long time to process.
+		// increase limit
+		$this->useTransactionalTimeLimit();
 
-		$titleObj = SpecialPage::getTitleFor( 'ImportUsers' );
+		$upload = $this->getRequest()->getUpload( 'wpcsvfile' );
+		$this->getOutput()->addWikiTextAsInterface( $this->analyzeUsers(
+			$this->getFileContents( $upload ),
+			$data['replacePresent'],
+			$data['addToGroup']
+		) );
 
-		$action = htmlspecialchars( $titleObj->getLocalURL() );
-
-		$fileStructure = $lan->commaList( [
-			wfMessage( 'importusers-login-name' )->text(),
-			wfMessage( 'importusers-password' )->text(),
-			wfMessage( 'importusers-email' )->text(),
-			wfMessage( 'importusers-realname' )->text(),
-			wfMessage( 'importusers-group' )->text()
-			]
-		);
-		$fileFormat = $lan->commaList( [
-			wfMessage( 'importusers-utf8' )->text(),
-			wfMessage( 'importusers-comma' )->text(),
-			wfMessage( 'importusers-noquotes' )->text()
-			]
-		);
-
-		$output = '<form enctype="multipart/form-data" method="post" action="' . $action . '">';
-		$output .= '<h3>' . wfMessage( 'importusers-file' )->text() . '</h3>';
-		$output .= '<dl>
-				<dt>' . wfMessage( 'importusers-file-structure' )->text() . '</dt>
-					<dd>' . $fileStructure . '</dd>';
-		$output .= '<dt>' . wfMessage( 'importusers-file-format' )->text() . '</dt>
-				<dd>' . $fileFormat . '</dd>
-			</dl>';
-		$output .= '<fieldset>
-			<legend>' . wfMessage( 'importusers-uploadfile' )->text() . '</legend>';
-		$output .= '<table border="0" a-valign="center" width="100%">';
-		$output .= '<tr>
-				<td align="right" width="160">' . wfMessage( 'importusers-form-caption' )->text() . ' </td>
-				<td><input name="users_file" type="file" size=40 /></td>
-			</tr>';
-		$output .= '<tr>
-				<td align=right></td>
-				<td><input name="replace_present" type="checkbox" />' . wfMessage( 'importusers-form-replace-present' )->text() . '</td>
-			</tr>';
-		$output .= '<tr>
-				<td align=right></td>
-				<td><input name="add_to_group" type="checkbox" />' . wfMessage( 'importusers-form-add-to-group' )->text() . '</td>
-			</tr>';
-		$output .= '<tr>
-				<td align="right"></td>
-				<td><input type="submit" value="' . wfMessage( 'importusers-form-button' )->text() . '" /></td>
-			</tr>';
-		$output .= '</table>';
-		$output .= '</fieldset>';
-		$output .= '</form>';
-
-		return $output;
+		return Status::newGood();
 	}
 
-	function analyzeUsers( $upload, $replace_present, $importusers_add_to_group ) {
+	/**
+	 * @param WebRequestUpload $upload
+	 * @return array All the lines in the file.
+	 */
+	private function getFileContents( WebRequestUpload $upload ) {
+		$fileContents = rtrim( file_get_contents( $upload->getTempName() ) );
+		// This will ensure everything is UTF-8 NFC.
+		$fileCleaned = UtfNormal\Validator::cleanUp( $fileContents );
+		return explode( "\n", $fileCleaned );
+	}
+
+	/**
+	 * @param string[] $lines Lines of CSV file
+	 * @param bool $replace_present
+	 * @param bool $importusers_add_to_group
+	 * @return string Output interpreted as wikitext (not html).
+	 */
+	private function analyzeUsers( $lines, $replace_present, $importusers_add_to_group ) {
 		$summary = [
 			'all' => 0,
 			'added' => 0,
 			'updated' => 0
 		];
 
-		$filedata = explode( "\n", rtrim( file_get_contents( $upload->getTempName() ) ) );
 		$output = '<h3>' . wfMessage( 'importusers-log' )->text() . '</h3><br />';
 		$output .= '<b>' . wfMessage( 'importusers-log-list' )->text() . '</b><br />';
 
-		foreach ( $filedata as $line => $newuserstr ) {
+		foreach ( $lines as $line => $newuserstr ) {
 			$newuserarray = explode( ',', trim( $newuserstr ) );
 			if ( count( $newuserarray ) < 2 ) {
 				$output .= wfMessage( 'importusers-user-invalid-format', $line + 1 )->text() . '<br />';
@@ -136,7 +169,7 @@ class SpecialImportUsers extends SpecialPage {
 				$output .= $this->setPassword( $nextUser, $newuserarray[1] );
 				$nextUser->saveSettings();
 
-				$this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
+				$this->addToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
 
 				$output .= wfMessage( 'importusers-user-added', $newuserarray[0] )->text() . '<br />';
 				$summary['added']++;
@@ -144,7 +177,7 @@ class SpecialImportUsers extends SpecialPage {
 				$output .= $this->setPassword( $nextUser, $newuserarray[1] );
 				$nextUser->saveSettings();
 
-				$this->AddToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
+				$this->addToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
 
 				$output .= wfMessage( 'importusers-user-present-update', $newuserarray[0] )->text() . '<br />';
 				$summary['updated']++;
@@ -162,7 +195,7 @@ class SpecialImportUsers extends SpecialPage {
 		return $output;
 	}
 
-	function AddToGroup( $u, $user_array, $add_to_group_checked ) {
+	function addToGroup( $u, $user_array, $add_to_group_checked ) {
 		$user = $this->getUser();
 
 		if ( $user->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
@@ -203,7 +236,7 @@ class SpecialImportUsers extends SpecialPage {
 			return wfMessage( 'importusers-bad-password' )
 				->params( wfEscapeWikiText( $user->getName() ) )
 				->params( $status->getWikiText() )
-				->parse() . '<br>';
+				->text() . '<br>';
 		}
 		return '';
 	}

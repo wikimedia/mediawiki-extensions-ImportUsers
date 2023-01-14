@@ -11,7 +11,7 @@
 	"license-name": "Unlicense",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.38.0"
 	},
 	"AvailableRights": [
 		"import_users"
