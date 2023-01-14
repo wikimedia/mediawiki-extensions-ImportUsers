@@ -160,7 +160,12 @@ class SpecialImportUsers extends FormSpecialPage {
 			if ( !isset( $newuserarray[3] ) ) {
 				$newuserarray[3] = '';
 			}
-			$nextUser = User::newFromName( $newuserarray[0] );
+			$nextUser = User::newFromName( $newuserarray[0], 'creatable' );
+			if ( !$nextUser ) {
+				$output .= wfMessage( 'importusers-user-invalid' )
+					->params( wfEscapeWikiText( $newuserarray[0] ) )->text() . '<br>';
+				continue;
+			}
 			$nextUser->setEmail( $newuserarray[2] );
 			$nextUser->setRealName( $newuserarray[3] );
 			$uid = $nextUser->idForName();
