@@ -36,6 +36,7 @@
 	"importusers-utf8": "Zeichensatzkodierung in UTF-8",
 	"importusers-comma": "Kommata als Feldtrenner",
 	"importusers-noquotes": "keine Texttrenner",
+	"importusers-bad-password": "Das Passwort für Benutzer „$1“ konnte aufgrund des Fehlers „$2“ nicht festgelegt werden. Der Benutzer kann sich nicht mit dem Passwort anmelden, bis er sein Passwort per E-Mail zurückgesetzt hat.",
 	"right-import_users": "Benutzerdaten in großem Umfang importieren",
 	"action-import_users": "Benutzer in dieses Wiki zu importieren"
 }
