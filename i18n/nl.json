@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -32,6 +33,7 @@
 	"importusers-utf8": "UTF-8 gecodeerd",
 	"importusers-comma": "door komma's gescheiden",
 	"importusers-noquotes": "geen dubbele aanhalingstekens voor tekst",
+	"importusers-bad-password": "Het wachtwoord van gebruiker \"$1\" kon niet worden ingesteld vanwege fout \"$2\". De gebruiker kan nu niet met een wachtwoord inloggen totdat diens wachtwoord via e-mail opnieuw is ingesteld.",
 	"right-import_users": "Gebruikers in bulk importeren",
 	"action-import_users": "gebruikers in bulk te importeren"
 }

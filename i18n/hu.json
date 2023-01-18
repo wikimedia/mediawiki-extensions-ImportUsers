@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eukarióta",
 			"Glanthor Reviol",
 			"Rodrigo",
 			"Tacsipacsi"
@@ -24,5 +25,6 @@
 	"importusers-password": "jelszó",
 	"importusers-email": "e-mail",
 	"importusers-realname": "valódi név",
+	"importusers-bad-password": "Nem lehet beállítani ezt a jelszót a(z) $1 felhasználóhoz az „$2” hiba miatt. A felhasználó addig nem tud jelszó használatával bejelentkezni, amíg nem állítja helyre jelszavát e-mailben.",
 	"right-import_users": "felhasználók tömeges importálása"
 }
