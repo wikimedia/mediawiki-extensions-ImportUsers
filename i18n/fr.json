@@ -16,7 +16,7 @@
 	"importusers-form-caption": "Fichier d’entrée :",
 	"importusers-file": "Structure et format du fichier d’entrée :",
 	"importusers-file-structure": "Structure :",
-	"importusers-file-format": "Format :",
+	"importusers-file-format": "Format :",
 	"importusers-form-replace-present": "Remplacer les utilisateurs existants",
 	"importusers-form-add-to-group": "Ajouter des utilisateurs aux groupes existants",
 	"importusers-form-button": "Importer",
