@@ -6,6 +6,8 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialImportUsers extends SpecialPage {
 
 	/**
