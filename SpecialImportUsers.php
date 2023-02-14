@@ -20,6 +20,9 @@ class SpecialImportUsers extends FormSpecialPage {
 		return true;
 	}
 
+	/**
+	 * @return array
+	 */
 	protected function getFormFields() {
 		return [
 			// Note required=>true is broken on file uploads, so
@@ -91,6 +94,9 @@ class SpecialImportUsers extends FormSpecialPage {
 		] );
 	}
 
+	/**
+	 * @param HTMLForm $form
+	 */
 	protected function alterForm( HTMLForm $form ) {
 		$form->setWrapperLegendMsg( 'importusers-uploadfile' )
 			->setSubmitTextMsg( 'importusers-form-button' );
@@ -246,6 +252,7 @@ class SpecialImportUsers extends FormSpecialPage {
 		return '';
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'users';
 	}
