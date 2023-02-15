@@ -379,6 +379,20 @@ $specialPageAliases['sq'] = [
 	]
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'ImportUsers' => [
+		'УвозКорисника'
+	]
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'ImportUsers' => [
+		'UvozKorisnika'
+	]
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'ImportUsers' => [
