@@ -38,6 +38,7 @@
 	"importusers-utf8": "encodé en UTF-8",
 	"importusers-comma": "champs séparés par des virgules",
 	"importusers-noquotes": "pas de guillemets anglais pour le texte",
+	"importusers-bad-password": "Impossible de définir le mot de passe pour l’utilisateur « $1 » à cause de l’erreur « $2 ». L’utilisateur ne pourra pas se connecter avec son mot de passe tant qu’il ne l’aura pas réinitialisé par courriel.",
 	"right-import_users": "Importer des utilisateurs en masse",
 	"action-import_users": "importer des utilisateurs en masse"
 }
