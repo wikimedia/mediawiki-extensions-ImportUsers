@@ -35,9 +35,6 @@
 	"importusers-email": "電郵",
 	"importusers-realname": "真實姓名",
 	"importusers-group": "使用者群組",
-	"importusers-utf8": "UTF-8 編碼",
-	"importusers-comma": "以逗號分隔欄位",
-	"importusers-noquotes": "無雙引號文字",
 	"right-import_users": "大量匯入使用者",
 	"action-import_users": "匯入使用者至此 wiki"
 }

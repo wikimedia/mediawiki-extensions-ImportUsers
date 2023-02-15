@@ -29,9 +29,6 @@
 	"importusers-email": "e-mail",
 	"importusers-realname": "nome vere",
 	"importusers-group": "gruppe de utinde",
-	"importusers-utf8": "codificate UTF-8",
-	"importusers-comma": "cambe separate cu 'a virgole",
-	"importusers-noquotes": "None doppie virgolette pu teste",
 	"right-import_users": "'Mborte utinde in masse",
 	"action-import_users": "'mborte le utinde jndr'à sta uicchi"
 }

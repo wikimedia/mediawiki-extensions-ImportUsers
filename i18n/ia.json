@@ -29,10 +29,10 @@
 	"importusers-email": "e-mail",
 	"importusers-realname": "nomine real",
 	"importusers-group": "gruppo de usatores",
-	"importusers-utf8": "codificate in UTF-8",
-	"importusers-comma": "separar campos con commas",
-	"importusers-noquotes": "non usar virgulettas duple pro texto",
 	"importusers-bad-password": "Non poteva configurar le contrasigno pro le usator \"$1\" debite al error \"$2\". Le usator debe reinitialisar su contrasigno via e-mail ante de poter de aperir session per contrasigno.",
+	"importusers-file-format-desc": "Le file CSV debe esser codificate in UTF-8, le campos debe esser separate per commas e le campos de texto non debe esser inter virgulettas.",
+	"importusers-invalid-file": "Le file non pare esser un file CSV valide. Per favor assecura te que illo es formatate correctemente.",
+	"importusers-user-invalid": "Le nomine de usator \"$1\" non es un nomine de usator valide e non pote esser create.",
 	"right-import_users": "Importar usatores in massa",
 	"action-import_users": "importar usatores in iste wiki"
 }

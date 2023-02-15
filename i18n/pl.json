@@ -33,9 +33,6 @@
 	"importusers-email": "adres mejlowy",
 	"importusers-realname": "(rzeczywiste/podane) nazwisko i imię",
 	"importusers-group": "grupa użytkowników",
-	"importusers-utf8": "kodowanie UTF-8",
-	"importusers-comma": "oddzielanie pól przecinkami",
-	"importusers-noquotes": "bez użycia cudzysłowów",
 	"right-import_users": "Hurtowe importowanie kont użytkowników",
 	"action-import_users": "importowania użytkowników do tej wiki"
 }

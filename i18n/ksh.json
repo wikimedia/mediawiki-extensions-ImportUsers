@@ -29,9 +29,6 @@
 	"importusers-email": "<i lang=\"en\">e-mail</i>",
 	"importusers-realname": "Dinge richtije Name",
 	"importusers-group": "Metmaacherjropp",
-	"importusers-utf8": "Kadehrt met <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Däm Unicode singe Universal Coded Character Set + Transformation Format—8-Bit\">UTF-8</i>",
-	"importusers-comma": "don Kommas zwesche de Fälder",
-	"importusers-noquotes": "kein dubbelte Aanföhronge för der Täx",
 	"right-import_users": "Date övver Metmaachere em  Knubbel empotteere",
 	"action-import_users": "Metmaacher ier Date em Knubbel ze empotteere"
 }

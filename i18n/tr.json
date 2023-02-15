@@ -36,9 +36,6 @@
 	"importusers-email": "e-posta",
 	"importusers-realname": "gerçek ad",
 	"importusers-group": "kullanıcı grubu",
-	"importusers-utf8": "UTF-8 kodlanmış",
-	"importusers-comma": "virgül içeren ayrı alanlar",
-	"importusers-noquotes": "metin için çift tırnak yok",
 	"right-import_users": "Kullanıcıları küme olarak içe aktar",
 	"action-import_users": "kullanıcıları bu vikiye içe aktar"
 }

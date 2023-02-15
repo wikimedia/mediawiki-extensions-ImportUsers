@@ -14,6 +14,5 @@
 	"importusers-user-invalid-format": "Käyttäjätieolla rivillä #$1 oon kelvoton muoto tai se oon tyhjä, ja se ohitettiin.",
 	"importusers-log": "Käyttäjitten eksporteerausloki",
 	"importusers-email": "e-posti",
-	"importusers-group": "käyttäjäjoukko",
-	"importusers-utf8": "UTF-8-kootattu"
+	"importusers-group": "käyttäjäjoukko"
 }

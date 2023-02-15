@@ -33,9 +33,6 @@
 	"importusers-email": "електронна пошта",
 	"importusers-realname": "cправжнє ім'я",
 	"importusers-group": "група користувача",
-	"importusers-utf8": "Кодовано у UTF-8",
-	"importusers-comma": "розділяйте поля комами",
-	"importusers-noquotes": "без подвійних лапок у тексті",
 	"right-import_users": "Масове імпортування користувачів",
 	"action-import_users": "імпортування користувачів до цієї вікі"
 }

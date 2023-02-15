@@ -32,9 +32,6 @@
 	"importusers-email": "correo electrónico",
 	"importusers-realname": "nome real",
 	"importusers-group": "grupo de usuarios",
-	"importusers-utf8": "codificado en UTF-8",
-	"importusers-comma": "separar campos con comas",
-	"importusers-noquotes": "sen comiñas dobres para o texto",
 	"right-import_users": "Importar usuarios en masa",
 	"action-import_users": "importar usuarios en masa"
 }

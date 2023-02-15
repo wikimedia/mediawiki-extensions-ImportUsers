@@ -33,9 +33,6 @@
 	"importusers-email": "e-mail",
 	"importusers-realname": "nome real",
 	"importusers-group": "grupo de usuários",
-	"importusers-utf8": "Codificado em UTF-8",
-	"importusers-comma": "separe campos com vírgulas",
-	"importusers-noquotes": "sem aspas duplas para texto",
 	"right-import_users": "Importar utilizadores em bloco",
 	"action-import_users": "importar usuários para esta wiki"
 }

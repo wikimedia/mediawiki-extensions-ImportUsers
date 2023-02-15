@@ -29,9 +29,6 @@
 	"importusers-email": "corréu electrónicu",
 	"importusers-realname": "nome real",
 	"importusers-group": "grupu d'usuarios",
-	"importusers-utf8": "codificao en UTF-8",
-	"importusers-comma": "dixebrar campos con comes",
-	"importusers-noquotes": "ensin comines dobles pa testu",
 	"right-import_users": "Importar usuarios en masa",
 	"action-import_users": "importar usuarios a esta wiki"
 }

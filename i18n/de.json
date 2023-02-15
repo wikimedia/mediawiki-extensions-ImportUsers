@@ -33,10 +33,10 @@
 	"importusers-email": "E-Mail-Adresse",
 	"importusers-realname": "Bürgerlicher Name",
 	"importusers-group": "Benutzergruppe",
-	"importusers-utf8": "Zeichensatzkodierung in UTF-8",
-	"importusers-comma": "Kommata als Feldtrenner",
-	"importusers-noquotes": "keine Texttrenner",
 	"importusers-bad-password": "Das Passwort für Benutzer „$1“ konnte aufgrund des Fehlers „$2“ nicht festgelegt werden. Der Benutzer kann sich nicht mit dem Passwort anmelden, bis er sein Passwort per E-Mail zurückgesetzt hat.",
+	"importusers-file-format-desc": "Die CSV-Datei muss UTF-8-codiert sein, Felder müssen durch Kommas getrennt sein und Textfelder dürfen nicht in doppelte Anführungszeichen gesetzt werden.",
+	"importusers-invalid-file": "Die Datei scheint keine gültige CSV-Datei zu sein. Bitte stelle sicher, dass sie korrekt formatiert ist.",
+	"importusers-user-invalid": "Der Benutzername „$1“ ist kein gültiger Benutzername und konnte nicht erstellt werden.",
 	"right-import_users": "Benutzerdaten in großem Umfang importieren",
 	"action-import_users": "Benutzer in dieses Wiki zu importieren"
 }

@@ -30,9 +30,6 @@
 	"importusers-email": "البريد الإلكتروني",
 	"importusers-realname": "الاسم الحقيقي",
 	"importusers-group": "مجموعة المستخدم",
-	"importusers-utf8": "ترميز UTF-8",
-	"importusers-comma": "فصل الحقول بفواصل",
-	"importusers-noquotes": "لا يوجد اقتباس مزدوج للنص",
 	"right-import_users": "استيراد المستخدمين بشكل كمي",
 	"action-import_users": "استيراد المستخدمين بشكل كمي"
 }

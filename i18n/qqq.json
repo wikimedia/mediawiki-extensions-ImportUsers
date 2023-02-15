@@ -3,11 +3,12 @@
 		"authors": [
 			"Kghbln",
 			"Liuxinyu970226",
-			"Robby"
+			"Robby",
+			"Verdy p"
 		]
 	},
 	"importusers": "{{doc-special|ImportUsers|unlisted=1}}",
-	"importusers-desc": "{{desc|name=Import Users|url=https://www.mediawiki.org/wiki/Extension:ImportUsers}}",
+	"importusers-desc": "{{desc|name=Import Users|url=https://www.mediawiki.org/wiki/Extension:ImportUsers}}\n'''Warning''': '''CSV''' is here the correct abbreviation frequently used in English computer jargon for tabular data files formated as \"comma-separated values\" (note that this abbreviation does not necessarily mean that the separator actually used is a comma, as there are CSV files used where the actual separator may be a colon, semi-colon, pipe, tabulation or sequence of several whitespaces, and where text fields may or may not be embedded within double-quotes, numeric and date fields may be sensitive to the locale, such as a comma used instead of the dot in English for decimals; they may also use various character encodings, not necessarily UTF-8 and not necessarily supporting arbitratry characters; additionally they may use various escaping mechanisms when the separator character is needed within a text field; these files may also contain a leading row for column headers... or not. Some CSV files allow some lines to be treated as comment lines, ignored when importing data, but useful for editing/maintenance).\n\nEach tool using CSV files should document the effective format expected! Other better (less ambiguous) formats commonly used for tabular data files are JSON and XML.\n\nDo not confuse with the acronym '''CVS''' for \"Concurrent Versions System\" or \"Concurrent Versioning System\" (\"Subversion\" and \"Git\" are other common related systems for version control used in cooperative development projects).",
 	"importusers-uploadfile": "This is a button label.\n\n{{Identical|Upload file}}",
 	"importusers-form-caption": "This is the label of a field.",
 	"importusers-file": "This is the header of a help section.",
@@ -31,8 +32,8 @@
 	"importusers-email": "This is a help text.\n\n{{Identical|E-mail}}",
 	"importusers-realname": "This is a help text.\n\n{{Identical|Real name}}",
 	"importusers-group": "This is a help text.\n\n{{Identical|User group}}",
-	"importusers-file-format-desc": "Help text describing the format of the CSV file. CSV files must be UTF-8 encoded, comma separated and not use double-quote escaping. This message is shown above a form on the special page.",
 	"importusers-bad-password": "Message shown if we cannot set a password for a user. $1 is username, $2 is the reason we cannot set a password. Most commonly $2 will be something like {{msg-mw|passwordincommonlist}} but could also be something like {{msg-mw|authenticationdatachange-ignored}}. If there are multiple errors $2 may be a bulleted list of error messages.",
+	"importusers-file-format-desc": "Help text describing the format of the CSV file. CSV files must be UTF-8 encoded, comma separated and not use double-quote escaping. This message is shown above a form on the special page.",
 	"importusers-invalid-file": "Error message shown on form if the user tries to upload an incorrectly formatted CSV file (for example, if it has no commas in it).",
 	"importusers-user-invalid": "Error message shown if the username is invalid. e.g. Has an illegal character in it or is reserved. $1 - the username in question.",
 	"right-import_users": "{{doc-right|import_users}}",

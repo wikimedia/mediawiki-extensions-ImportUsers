@@ -31,9 +31,6 @@
 	"importusers-email": "e-post",
 	"importusers-realname": "virkelig navn",
 	"importusers-group": "brukergruppe",
-	"importusers-utf8": "UTF-8-kodet",
-	"importusers-comma": "atskill felter med komma",
-	"importusers-noquotes": "ingen doble sitattegn for tekst",
 	"right-import_users": "Importerer flere brukere samtidig",
 	"action-import_users": "importere brukere til wikien"
 }

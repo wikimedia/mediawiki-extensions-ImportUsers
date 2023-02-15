@@ -29,9 +29,6 @@
 	"importusers-email": "imejl",
 	"importusers-realname": "pravo ime",
 	"importusers-group": "korisnička grupa",
-	"importusers-utf8": "Kodirano s UTF-8",
-	"importusers-comma": "odvojite polja sa zarezima",
-	"importusers-noquotes": "bez navodnika u tekstu",
 	"right-import_users": "Uvoženje korisnika u grupi",
 	"action-import_users": "uvoz korisnika u ovaj wiki"
 }

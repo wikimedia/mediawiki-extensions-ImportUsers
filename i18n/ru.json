@@ -32,9 +32,6 @@
 	"importusers-email": "эл. почта",
 	"importusers-realname": "настоящее имя",
 	"importusers-group": "группа участника",
-	"importusers-utf8": "В кодировке UTF-8",
-	"importusers-comma": "отделяйте поля запятыми",
-	"importusers-noquotes": "без двойных кавычек в тексте",
 	"right-import_users": "импортировать сразу несколько участников",
 	"action-import_users": "импортирование участников в эту вики"
 }

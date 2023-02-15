@@ -32,9 +32,6 @@
 	"importusers-email": "电子邮箱",
 	"importusers-realname": "真实姓名",
 	"importusers-group": "用户组",
-	"importusers-utf8": "UTF-8编码",
-	"importusers-comma": "用逗号分隔字段",
-	"importusers-noquotes": "无双引号文本",
 	"right-import_users": "大容量导入用户",
 	"action-import_users": "将用户导入至此wiki"
 }

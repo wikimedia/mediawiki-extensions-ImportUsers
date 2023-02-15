@@ -33,9 +33,6 @@
 	"importusers-email": "surel",
 	"importusers-realname": "nama asli",
 	"importusers-group": "kelompok pengguna",
-	"importusers-utf8": "enkode UTF-8",
-	"importusers-comma": "pisahkan isian dengan tanda koma",
-	"importusers-noquotes": "jangan sertakan tanda kurung ganda untuk teks",
 	"right-import_users": "Impor banyak pengguna",
 	"action-import_users": "mengimpor pengguna ke wiki ini"
 }

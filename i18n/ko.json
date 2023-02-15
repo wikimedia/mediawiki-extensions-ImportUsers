@@ -32,9 +32,6 @@
 	"importusers-email": "이메일",
 	"importusers-realname": "실명",
 	"importusers-group": "사용자 그룹",
-	"importusers-utf8": "UTF-8 인코딩됨",
-	"importusers-comma": "쉼표로 값을 나누기",
-	"importusers-noquotes": "텍스트에는 큰따옴표 비사용",
 	"right-import_users": "대량으로 사용자 가져오기",
 	"action-import_users": "이 위키로 사용자 가져오기"
 }
