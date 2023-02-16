@@ -26,5 +26,7 @@
 	"importusers-password": "password",
 	"importusers-email": "indirizzo email",
 	"importusers-realname": "nome vero",
+	"importusers-invalid-file": "Il file non sembra essere un file CSV valido. Assicurati che sia formattato correttamente.",
+	"importusers-user-invalid": "Il nome utente \"$1\" non è un nome utente valido e non può essere creato.",
 	"right-import_users": "Importa utenti in massa"
 }
