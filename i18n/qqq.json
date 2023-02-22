@@ -3,11 +3,12 @@
 		"authors": [
 			"Kghbln",
 			"Liuxinyu970226",
-			"Robby"
+			"Robby",
+			"Verdy p"
 		]
 	},
 	"importusers": "{{doc-special|ImportUsers|unlisted=1}}",
-	"importusers-desc": "{{desc|name=Import Users|url=https://www.mediawiki.org/wiki/Extension:ImportUsers}}",
+	"importusers-desc": "{{desc|name=Import Users|url=https://www.mediawiki.org/wiki/Extension:ImportUsers}}\n'''Warning''': '''CSV''' is here the correct abbreviation frequently used in English computer jargon for tabular data files formated as \"comma-separated values\" (note that this abbreviation does not necessarily mean that the separator actually used is a comma, as there are CSV files used where the actual separator may be a colon, semi-colon, pipe, tabulation or sequence of several whitespaces, and where text fields may or may not be embedded within double-quotes, numeric and date fields may be sensitive to the locale, such as a comma used instead of the dot in English for decimals; they may also use various character encodings, not necessarily UTF-8 and not necessarily supporting arbitratry characters; additionally they may use various escaping mechanisms when the separator character is needed within a text field; these files may also contain a leading row for column headers... or not. Some CSV files allow some lines to be treated as comment lines, ignored when importing data, but useful for editing/maintenance).\n\nEach tool using CSV files should document the effective format expected! Other better (less ambiguous) formats commonly used for tabular data files are JSON and XML.\n\nDo not confuse with the acronym '''CVS''' for \"Concurrent Versions System\" or \"Concurrent Versioning System\" (\"Subversion\" and \"Git\" are other common related systems for version control used in cooperative development projects).",
 	"importusers-uploadfile": "This is a button label.\n\n{{Identical|Upload file}}",
 	"importusers-form-caption": "This is the label of a field.",
 	"importusers-file": "This is the header of a help section.",
