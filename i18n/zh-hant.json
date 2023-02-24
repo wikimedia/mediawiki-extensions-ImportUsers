@@ -35,6 +35,10 @@
 	"importusers-email": "電郵",
 	"importusers-realname": "真實姓名",
 	"importusers-group": "使用者群組",
+	"importusers-bad-password": "出於錯誤「$2」，無法為使用者「$1」設定密碼。在透過電子郵件重新設定密碼之前，使用者會無法透過密碼登入。",
+	"importusers-file-format-desc": "CSV 檔案應採用 UTF-8 編碼，欄位請以逗號分隔，文字欄位不能用雙引號包起來。",
+	"importusers-invalid-file": "檔案似乎不是有效的 CSV 檔案。請確認格式正確。",
+	"importusers-user-invalid": "使用者名稱「$1」無效，所以無法建立。",
 	"right-import_users": "大量匯入使用者",
 	"action-import_users": "匯入使用者至此 wiki"
 }
