@@ -6,7 +6,7 @@
 	},
 	"importusers": "Importar des usanciérs",
 	"importusers-uploadfile": "Tèlèchargiér lo fichiér",
-	"importusers-form-caption": "Buchiéd un fichiér CVS (UTF-8) :",
+	"importusers-form-caption": "Buchiéd un fichiér :",
 	"importusers-form-replace-present": "Remplaciér los usanciérs ègzistents",
 	"importusers-form-button": "Importar",
 	"importusers-user-added": "L’usanciér '''$1''' at étâ apondu.",

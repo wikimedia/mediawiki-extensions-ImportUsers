@@ -6,7 +6,8 @@
 			"Locos epraix",
 			"Macofe",
 			"Vivaelcelta",
-			"Jakeukalane"
+			"Jakeukalane",
+			"Fitoschido"
 		]
 	},
 	"importusers": "Importar usuarios",
@@ -37,6 +38,7 @@
 	"importusers-utf8": "codificado en UTF-8",
 	"importusers-comma": "separar campos con comas",
 	"importusers-noquotes": "sin comillas dobles para el texto",
+	"importusers-bad-password": "No se pudo establecer la contraseña de la cuenta de usuario «$1» a causa del error «$2». No se podrá acceder a la cuenta mediante la contraseña hasta que esta se restablezca vía correo electrónico.",
 	"right-import_users": "Importar usuarios en bloque",
 	"action-import_users": "importar usuarios a esta wiki"
 }

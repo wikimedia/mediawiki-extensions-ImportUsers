@@ -37,6 +37,7 @@
 	"importusers-utf8": "codificado em UTF-8",
 	"importusers-comma": "separar campos com vírgulas",
 	"importusers-noquotes": "sem aspas duplas para texto",
+	"importusers-bad-password": "Não foi possível definir a palavra-passe do utilizador \"$1\" devido ao erro \"$2\". O utilizador não poderá iniciar sessão com palavra-passe até ter redefinido a sua palavra-passe por correio eletrónico.",
 	"right-import_users": "Importar utilizadores em bloco",
 	"action-import_users": "importar utilizadores para a wiki"
 }

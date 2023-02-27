@@ -32,6 +32,7 @@
 	"importusers-utf8": "Kodirano v UTF-8",
 	"importusers-comma": "polja ločite z vejicami",
 	"importusers-noquotes": "brez dvojnih narekovajev za besedilo",
+	"importusers-bad-password": "Zaradi napake »$2« ni bilo mogoče nastaviti gesla za uporabnika »$1«. Uporabnik se ne bo mogel prijaviti z geslom, dokler ne ponastavi svojega gesla po e-pošti.",
 	"right-import_users": "Množično uvažanje uporabnikov",
 	"action-import_users": "uvažanje uporabnikov v ta viki"
 }

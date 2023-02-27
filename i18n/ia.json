@@ -31,6 +31,7 @@
 	"importusers-utf8": "codificate in UTF-8",
 	"importusers-comma": "separar campos con commas",
 	"importusers-noquotes": "non usar virgulettas duple pro texto",
+	"importusers-bad-password": "Non poteva configurar le contrasigno pro le usator \"$1\" debite al error \"$2\". Le usator debe reinitialisar su contrasigno via e-mail ante de poter de aperir session per contrasigno.",
 	"right-import_users": "Importar usatores in massa",
 	"action-import_users": "importar usatores in iste wiki"
 }
