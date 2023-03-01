@@ -38,6 +38,7 @@
 	"importusers-utf8": "UTF-8 編碼",
 	"importusers-comma": "以逗號分隔欄位",
 	"importusers-noquotes": "無雙引號文字",
+	"importusers-bad-password": "出於錯誤「$2」，無法為使用者「$1」設定密碼。在透過電子郵件重新設定密碼之前，使用者會無法透過密碼登入。",
 	"right-import_users": "大量匯入使用者",
 	"action-import_users": "匯入使用者至此 wiki"
 }
