@@ -2,20 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"importusers": "Benotzer importéieren",
 	"importusers-desc": "Erlaabt et [[Special:ImportUsers|Benotzer zesummen z'importéieren]] aus engem CSV(Comma Separated Values)-Fichier; Codéierung: UTF-8",
 	"importusers-uploadfile": "Fichier eroplueden",
-	"importusers-form-caption": "Fichier eraginn:",
+	"importusers-form-caption": "Inputfichier:",
+	"importusers-file-structure": "Struktur:",
 	"importusers-file-format": "Format:",
-	"importusers-form-replace-present": "Benotzer déi et scho gëtt ersetzen",
+	"importusers-form-replace-present": "Benotzer, déi et scho gëtt, ersetzen",
+	"importusers-form-add-to-group": "Benotzer an eng Grupp, déi et scho gëtt, dobäisetzen",
 	"importusers-form-button": "Importéieren",
 	"importusers-user-added": "{{GENDER:$1|D'Benotzesch|De Benotzer}} '''$1''' gouf dobäigesat.",
 	"importusers-user-present-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf aktualiséiert.",
-	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel a goufen iwwersprong.",
+	"importusers-user-present-no-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf net aktualiséiert.",
+	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel a goufen iwwersprongen.",
 	"importusers-log": "Logbuch vun de Benotzerimporten",
+	"importusers-log-list": "Importéiert oder aktualiséiert Benotzer:",
 	"importusers-log-summary": "Resumé importéieren:",
 	"importusers-log-summary-all": "Total {{PLURAL:$1|Benotzer}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1||{{GENDER:$2|Benotzer}}}} dobäigesat: $1",
@@ -24,6 +29,7 @@
 	"importusers-password": "Passwuert",
 	"importusers-email": "E-Mailadress",
 	"importusers-realname": "richtegen Numm",
+	"importusers-group": "Benotzergrupp",
 	"right-import_users": "Benotzer a grousser Zuel importéieren",
 	"action-import_users": "Benotzer a grousser Zuel z'importéieren"
 }
