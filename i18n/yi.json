@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
@@ -8,5 +9,6 @@
 	"importusers-log-summary-all": "אַלע {{PLURAL:$1|באניצער}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|באניצער|באניצערין}}|באניצער}} צוגעלייגו: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|באניצער}} דערםהיינטיקט: $1",
-	"importusers-password": "פאַסווארט"
+	"importusers-password": "פאַסווארט",
+	"importusers-email": "בליצפּאָסט"
 }
