@@ -7,6 +7,7 @@
 			"Rxy",
 			"Shirayuki",
 			"Sujiniku",
+			"もなー(偽物)",
 			"青子守歌"
 		]
 	},
@@ -28,6 +29,9 @@
 	"importusers-password": "パスワード",
 	"importusers-email": "メール",
 	"importusers-realname": "実名",
+	"importusers-file-format-desc": "CSV ファイルは UTF-8 でエンコードする必要があります。\nフィールドはカンマで区切る必要があります。\nテキスト フィールドは二重引用符で囲むことはできません。",
+	"importusers-invalid-file": "ファイルは有効な CSV ファイルではないようです。正しくフォーマットされていることを確認してください。",
+	"importusers-user-invalid": "ユーザー名 \" $1 \" は有効なユーザー名ではないため、作成できませんでした。",
 	"right-import_users": "利用者を一括して取り込み",
 	"action-import_users": "利用者の一括取り込み"
 }
