@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"importusers": "Importuoti naudotojus",
+	"importusers-desc": "Leidžia masiškai [[Special:ImportUsers|importuoti naudotojus]] iš UTF-8 koduoto CSV failo",
+	"importusers-uploadfile": "Įkelti failą",
+	"importusers-form-caption": "Įvesties failas:",
+	"importusers-file": "Įvesties failo struktūra ir formatas:",
+	"importusers-file-structure": "Struktūra:",
+	"importusers-file-format": "Formatas:",
+	"importusers-form-replace-present": "Pakeisti egzistuojančius naudotojus",
+	"importusers-form-add-to-group": "Pridėti naudotojus prie esamų grupių",
+	"importusers-form-button": "Importuoti",
+	"importusers-user-added": "{{GENDER:$1|Naudotojas}} „$1“ pridėtas.",
+	"importusers-user-present-update": "{{GENDER:$1|Naudotojas}} „$1“ jau egzistuoja ir buvo atnaujintas.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Naudotojas}} „$1“ jau egzistuoja ir nebuvo atnaujintas.",
+	"importusers-user-invalid-format": "Naudotojo duomenys eilutėje #$1 yra netinkamo formato arba yra tušti ir buvo praleisti.",
+	"importusers-log": "Naudotojų importavimo žurnalas",
+	"importusers-log-list": "Importuoti arba atnaujinti naudotojai:",
+	"importusers-log-summary": "Importavimo suvestinė:",
+	"importusers-log-summary-all": "Viso {{PLURAL:$1|naudotojas|naudotojai}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Naudotojas pridėtas|Naudotoja pridėta}}|Naudotojai pridėti}}: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Naudotojas atnaujintas|Naudotojai atnaujinti}}: $1",
+	"importusers-login-name": "Prisijungimo vardas",
+	"importusers-password": "slaptažodis",
+	"importusers-email": "el. paštas",
+	"importusers-realname": "tikras vardas",
+	"importusers-group": "naudotojo grupė",
+	"importusers-bad-password": "Nepavyko nustatyti naudotojo „$1“ slaptažodžio dėl klaidos „$2“. Naudotojas negalės prisijungti naudodamas slaptažodį, kol iš naujo nenustatys slaptažodžio el. paštu.",
+	"importusers-file-format-desc": "CSV failas turėtų būti užkoduotas UTF-8, laukai turi būti atskirti kableliais, o teksto laukai neturi būti įterpti į dvigubas kabutes.",
+	"importusers-invalid-file": "Atrodo, kad failas nėra tinkamas CSV failas. Įsitikinkite, kad jis tinkamai suformatuotas.",
+	"importusers-user-invalid": "Naudotojo vardas „$1“ nėra tinkamas naudotojo vardas ir jo nepavyko sukurti.",
+	"right-import_users": "Masiškai importuoti naudotojus",
+	"action-import_users": "masiškai importuoti naudotojus"
+}
