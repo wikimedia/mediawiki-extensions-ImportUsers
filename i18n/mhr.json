@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Lifeway",
 			"Сай"
 		]
 	},
 	"importusers-uploadfile": "Файлым пурташ",
-	"importusers-log-summary": "Чылаже",
+	"importusers-log-summary": "Импортым возен ончыктымаш:",
 	"importusers-password": "шолыпмут",
 	"importusers-email": "электрон почто"
 }
