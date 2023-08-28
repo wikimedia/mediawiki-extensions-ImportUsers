@@ -34,6 +34,7 @@
 	"importusers-utf8": "UTF-8-kodet",
 	"importusers-comma": "atskill felter med komma",
 	"importusers-noquotes": "ingen doble sitattegn for tekst",
+	"importusers-bad-password": "Kunne ikke sette passordet for brukeren «$1» på grunn av en feil, «$2». Brukeren vil ikke kunne logge inn med passord før hen tilbakestiller passordet sitt via e-post.",
 	"right-import_users": "Importerer flere brukere samtidig",
 	"action-import_users": "importere brukere til wikien"
 }
