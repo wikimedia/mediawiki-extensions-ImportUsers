@@ -31,6 +31,10 @@
 	"importusers-email": "e-post",
 	"importusers-realname": "virkelig navn",
 	"importusers-group": "brukergruppe",
+	"importusers-bad-password": "Kunne ikke sette passordet for brukeren «$1» på grunn av en feil, «$2». Brukeren vil ikke kunne logge inn med passord før hen tilbakestiller passordet sitt via e-post.",
+	"importusers-file-format-desc": "CSV-fila bør kodes i UTF-8, felter bør være kommaseparerte og tekstfelter må ikke være omgitt av doble anførselstegn.",
+	"importusers-invalid-file": "Fila ser ikke ut til å være ei gyldig CSV-fil. Sørg for at den er formatert riktig.",
+	"importusers-user-invalid": "Brukernavnet «$1» er ikke et gyldig brukernavn, og kunne ikke opprettes.",
 	"right-import_users": "Importerer flere brukere samtidig",
 	"action-import_users": "importere brukere til wikien"
 }
