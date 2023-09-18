@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
+	"importusers-file-structure": "Struktuvra:",
 	"importusers-password": "beassansátni",
 	"importusers-email": "e-poasta"
 }
