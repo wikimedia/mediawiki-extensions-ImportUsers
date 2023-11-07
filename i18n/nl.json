@@ -10,6 +10,7 @@
 	"importusers-desc": "Bied de mogelijkheid om [[Special:ImportUsers|gebruikers in bulk te importeren]] vanuit een UTF-8 gecodeerd een CSV-bestand.",
 	"importusers-uploadfile": "Bestand uploaden",
 	"importusers-form-caption": "Invoerbestand:",
+	"importusers-file": "Structuur en formaat van invoerbestand:",
 	"importusers-file-structure": "Indeling:",
 	"importusers-file-format": "Formaat:",
 	"importusers-form-replace-present": "Bestaande gebruikers vervangen",
