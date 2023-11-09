@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AguzulH",
 			"Amara-Amaziɣ",
 			"Ayour2002",
 			"Lhoussine AIT TAYFST",
@@ -8,6 +9,6 @@
 		]
 	},
 	"importusers-log-summary-all": "Akk {{PLURAL:$1|asmras|ismrasn}}: $1",
-	"importusers-login-name": "ism n usmras",
+	"importusers-login-name": "ism n unsmras",
 	"importusers-password": "taguri n uzray"
 }
