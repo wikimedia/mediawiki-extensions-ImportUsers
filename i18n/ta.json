@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fahimrazick",
 			"Karthi.dr",
 			"TRYPPN",
 			"மதனாஹரன்"
 		]
 	},
-	"importusers": "பயனர்களை ஏற்றுமதி செய்யவும்",
+	"importusers": "பயனர்களை இறக்குமதி செய்",
 	"importusers-uploadfile": "கோப்பைப் பதிவேற்று",
-	"importusers-form-button": "ஏற்றுமதி செய்யவும்",
+	"importusers-form-button": "இறக்குமதி செய்",
 	"importusers-user-added": "பயனர் '''$1''' சேர்க்கப்பட்டுள்ளார்.",
 	"importusers-log-summary": "சுருக்கம்",
 	"importusers-log-summary-all": "அனைத்தும்: $1",
