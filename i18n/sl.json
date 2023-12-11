@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Eleassar"
+			"Eleassar",
+			"Upwinxp"
 		]
 	},
 	"importusers": "Uvoz uporabnikov",
@@ -14,9 +15,9 @@
 	"importusers-form-replace-present": "Zamenjaj obstoječe uporabnike",
 	"importusers-form-add-to-group": "Dodaj uporabnike obstoječim skupinam",
 	"importusers-form-button": "Uvozi",
-	"importusers-user-added": "{{GENDER:$1|Uporabnik|Uporabnica|Uporabnik_ca}} '''$1''' je {{GENDER:$1|dodan|dodana|dodan_a}}.",
-	"importusers-user-present-update": "{{GENDER:$1|Uporabnik|Uporabnica|Uporabnik_ca}} '''$1''' že obstaja in {{GENDER:$1|je bil posodobljen|je bila posodobljena|je bil_a posodobljen_a}}.",
-	"importusers-user-present-no-update": "{{GENDER:$1|Uporabnik|Uporabnica|Uporabnik_ca}} »$1« že obstaja in ni {{GENDER:$1|bil posodobljen|bila posodobljena|bil_a posodobljen_a}}.",
+	"importusers-user-added": "{{GENDER:$1|Uporabnik|Uporabnica|Uporabnik/ca}} '''$1''' je {{GENDER:$1|dodan|dodana|dodan/a}}.",
+	"importusers-user-present-update": "{{GENDER:$1|Uporabnik|Uporabnica|Uporabnik/ca}} '''$1''' že obstaja in {{GENDER:$1|je bil posodobljen|je bila posodobljena|je bil/a posodobljen/a}}.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Uporabnik|Uporabnica|Uporabnik/ca}} »$1« že obstaja in ni {{GENDER:$1|bil posodobljen|bila posodobljena|bil/a posodobljen/a}}.",
 	"importusers-user-invalid-format": "Uporabniški podatki v vrstici št. $1 imajo neveljavno obliko ali pa so prazni in smo jih zato preskočili.",
 	"importusers-log": "Dnevnik uvoza uporabnikov",
 	"importusers-log-list": "Uvoženi ali posodobljeni uporabniki:",
