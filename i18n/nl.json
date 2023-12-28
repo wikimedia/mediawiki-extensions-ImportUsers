@@ -31,7 +31,7 @@
 	"importusers-email": "e-mail",
 	"importusers-realname": "echte naam",
 	"importusers-group": "gebruikersgroep",
-	"importusers-bad-password": "Het wachtwoord van gebruiker \"$1\" kon niet worden ingesteld vanwege fout \"$2\". De gebruiker kan nu niet met een wachtwoord inloggen totdat diens wachtwoord via e-mail opnieuw is ingesteld.",
+	"importusers-bad-password": "Het wachtwoord van de gebruiker “$1” kon niet worden ingesteld vanwege de fout “$2”. De gebruiker kan zich niet met een wachtwoord aanmelden totdat diens wachtwoord via e-mail opnieuw is ingesteld.",
 	"importusers-file-format-desc": "CSV-bestanden moeten in UTF-8 gecodeerd zijn, velden moeten door komma's worden gescheiden en tekstvelden mogen niet tussen dubbele aanhalingstekens staan.",
 	"importusers-invalid-file": "Het bestand lijkt geen geldig CSV-bestand te zijn. Zorg ervoor dat het correct is geformatteerd.",
 	"importusers-user-invalid": "De gebruikersnaam \"$1\" is geen geldige gebruikersnaam en kon niet worden aangemaakt.",
