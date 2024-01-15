@@ -9,7 +9,7 @@
 	"importusers-uploadfile": "Тонгомс файла",
 	"importusers-form-button": "Совавтомс",
 	"importusers-log-summary-all": "Ансяк: $1 {{PLURAL:$1|теиця|теицят}}",
-	"importusers-log-summary-added": "Поладозь",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Совицясь}}|Совицятне}} поладозь: $1",
 	"importusers-password": "совамо вал",
 	"importusers-email": "е-сёрма",
 	"importusers-realname": "алкуксонь лем"
