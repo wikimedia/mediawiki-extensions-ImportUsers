@@ -35,6 +35,9 @@
 	"importusers-realname": "nome real",
 	"importusers-group": "grupo de utilizadores",
 	"importusers-bad-password": "Não foi possível definir a palavra-passe do utilizador \"$1\" devido ao erro \"$2\". O utilizador não poderá iniciar sessão com palavra-passe até ter redefinido a sua palavra-passe por correio eletrónico.",
+	"importusers-file-format-desc": "O ficheiro CSV deve ter a codificação UTF-8, os campos devem ser separados por vírgulas e os campos de texto não podem ser delimitados por aspas duplas.",
+	"importusers-invalid-file": "O ficheiro não parece ser um ficheiro CSV válido. Certifique-se de que está corretamente formatado, por favor.",
+	"importusers-user-invalid": "O nome de utilizador \"$1\" não é um nome de utilizador válido e não foi possível criá-lo.",
 	"right-import_users": "Importar utilizadores em bloco",
 	"action-import_users": "importar utilizadores para a wiki"
 }
