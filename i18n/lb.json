@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Les Meloures",
 			"Robby",
 			"Volvox"
 		]
 	},
 	"importusers": "Benotzer importéieren",
-	"importusers-desc": "Erlaabt et [[Special:ImportUsers|Benotzer zesummen z'importéieren]] aus engem CSV(Comma Separated Values)-Fichier; Codéierung: UTF-8",
+	"importusers-desc": "Erlaabt et [[Special:ImportUsers|Benotzer zesummen z'importéieren]] aus engem CSV(Comma-Separated Values)-Fichier; Codéierung: UTF-8",
 	"importusers-uploadfile": "Fichier eroplueden",
 	"importusers-form-caption": "Inputfichier:",
 	"importusers-file": "Struktur a Format vum Inputfichier:",
