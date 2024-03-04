@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Purodha"
+			"Purodha",
+			"Amire80"
 		]
 	},
 	"importusers": "Metmaacher-Empoot",
-	"importusers-desc": "Donn Metmaacher em Knubbel fun en Datei em \n<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Comma Separated Variables\">CSV</i>-Fommaht un met <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Däm Unicode singe Universal Coded Character Set + Transformation Format—8-Bit\">UTF-8</i> ze\n[[Special:ImportUsers|emptottehre]].",
+	"importusers-desc": "Donn Metmaacher em Knubbel fun en Datei em \nCSV-Fommaht un met UTF-8 ze\n[[Special:ImportUsers|emptottehre]].",
 	"importusers-uploadfile": "Datei zom Huhlade",
 	"importusers-form-caption": "De Datteij zom Emmpottehre",
 	"importusers-file": "Der Opbou un et Fommaht vun dä Dattei zom Empttehre:",
