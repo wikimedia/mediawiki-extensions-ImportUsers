@@ -33,7 +33,7 @@
 	"importusers-realname": "real name",
 	"importusers-group": "user group",
 	"importusers-bad-password": "Could not set the password for user \"$1\" due to error \"$2\". User will not be able to log in by password until they reset their password via email.",
-	"importusers-file-format-desc": "CSV file should be UTF-8 encoded, fields should be comma separated and text fields must not be enclosed in double-quotes.",
+	"importusers-file-format-desc": "CSV file should be UTF-8 encoded, fields should be comma-separated and text fields must not be enclosed in double-quotes.",
 	"importusers-invalid-file": "The file does not appear to be a valid CSV file. Please ensure it is formatted correctly.",
 	"importusers-user-invalid": "The username \"$1\" is not a valid username and could not be created.",
 	"right-import_users": "Import users in bulk",
