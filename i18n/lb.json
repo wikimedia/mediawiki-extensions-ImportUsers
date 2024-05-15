@@ -32,6 +32,7 @@
 	"importusers-email": "E-Mailadress",
 	"importusers-realname": "richtegen Numm",
 	"importusers-group": "Benotzergrupp",
+	"importusers-file-format-desc": "Den CSV-Fichier muss UTF-8-codéiert sinn, déi eenzel Felder mussen duerch e Komma getrennt sinn an d'Textfelder däerfen net tëscht duebele Gänseféisercher stoen.",
 	"right-import_users": "Benotzer a grousser Zuel importéieren",
 	"action-import_users": "Benotzer a grousser Zuel z'importéieren"
 }
