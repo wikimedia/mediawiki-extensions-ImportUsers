@@ -3,14 +3,15 @@
 		"authors": [
 			"Cekli829",
 			"NMW03",
-			"Vago"
+			"Vago",
+			"Nemoralis"
 		]
 	},
 	"importusers-form-button": "İdxal",
 	"importusers-log-summary": "İdxal xülasəsi:",
 	"importusers-log-summary-all": "Cəmi {{PLURAL:$1|istifadəçi|istifadəçilər}}: $1",
-	"importusers-log-summary-added": "Əlavə olundu: $1",
-	"importusers-log-summary-updated": "Yükləndi: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|İstifadəçi}}|İstifadəçilər}} əlavə edildi: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|İstifadəçi|İstifadəçilər}} yeniləndi: $1",
 	"importusers-login-name": "Hesab adı",
 	"importusers-password": "parol",
 	"importusers-email": "e-məktub",
