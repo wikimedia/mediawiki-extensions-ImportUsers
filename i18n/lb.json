@@ -16,7 +16,7 @@
 	"importusers-form-replace-present": "Benotzer, déi et scho gëtt, ersetzen",
 	"importusers-form-add-to-group": "Benotzer an eng Grupp, déi et scho gëtt, dobäisetzen",
 	"importusers-form-button": "Importéieren",
-	"importusers-user-added": "{{GENDER:$1|D'Benotzesch|De Benotzer}} '''$1''' gouf dobäigesat.",
+	"importusers-user-added": "{{GENDER:$1||De Benotzer|D'Benotzerin}} „$1“ gouf dobäigesat.",
 	"importusers-user-present-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf aktualiséiert.",
 	"importusers-user-present-no-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf net aktualiséiert.",
 	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel a goufen iwwersprongen.",
