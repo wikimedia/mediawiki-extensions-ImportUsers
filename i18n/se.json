@@ -5,7 +5,9 @@
 			"Kimberli Mäkäräinen (WMNO)"
 		]
 	},
+	"importusers-uploadfile": "Vurke fiilla",
 	"importusers-file-structure": "Struktuvra:",
 	"importusers-password": "beassansátni",
-	"importusers-email": "e-poasta"
+	"importusers-email": "e-poasta",
+	"importusers-realname": "albma namma"
 }
