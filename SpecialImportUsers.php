@@ -6,7 +6,9 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Request\WebRequestUpload;
 
 class SpecialImportUsers extends FormSpecialPage {
 	/**
