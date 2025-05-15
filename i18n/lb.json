@@ -28,7 +28,7 @@
 	"importusers-log-summary-updated": "{{PLURAL:$1|Benotzer}} aktualiséiert: $1",
 	"importusers-login-name": "Benotzernumm",
 	"importusers-password": "Passwuert",
-	"importusers-email": "E-Mailadress",
+	"importusers-email": "E-Mail-Adress",
 	"importusers-realname": "richtegen Numm",
 	"importusers-group": "Benotzergrupp",
 	"right-import_users": "Benotzer a grousser Zuel importéieren",
