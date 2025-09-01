@@ -5,11 +5,12 @@
 			"Liangent",
 			"Liuxinyu970226",
 			"Wrightbus",
-			"沈澄心"
+			"沈澄心",
+			"GuoPC"
 		]
 	},
 	"importusers": "导入用户",
-	"importusers-desc": "允许从一个UTF-8编码的CSV文件大量[[Special:ImportUsers|导入用户]]",
+	"importusers-desc": "允许从UTF-8编码的CSV文件批量[[Special:ImportUsers|导入用户]]",
 	"importusers-uploadfile": "上传文件",
 	"importusers-form-caption": "输入文件：",
 	"importusers-file": "输入文件的结构和格式：",
@@ -36,6 +37,7 @@
 	"importusers-utf8": "UTF-8编码",
 	"importusers-comma": "用逗号分隔字段",
 	"importusers-noquotes": "无双引号文本",
-	"right-import_users": "大容量导入用户",
+	"importusers-bad-password": "由于错误“$2”，无法为用户“$1”设置密码。在通过电子邮件重置密码之前，用户会无法通过密码登录。",
+	"right-import_users": "批量导入用户",
 	"action-import_users": "将用户导入至此wiki"
 }
