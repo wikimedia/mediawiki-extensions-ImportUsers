@@ -13,7 +13,7 @@
 	"importusers-file": "Struktur a Format vum Inputfichier:",
 	"importusers-file-structure": "Struktur:",
 	"importusers-file-format": "Format:",
-	"importusers-form-replace-present": "Benotzer, déi et scho gëtt, ersetzen",
+	"importusers-form-replace-present": "Besteeënd Benotzer ersetzen",
 	"importusers-form-add-to-group": "Benotzer an eng Grupp, déi et scho gëtt, dobäisetzen",
 	"importusers-form-button": "Importéieren",
 	"importusers-user-added": "{{GENDER:$1||De Benotzer|D'Benotzerin}} „$1“ gouf dobäigesat.",
