@@ -6,7 +6,8 @@
 			"Huji",
 			"Jeeputer",
 			"Mjbmr",
-			"Reza1615"
+			"Reza1615",
+			"LordProfo"
 		]
 	},
 	"importusers": "درون‌ریزی کاربران",
@@ -20,7 +21,7 @@
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|کاربر}}|کاربران}} افزوده‌شده: $1",
 	"importusers-log-summary-updated": "{{PLURAL:$1|کاربر|کاربران}} روزآمد شده: $1",
 	"importusers-login-name": "نام ورود به سیستم",
-	"importusers-password": "رمز عبور",
+	"importusers-password": "گذرواژه",
 	"importusers-email": "ایمیل",
 	"importusers-realname": "نام واقعی",
 	"importusers-group": "گروه‌ کاربر"
