@@ -429,14 +429,21 @@ $specialPageAliases['tr'] = [
 	]
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'ImportUsers' => [
+		'ImportUsers'
+	]
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'ImportUsers' => [
 		'导入用户'
 	]
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'ImportUsers' => [
 		'導入用戶'
