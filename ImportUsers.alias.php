@@ -446,6 +446,14 @@ $specialPageAliases['zh-hans'] = [
 /** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'ImportUsers' => [
+		'匯入使用者',
 		'導入用戶'
+	]
+];
+
+/** Chinese (Hong Kong) (中文（香港）) */
+$specialPageAliases['zh-hk'] = [
+	'ImportUsers' => [
+		'匯入用戶'
 	]
 ];
