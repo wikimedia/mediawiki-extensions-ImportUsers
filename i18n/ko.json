@@ -4,7 +4,8 @@
 			"Ficell",
 			"Kurousagi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"YeBoy371"
 		]
 	},
 	"importusers": "사용자 가져오기",
@@ -25,7 +26,7 @@
 	"importusers-log-list": "가져오거나 갱신된 유저들:",
 	"importusers-log-summary": "가져오기 개요:",
 	"importusers-log-summary-all": "총 {{PLURAL:$1|사용자|사용자들}}: $1",
-	"importusers-log-summary-added": "추가된 {{PLURAL:$1|사용자|사용자들}}: $1",
+	"importusers-log-summary-added": "추가된 {{PLURAL:$1|{{GENDER:$2|사용자}}}}: $1",
 	"importusers-log-summary-updated": "갱신된 {{PLURAL:$1|사용자|사용자들}}: $1",
 	"importusers-login-name": "로그인에 사용되는 이름",
 	"importusers-password": "비밀번호",
