@@ -1,8 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Byulent"
+			"Byulent",
+			"Orbitminis"
 		]
 	},
-	"importusers-password": "parola"
+	"importusers": "Jimpòrt kònt brëkòwników",
+	"importusers-desc": "Zezwôlô na hùrtowi [[Special:ImportUsers|jimpòrt kònt brëkòwników]] ze zbiérkù CSV z kodowaniem UTF-8",
+	"importusers-uploadfile": "Wladëjë lopk",
+	"importusers-form-caption": "Wéńdzeniowi lopk:",
+	"importusers-file": "Sztruktura i fòrmat wéńdzeniowégò zbiérkù:",
+	"importusers-file-structure": "Sztruktura rëdżi (pòla):",
+	"importusers-file-format": "Fòrmat:",
+	"importusers-form-replace-present": "Zamiana jistniejącëch kònt",
+	"importusers-form-add-to-group": "Dodanié brëkòwników do jistniejącëch karnów",
+	"importusers-form-button": "Jimpòrt",
+	"importusers-user-added": "{{GENDER:$1|Brëkòwnik „$1” òstał dodóny|Brëkòwniczka „$1” òstała dodanô}}.",
+	"importusers-user-present-update": "{{GENDER:$1|Kònto}} „$1” ju bëło i òstało zaktualizowóné.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Kònto}} „$1” ju bëło i nie òstało zaktualizowóné.",
+	"importusers-log": "Jimpòrt log brëkòwników",
+	"importusers-login-name": "Miono kònta",
+	"importusers-password": "parola",
+	"importusers-email": "adresa kôstczi",
+	"importusers-realname": "(jawerné/pòdôné) miono ë nôzwëskò",
+	"importusers-group": "karno brëkòwników",
+	"right-import_users": "Hùrtowé jimpòrtowanié kònt brëkòwników",
+	"action-import_users": "jimpòrtowaniô brëkòwników do ti wiki"
 }
