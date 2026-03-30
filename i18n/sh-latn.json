@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -15,11 +16,11 @@
 	"importusers-form-add-to-group": "DOdaj korisnike u postojeće grupe",
 	"importusers-form-button": "Uvezi - Увези",
 	"importusers-user-added": "{{GENDER:$1|Korisnik \"$1\" je dodan|Korisnica \"$1\" je dodana}}.",
-	"importusers-user-present-update": "{{GENDER:$1|Korisnik|Korisnica}} \"$1\" već postoji i sada je\n{{GENDER:$1|podnovljen|podnovljena}}.",
-	"importusers-user-present-no-update": "{{GENDER:$1|Korisnik|Korisnica}} \"$1\" već postoji i nije {{GENDER:$1|podnovljen|podnovljena}}.",
+	"importusers-user-present-update": "{{GENDER:$1|Korisnik|Korisnica}} \"$1\" već postoji i sada je\n{{GENDER:$1|ažuriran|ažurirana}}.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Korisnik|Korisnica}} \"$1\" već postoji i nije {{GENDER:$1|ažuriran|ažurirana}}.",
 	"importusers-user-invalid-format": "Korisnički podaci u redu br. $1 nisu u ispravnom formatu ili su prazni, pa su ih preskočio.",
 	"importusers-log": "Evidencija uvoza korisnika",
-	"importusers-log-list": "Uvezeni ili podnovljeni korisnici:",
+	"importusers-log-list": "Uvezeni ili ažurirani korisnici:",
 	"importusers-log-summary": "Sažetak uvoza:",
 	"importusers-log-summary-all": "Ukupno {{PLURAL:$1|korisnika}}: $1",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|KOrisnik je dodao}}|Korisnici su dodali}}: $1",
