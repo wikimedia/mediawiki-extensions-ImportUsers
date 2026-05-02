@@ -164,13 +164,13 @@ class SpecialImportUsers extends FormSpecialPage {
 			'updated' => 0
 		];
 
-		$output = '<h3>' . wfMessage( 'importusers-log' )->text() . '</h3><br />';
-		$output .= '<b>' . wfMessage( 'importusers-log-list' )->text() . '</b><br />';
+		$output = '<h3>' . $this->msg( 'importusers-log' )->text() . '</h3><br />';
+		$output .= '<b>' . $this->msg( 'importusers-log-list' )->text() . '</b><br />';
 
 		foreach ( $lines as $line => $newuserstr ) {
 			$newuserarray = explode( ',', trim( $newuserstr ) );
 			if ( count( $newuserarray ) < 2 ) {
-				$output .= wfMessage( 'importusers-user-invalid-format', $line + 1 )->text() . '<br />';
+				$output .= $this->msg( 'importusers-user-invalid-format', $line + 1 )->text() . '<br />';
 				continue;
 			}
 			if ( !isset( $newuserarray[2] ) ) {
@@ -181,7 +181,7 @@ class SpecialImportUsers extends FormSpecialPage {
 			}
 			$nextUser = User::newFromName( $newuserarray[0], 'creatable' );
 			if ( !$nextUser ) {
-				$output .= wfMessage( 'importusers-user-invalid' )
+				$output .= $this->msg( 'importusers-user-invalid' )
 					->params( wfEscapeWikiText( $newuserarray[0] ) )->text() . '<br>';
 				continue;
 			}
@@ -195,7 +195,7 @@ class SpecialImportUsers extends FormSpecialPage {
 
 				$this->addToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
 
-				$output .= wfMessage( 'importusers-user-added', $newuserarray[0] )->text() . '<br />';
+				$output .= $this->msg( 'importusers-user-added', $newuserarray[0] )->text() . '<br />';
 				$summary['added']++;
 			} elseif ( $replace_present ) {
 				$output .= $this->setPassword( $nextUser, $newuserarray[1] );
@@ -203,18 +203,18 @@ class SpecialImportUsers extends FormSpecialPage {
 
 				$this->addToGroup( $nextUser, $newuserarray, $importusers_add_to_group );
 
-				$output .= wfMessage( 'importusers-user-present-update', $newuserarray[0] )->text() . '<br />';
+				$output .= $this->msg( 'importusers-user-present-update', $newuserarray[0] )->text() . '<br />';
 				$summary['updated']++;
 			} else {
-				$output .= wfMessage( 'importusers-user-present-no-update', $newuserarray[0] )->text() . '<br />';
+				$output .= $this->msg( 'importusers-user-present-no-update', $newuserarray[0] )->text() . '<br />';
 			}
 			$summary['all']++;
 		}
 
-		$output .= '<br /><b>' . wfMessage( 'importusers-log-summary' )->text() . '</b><br />';
-		$output .= wfMessage( 'importusers-log-summary-all', $summary['all'] )->text() . '<br />';
-		$output .= wfMessage( 'importusers-log-summary-added', $summary['added'], $newuserarray[0] )->text() . '<br />';
-		$output .= wfMessage( 'importusers-log-summary-updated', $summary['updated'] )->text() . '<br />';
+		$output .= '<br /><b>' . $this->msg( 'importusers-log-summary' )->text() . '</b><br />' .
+			$this->msg( 'importusers-log-summary-all', $summary['all'] )->text() . '<br />' .
+			$this->msg( 'importusers-log-summary-added', $summary['added'], $newuserarray[0] )->text() . '<br />' .
+			$this->msg( 'importusers-log-summary-updated', $summary['updated'] )->text() . '<br />';
 
 		return $output;
 	}
@@ -256,7 +256,7 @@ class SpecialImportUsers extends FormSpecialPage {
 		if ( !$status->isGood() ) {
 			// We weren't able to set a password.
 			// Probably password is too weak.
-			return wfMessage( 'importusers-bad-password' )
+			return $this->msg( 'importusers-bad-password' )
 				->params( wfEscapeWikiText( $user->getName() ) )
 				->params( $status->getWikiText() )
 				->text() . '<br>';
