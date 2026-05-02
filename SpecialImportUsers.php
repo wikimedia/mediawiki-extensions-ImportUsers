@@ -15,7 +15,12 @@ class SpecialImportUsers extends FormSpecialPage {
 	 * Constructor -- set up the new special page
 	 */
 	public function __construct() {
-		parent::__construct( 'ImportUsers', 'import_users' );
+		parent::__construct( 'ImportUsers' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'import_users';
 	}
 
 	public function doesWrites() {
