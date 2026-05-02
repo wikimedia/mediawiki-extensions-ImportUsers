@@ -7,7 +7,11 @@
  */
 
 use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Request\WebRequestUpload;
+use MediaWiki\SpecialPage\FormSpecialPage;
+use MediaWiki\Status\Status;
+use MediaWiki\User\User;
 use MediaWiki\User\UserGroupManager;
 
 class SpecialImportUsers extends FormSpecialPage {
