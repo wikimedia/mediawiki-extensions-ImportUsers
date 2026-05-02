@@ -22,7 +22,12 @@
 		}
 	},
 	"SpecialPages": {
-		"ImportUsers": "SpecialImportUsers"
+		"ImportUsers": {
+			"class": "SpecialImportUsers",
+			"services": [
+				"UserGroupManager"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"ImportUsers": [

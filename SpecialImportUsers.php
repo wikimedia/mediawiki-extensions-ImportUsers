@@ -7,14 +7,16 @@
  */
 
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\WebRequestUpload;
+use MediaWiki\User\UserGroupManager;
 
 class SpecialImportUsers extends FormSpecialPage {
 	/**
 	 * Constructor -- set up the new special page
 	 */
-	public function __construct() {
+	public function __construct(
+		private readonly UserGroupManager $userGroupManager,
+	) {
 		parent::__construct( 'ImportUsers' );
 	}
 
@@ -217,13 +219,12 @@ class SpecialImportUsers extends FormSpecialPage {
 		$user = $this->getUser();
 
 		if ( $user->isAllowed( 'import_users' ) && $add_to_group_checked && isset( $user_array[4] ) ) {
-			$userGroupManager = MediaWikiServices::getInstance()->getUserGroupManager();
-			$allUserGroups = $userGroupManager->listAllGroups();
-			$userGroups = $userGroupManager->getUserGroups( $u );
+			$allUserGroups = $this->userGroupManager->listAllGroups();
+			$userGroups = $this->userGroupManager->getUserGroups( $u );
 			for ( $i = 4; $i < count( $user_array ); $i++ ) {
 				if ( in_array( $user_array[$i], $allUserGroups ) ) {
 					if ( !in_array( $user_array[$i], $userGroups ) ) {
-						$userGroupManager->addUserToGroup( $u, $user_array[$i] );
+						$this->userGroupManager->addUserToGroup( $u, $user_array[$i] );
 					}
 				}
 			}
