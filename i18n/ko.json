@@ -35,6 +35,9 @@
 	"importusers-realname": "실명",
 	"importusers-group": "사용자 그룹",
 	"importusers-bad-password": "\"$2\" 오류로 인해 \"$1\" 사용자의 비밀번호를 설정할 수 없습니다. 해당 사용자는 이메일을 통해 비밀번호를 재설정하기 전까지는 비밀번호로 로그인할 수 없습니다.",
+	"importusers-file-format-desc": "CSV 파일은 UTF-8로 인코딩되어야 하고, 필드는 쉼표로 구분되어야 하며, 텍스트 필드는 큰따옴표로 묶여지면 안 됩니다.",
+	"importusers-invalid-file": "해당 파일은 유효한 CSV 파일 형식이 아닌 것 같습니다. 파일 형식이 올바른지 확인해 주세요.",
+	"importusers-user-invalid": "사용자 이름 \"$1\"은 유효한 사용자 이름이 아니므로 생성할 수 없습니다.",
 	"right-import_users": "대량으로 사용자 가져오기",
 	"action-import_users": "이 위키로 사용자 가져오기"
 }
