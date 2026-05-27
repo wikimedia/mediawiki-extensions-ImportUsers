@@ -4,14 +4,15 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Ucukor"
 		]
 	},
 	"importusers": "Імпарт удзельнікаў",
 	"importusers-desc": "[[Special:ImportUsers|Масавы імпарт удзельнікаў]] з файлу ў фармаце CSV з кадыроўкай UTF-8",
 	"importusers-uploadfile": "Загрузіць файл",
 	"importusers-form-caption": "Уводны файл:",
-	"importusers-form-replace-present": "Замяніць існуючых удзельнікаў",
+	"importusers-form-replace-present": "Замяніць існых удзельнікаў",
 	"importusers-form-button": "Імпартаваць",
 	"importusers-user-added": "{{GENDER:$1|Дададзены ўдзельнік|Дададзеная ўдзельніца}} «$1».",
 	"importusers-user-present-update": "{{GENDER:$1|Удзельнік|Удзельніца}} «$1» ужо існуе і {{GENDER:$1|быў абноўлены|была абноўленая}}.",
