@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jose77"
+			"Jose77",
+			"Exec8"
 		]
 	},
 	"importusers-uploadfile": "Karga file",
-	"importusers-log-summary": "Kabilogan",
+	"importusers-log-summary": "Import summary:",
 	"importusers-password": "kontra-senyas",
 	"importusers-email": "e-mail"
 }
