@@ -5,7 +5,8 @@
 			"Janusz 'Ency' Dorożyński",
 			"McMonster",
 			"Rail",
-			"Sp5uhe"
+			"Sp5uhe",
+			"PanWor"
 		]
 	},
 	"importusers": "Import kont użytkowników",
@@ -20,7 +21,7 @@
 	"importusers-form-button": "Import",
 	"importusers-user-added": "{{GENDER:$1|Użytkownik „$1” został dodany|Użytkowniczka „$1” została dodana}}.",
 	"importusers-user-present-update": "Konto \"$1\" już istniało i zostało zaktualizowane.",
-	"importusers-user-present-no-update": "Konto \"$1\" już istniało i nie zostało zaktualizowane.",
+	"importusers-user-present-no-update": "Konto „$1” już istniało i nie zostało zaktualizowane.",
 	"importusers-user-invalid-format": "Dane użytkownika w wierszu #$1 miały błędny format lub były puste i zostały pominięte.",
 	"importusers-log": "Dziennik (log) importu",
 	"importusers-log-list": "Konta zaimportowane lub zaktualizowane:",
