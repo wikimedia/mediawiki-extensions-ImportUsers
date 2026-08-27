@@ -3,21 +3,26 @@
 		"authors": [
 			"Helix84",
 			"Luky001",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
 	"importusers": "Import používateľov",
 	"importusers-desc": "Hromadné [[Special:ImportUsers|importovanie používateľov]] z CSV súboru s kódovaním UTF-8",
 	"importusers-uploadfile": "Nahrať súbor",
 	"importusers-form-caption": "Vstupný súbor:",
+	"importusers-file": "Štruktúra a formát vstupného súboru:",
 	"importusers-file-structure": "Štruktúra:",
 	"importusers-file-format": "Formát:",
 	"importusers-form-replace-present": "Nahradiť existujúcich používateľov",
+	"importusers-form-add-to-group": "Pridať používateľov do existujúcich skupín",
 	"importusers-form-button": "Importovať",
 	"importusers-user-added": "{{GENDER:$1|Používateľ}} \"$1\" bol pridaný.",
 	"importusers-user-present-update": "{{GENDER:$1|Používateľ}} \"$1\" už existuje. Aktualizovaný.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Používateľ}} „$1“ už existuje a nebol aktualizovaný.",
 	"importusers-user-invalid-format": "Údaje na riadku #$1 majú neplatný formát alebo je riadok prázdny. Riadok preskočený.",
 	"importusers-log": "Záznam importov používateľov",
+	"importusers-log-list": "Importovaní alebo aktualizovaní používatelia:",
 	"importusers-log-summary": "Zhrnutie importovania:",
 	"importusers-log-summary-all": "Celkovo $1 {{PLURAL:$1|používateľ|používatelia|používateľov}}",
 	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Pridaný $1 používateľ|Pridaná $1 používateľka}}|Pridaní $1 používatelia|Pridaných $1 používateľov}}",
@@ -26,6 +31,11 @@
 	"importusers-password": "heslo",
 	"importusers-email": "email",
 	"importusers-realname": "skutočné meno",
+	"importusers-group": "používateľská skupina",
+	"importusers-bad-password": "Pre používateľa „$1“ sa nepodarilo nastaviť heslo pre chybu „$2“. Používateľ sa nebude môcť prihlásiť heslom, kým si ho neobnoví cez e-mail.",
+	"importusers-file-format-desc": "Súbor CSV by mal byť v kódovaní UTF-8, polia majú byť oddelené čiarkou a textové polia nesmú byť uzavreté v úvodzovkách.",
+	"importusers-invalid-file": "Zdá sa, že súbor nie je platný súbor CSV. Skontrolujte, prosím, či je správne naformátovaný.",
+	"importusers-user-invalid": "Používateľské meno „$1“ nie je platné a nedalo sa vytvoriť.",
 	"right-import_users": "Hromadne importovať používateľov",
 	"action-import_users": "hromadne importovať používateľov"
 }
