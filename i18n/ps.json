@@ -5,7 +5,9 @@
 			"شاه زمان پټان"
 		]
 	},
+	"importusers": "کارنان رالېږدول",
 	"importusers-uploadfile": "دوتنه راپورته‌کول",
+	"importusers-form-caption": "د ورکړېنې دوتنه:",
 	"importusers-file-structure": "جوړښت:",
 	"importusers-file-format": "بڼه:",
 	"importusers-form-button": "رالېږدول",
