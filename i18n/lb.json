@@ -20,7 +20,7 @@
 	"importusers-user-added": "{{GENDER:$1||De Benotzer|D'Benotzerin}} „$1“ gouf dobäigesat.",
 	"importusers-user-present-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf aktualiséiert.",
 	"importusers-user-present-no-update": "{{GENDER:$1|De Benotzer|D'Benotzesch}} '''$1''' gëtt et schonn a gouf net aktualiséiert.",
-	"importusers-user-invalid-format": "D'Benotzerdaten an der Linn #$1 hunn een ongëltegt Format oder sinn eidel a goufen iwwersprongen.",
+	"importusers-user-invalid-format": "D'Benotzerdaten an der Zeil #$1 hunn en ongültegt Format oder sinn eidel a goufen iwwersprongen.",
 	"importusers-log": "Logbuch vun de Benotzerimporten",
 	"importusers-log-list": "Importéiert oder aktualiséiert Benotzer:",
 	"importusers-log-summary": "Resümmee importéieren:",
